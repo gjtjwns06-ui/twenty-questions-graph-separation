@@ -1,0 +1,370 @@
+[
+  {
+    "base": "base14",
+    "copies": 1,
+    "world": "a",
+    "n": 14,
+    "m": 8,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      1,
+      5
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base14",
+    "copies": 1,
+    "world": "b",
+    "n": 14,
+    "m": 8,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      1,
+      5
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base14",
+    "copies": 2,
+    "world": "a",
+    "n": 28,
+    "m": 15,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      1,
+      5,
+      8,
+      12
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base14",
+    "copies": 2,
+    "world": "b",
+    "n": 28,
+    "m": 15,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      1,
+      5,
+      8,
+      12
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base14",
+    "copies": 3,
+    "world": "a",
+    "n": 42,
+    "m": 22,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base14",
+    "copies": 3,
+    "world": "b",
+    "n": 42,
+    "m": 22,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base14",
+    "copies": 9,
+    "world": "a",
+    "n": 126,
+    "m": 64,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base14",
+    "copies": 9,
+    "world": "b",
+    "n": 126,
+    "m": 64,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base14",
+    "copies": 60,
+    "world": "a",
+    "n": 840,
+    "m": 421,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base14",
+    "copies": 60,
+    "world": "b",
+    "n": 840,
+    "m": 421,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base14",
+    "copies": 128,
+    "world": "a",
+    "n": 1792,
+    "m": 897,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base14",
+    "copies": 128,
+    "world": "b",
+    "n": 1792,
+    "m": 897,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 1,
+    "world": "a",
+    "n": 18,
+    "m": 9,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 1,
+    "world": "b",
+    "n": 18,
+    "m": 9,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 2,
+    "world": "a",
+    "n": 36,
+    "m": 17,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 2,
+    "world": "b",
+    "n": 36,
+    "m": 17,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 3,
+    "world": "a",
+    "n": 54,
+    "m": 25,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 3,
+    "world": "b",
+    "n": 54,
+    "m": 25,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 9,
+    "world": "a",
+    "n": 162,
+    "m": 73,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 9,
+    "world": "b",
+    "n": 162,
+    "m": 73,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 60,
+    "world": "a",
+    "n": 1080,
+    "m": 481,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 60,
+    "world": "b",
+    "n": 1080,
+    "m": 481,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 128,
+    "world": "a",
+    "n": 2304,
+    "m": 1025,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  },
+  {
+    "base": "base18",
+    "copies": 128,
+    "world": "b",
+    "n": 2304,
+    "m": 1025,
+    "connected": true,
+    "row_degree": 3,
+    "same_gram": true,
+    "all_columns_nonconstant": true,
+    "greedy_roots": [
+      0
+    ],
+    "cost_labels": "Not computed in this structural review"
+  }
+]

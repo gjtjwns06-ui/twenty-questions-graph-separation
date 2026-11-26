@@ -1,0 +1,2515 @@
+{
+  "summary": {
+    "fiber_id": "fiber-06",
+    "source": "main-c08-p00093-pair0",
+    "n": 36,
+    "m": 12,
+    "nodes": 1200,
+    "completed": 1200,
+    "expanded": 159,
+    "edges": 1853,
+    "stop_reason": "fiber_node_budget",
+    "component_certified_exhausted": false,
+    "uniform_span_exact": "7/81",
+    "uniform_span": 0.08641975308641975,
+    "max_uniform_gap_exact": "7/81",
+    "max_uniform_gap": 0.08641975308641975,
+    "robust_separation_exact": "1/18",
+    "bad_id": "fa70e42c571dd4fd53d5",
+    "good_id": "05fde8baad25d4f2370b",
+    "robust_bad_id": "281f7a5d8984d5a5ee49",
+    "robust_good_id": "57055277c3b91940b9d0"
+  },
+  "bad": {
+    "node_id": "fa70e42c571dd4fd53d5",
+    "rows": [
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        1,
+        11
+      ],
+      [
+        0,
+        3,
+        8
+      ],
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        0,
+        7,
+        8
+      ],
+      [
+        0,
+        7,
+        9
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        2,
+        11
+      ],
+      [
+        1,
+        3,
+        10
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        1,
+        4,
+        10
+      ],
+      [
+        1,
+        4,
+        11
+      ],
+      [
+        1,
+        6,
+        9
+      ],
+      [
+        1,
+        7,
+        8
+      ],
+      [
+        2,
+        3,
+        10
+      ],
+      [
+        2,
+        4,
+        7
+      ],
+      [
+        2,
+        5,
+        8
+      ],
+      [
+        2,
+        6,
+        9
+      ],
+      [
+        2,
+        7,
+        10
+      ],
+      [
+        3,
+        4,
+        6
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        3,
+        7,
+        9
+      ],
+      [
+        3,
+        7,
+        11
+      ],
+      [
+        4,
+        5,
+        8
+      ],
+      [
+        4,
+        6,
+        8
+      ],
+      [
+        4,
+        8,
+        9
+      ],
+      [
+        4,
+        8,
+        11
+      ],
+      [
+        5,
+        6,
+        7
+      ],
+      [
+        5,
+        6,
+        8
+      ],
+      [
+        5,
+        7,
+        9
+      ],
+      [
+        5,
+        8,
+        10
+      ],
+      [
+        5,
+        8,
+        11
+      ],
+      [
+        6,
+        9,
+        11
+      ],
+      [
+        7,
+        8,
+        9
+      ],
+      [
+        9,
+        10,
+        11
+      ]
+    ],
+    "n": 36,
+    "m": 12,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 195,
+      "optimal_mean": 5.416666666666667,
+      "first_totals": [
+        206,
+        197,
+        203,
+        203,
+        198,
+        201,
+        199,
+        195,
+        195,
+        199,
+        205,
+        200
+      ],
+      "argmin": [
+        7,
+        8
+      ],
+      "optimal_tree": {
+        "question": 7,
+        "yes": {
+          "question": 5,
+          "yes": {
+            "question": 0,
+            "yes": {
+              "object": 3
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "object": 21
+              },
+              "no": {
+                "question": 6,
+                "yes": {
+                  "object": 28
+                },
+                "no": {
+                  "object": 30
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 1,
+            "yes": {
+              "question": 0,
+              "yes": {
+                "object": 0
+              },
+              "no": {
+                "question": 4,
+                "yes": {
+                  "object": 10
+                },
+                "no": {
+                  "object": 14
+                }
+              }
+            },
+            "no": {
+              "question": 9,
+              "yes": {
+                "question": 0,
+                "yes": {
+                  "object": 5
+                },
+                "no": {
+                  "question": 3,
+                  "yes": {
+                    "object": 22
+                  },
+                  "no": {
+                    "object": 34
+                  }
+                }
+              },
+              "no": {
+                "question": 2,
+                "yes": {
+                  "question": 4,
+                  "yes": {
+                    "object": 16
+                  },
+                  "no": {
+                    "object": 19
+                  }
+                },
+                "no": {
+                  "question": 0,
+                  "yes": {
+                    "object": 4
+                  },
+                  "no": {
+                    "object": 23
+                  }
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 6,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "question": 2,
+              "yes": {
+                "object": 6
+              },
+              "no": {
+                "question": 4,
+                "yes": {
+                  "object": 9
+                },
+                "no": {
+                  "object": 13
+                }
+              }
+            },
+            "no": {
+              "question": 4,
+              "yes": {
+                "question": 3,
+                "yes": {
+                  "object": 20
+                },
+                "no": {
+                  "object": 25
+                }
+              },
+              "no": {
+                "question": 2,
+                "yes": {
+                  "object": 18
+                },
+                "no": {
+                  "question": 5,
+                  "yes": {
+                    "object": 29
+                  },
+                  "no": {
+                    "object": 33
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 11,
+            "yes": {
+              "question": 1,
+              "yes": {
+                "question": 0,
+                "yes": {
+                  "object": 1
+                },
+                "no": {
+                  "question": 2,
+                  "yes": {
+                    "object": 7
+                  },
+                  "no": {
+                    "object": 12
+                  }
+                }
+              },
+              "no": {
+                "question": 4,
+                "yes": {
+                  "object": 27
+                },
+                "no": {
+                  "question": 5,
+                  "yes": {
+                    "object": 32
+                  },
+                  "no": {
+                    "object": 35
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 10,
+              "yes": {
+                "question": 1,
+                "yes": {
+                  "question": 3,
+                  "yes": {
+                    "object": 8
+                  },
+                  "no": {
+                    "object": 11
+                  }
+                },
+                "no": {
+                  "question": 2,
+                  "yes": {
+                    "object": 15
+                  },
+                  "no": {
+                    "object": 31
+                  }
+                }
+              },
+              "no": {
+                "question": 4,
+                "yes": {
+                  "question": 5,
+                  "yes": {
+                    "object": 24
+                  },
+                  "no": {
+                    "object": 26
+                  }
+                },
+                "no": {
+                  "question": 0,
+                  "yes": {
+                    "object": 2
+                  },
+                  "no": {
+                    "object": 17
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        4,
+        5,
+        6,
+        3,
+        6,
+        5,
+        4,
+        6,
+        6,
+        5,
+        5,
+        6,
+        6,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        6,
+        5,
+        4,
+        6,
+        6,
+        6,
+        5,
+        6,
+        5,
+        5,
+        6,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "states": 4202,
+      "elapsed_seconds": 0.017425899999579997
+    },
+    "greedy": {
+      "total_uniform_exact": "1783/9",
+      "mean_uniform_exact": "1783/324",
+      "mean_uniform": 5.503086419753086,
+      "total_min_ties": 197,
+      "total_max_ties": 199,
+      "gap_exact": "7/81",
+      "gap": 0.08641975308641975,
+      "min_tie_gap_exact": "1/18",
+      "min_tie_gap": 0.05555555555555555,
+      "max_tie_gap_exact": "1/9",
+      "max_tie_gap": 0.1111111111111111,
+      "approximation_ratio_exact": "1783/1755",
+      "approximation_ratio": 1.015954415954416,
+      "root_questions": [
+        7
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.02084519999971235,
+      "baseline_rss_mb": 46.6484375,
+      "sampled_peak_rss_mb": 46.7890625,
+      "sampled_increment_mb": 0.140625,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-06",
+    "predecessor": "41f926c53fcef15e716e",
+    "trade": {
+      "removed": [
+        [
+          1,
+          2,
+          10
+        ],
+        [
+          1,
+          3,
+          11
+        ],
+        [
+          2,
+          7,
+          11
+        ],
+        [
+          3,
+          7,
+          10
+        ]
+      ],
+      "added": [
+        [
+          1,
+          2,
+          11
+        ],
+        [
+          1,
+          3,
+          10
+        ],
+        [
+          2,
+          7,
+          10
+        ],
+        [
+          3,
+          7,
+          11
+        ]
+      ],
+      "row_replacements": [
+        {
+          "index": 7,
+          "before": [
+            1,
+            2,
+            10
+          ],
+          "after": [
+            1,
+            2,
+            11
+          ]
+        },
+        {
+          "index": 8,
+          "before": [
+            1,
+            3,
+            11
+          ],
+          "after": [
+            1,
+            3,
+            10
+          ]
+        },
+        {
+          "index": 19,
+          "before": [
+            2,
+            7,
+            11
+          ],
+          "after": [
+            2,
+            7,
+            10
+          ]
+        },
+        {
+          "index": 23,
+          "before": [
+            3,
+            7,
+            10
+          ],
+          "after": [
+            3,
+            7,
+            11
+          ]
+        }
+      ]
+    },
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "good": {
+    "node_id": "05fde8baad25d4f2370b",
+    "rows": [
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        1,
+        11
+      ],
+      [
+        0,
+        3,
+        7
+      ],
+      [
+        0,
+        5,
+        8
+      ],
+      [
+        0,
+        7,
+        8
+      ],
+      [
+        0,
+        7,
+        9
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        2,
+        8
+      ],
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        1,
+        4,
+        10
+      ],
+      [
+        1,
+        4,
+        11
+      ],
+      [
+        1,
+        6,
+        11
+      ],
+      [
+        1,
+        9,
+        10
+      ],
+      [
+        2,
+        3,
+        10
+      ],
+      [
+        2,
+        4,
+        6
+      ],
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        2,
+        7,
+        10
+      ],
+      [
+        2,
+        9,
+        11
+      ],
+      [
+        3,
+        4,
+        8
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        3,
+        6,
+        9
+      ],
+      [
+        3,
+        10,
+        11
+      ],
+      [
+        4,
+        5,
+        8
+      ],
+      [
+        4,
+        6,
+        8
+      ],
+      [
+        4,
+        7,
+        9
+      ],
+      [
+        4,
+        8,
+        11
+      ],
+      [
+        5,
+        6,
+        8
+      ],
+      [
+        5,
+        6,
+        9
+      ],
+      [
+        5,
+        7,
+        8
+      ],
+      [
+        5,
+        7,
+        11
+      ],
+      [
+        5,
+        8,
+        10
+      ],
+      [
+        6,
+        7,
+        9
+      ],
+      [
+        7,
+        8,
+        9
+      ],
+      [
+        8,
+        9,
+        11
+      ]
+    ],
+    "n": 36,
+    "m": 12,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 195,
+      "optimal_mean": 5.416666666666667,
+      "first_totals": [
+        206,
+        197,
+        203,
+        202,
+        198,
+        199,
+        199,
+        195,
+        195,
+        199,
+        205,
+        200
+      ],
+      "argmin": [
+        7,
+        8
+      ],
+      "optimal_tree": {
+        "question": 7,
+        "yes": {
+          "question": 0,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "object": 0
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "object": 2
+              },
+              "no": {
+                "question": 8,
+                "yes": {
+                  "object": 4
+                },
+                "no": {
+                  "object": 5
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 5,
+            "yes": {
+              "question": 2,
+              "yes": {
+                "object": 17
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "object": 21
+                },
+                "no": {
+                  "question": 8,
+                  "yes": {
+                    "object": 30
+                  },
+                  "no": {
+                    "object": 31
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 4,
+              "yes": {
+                "question": 1,
+                "yes": {
+                  "object": 10
+                },
+                "no": {
+                  "object": 26
+                }
+              },
+              "no": {
+                "question": 9,
+                "yes": {
+                  "question": 6,
+                  "yes": {
+                    "object": 33
+                  },
+                  "no": {
+                    "object": 34
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 8
+                  },
+                  "no": {
+                    "object": 18
+                  }
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 6,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "question": 2,
+              "yes": {
+                "object": 6
+              },
+              "no": {
+                "question": 4,
+                "yes": {
+                  "object": 9
+                },
+                "no": {
+                  "object": 13
+                }
+              }
+            },
+            "no": {
+              "question": 4,
+              "yes": {
+                "question": 2,
+                "yes": {
+                  "object": 16
+                },
+                "no": {
+                  "object": 25
+                }
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "object": 22
+                },
+                "no": {
+                  "question": 8,
+                  "yes": {
+                    "object": 28
+                  },
+                  "no": {
+                    "object": 29
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 8,
+            "yes": {
+              "question": 4,
+              "yes": {
+                "question": 3,
+                "yes": {
+                  "object": 20
+                },
+                "no": {
+                  "question": 5,
+                  "yes": {
+                    "object": 24
+                  },
+                  "no": {
+                    "object": 27
+                  }
+                }
+              },
+              "no": {
+                "question": 5,
+                "yes": {
+                  "question": 0,
+                  "yes": {
+                    "object": 3
+                  },
+                  "no": {
+                    "object": 32
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 7
+                  },
+                  "no": {
+                    "object": 35
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 1,
+              "yes": {
+                "question": 4,
+                "yes": {
+                  "question": 10,
+                  "yes": {
+                    "object": 11
+                  },
+                  "no": {
+                    "object": 12
+                  }
+                },
+                "no": {
+                  "question": 0,
+                  "yes": {
+                    "object": 1
+                  },
+                  "no": {
+                    "object": 14
+                  }
+                }
+              },
+              "no": {
+                "question": 2,
+                "yes": {
+                  "question": 3,
+                  "yes": {
+                    "object": 15
+                  },
+                  "no": {
+                    "object": 19
+                  }
+                },
+                "no": {
+                  "object": 23
+                }
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        3,
+        6,
+        4,
+        6,
+        5,
+        5,
+        4,
+        6,
+        6,
+        5,
+        5,
+        6,
+        6,
+        5,
+        6,
+        6,
+        5,
+        4,
+        6,
+        6,
+        5,
+        5,
+        5,
+        5,
+        6,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "states": 4033,
+      "elapsed_seconds": 0.014715700000124343
+    },
+    "greedy": {
+      "total_uniform_exact": "195",
+      "mean_uniform_exact": "65/12",
+      "mean_uniform": 5.416666666666667,
+      "total_min_ties": 195,
+      "total_max_ties": 195,
+      "gap_exact": "0",
+      "gap": 0.0,
+      "min_tie_gap_exact": "0",
+      "min_tie_gap": 0.0,
+      "max_tie_gap_exact": "0",
+      "max_tie_gap": 0.0,
+      "approximation_ratio_exact": "1",
+      "approximation_ratio": 1.0,
+      "root_questions": [
+        7
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.017568500000379572,
+      "baseline_rss_mb": 54.58203125,
+      "sampled_peak_rss_mb": 54.6171875,
+      "sampled_increment_mb": 0.03515625,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-06",
+    "predecessor": "0bde170b2e249298ad13",
+    "trade": {
+      "removed": [
+        [
+          0,
+          5,
+          7
+        ],
+        [
+          0,
+          8,
+          9
+        ],
+        [
+          5,
+          8,
+          11
+        ],
+        [
+          7,
+          9,
+          11
+        ]
+      ],
+      "added": [
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          0,
+          7,
+          9
+        ],
+        [
+          5,
+          7,
+          11
+        ],
+        [
+          8,
+          9,
+          11
+        ]
+      ],
+      "row_replacements": [
+        {
+          "index": 3,
+          "before": [
+            0,
+            5,
+            7
+          ],
+          "after": [
+            0,
+            5,
+            8
+          ]
+        },
+        {
+          "index": 5,
+          "before": [
+            0,
+            8,
+            9
+          ],
+          "after": [
+            0,
+            7,
+            9
+          ]
+        },
+        {
+          "index": 32,
+          "before": [
+            5,
+            8,
+            11
+          ],
+          "after": [
+            5,
+            7,
+            11
+          ]
+        },
+        {
+          "index": 35,
+          "before": [
+            7,
+            9,
+            11
+          ],
+          "after": [
+            8,
+            9,
+            11
+          ]
+        }
+      ]
+    },
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "robust_bad": {
+    "node_id": "281f7a5d8984d5a5ee49",
+    "rows": [
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        1,
+        11
+      ],
+      [
+        0,
+        3,
+        8
+      ],
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        0,
+        7,
+        8
+      ],
+      [
+        0,
+        7,
+        9
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        2,
+        10
+      ],
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        4,
+        8
+      ],
+      [
+        1,
+        4,
+        10
+      ],
+      [
+        1,
+        4,
+        11
+      ],
+      [
+        1,
+        6,
+        7
+      ],
+      [
+        1,
+        9,
+        11
+      ],
+      [
+        2,
+        3,
+        10
+      ],
+      [
+        2,
+        4,
+        8
+      ],
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        2,
+        6,
+        9
+      ],
+      [
+        2,
+        7,
+        11
+      ],
+      [
+        3,
+        4,
+        7
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        3,
+        6,
+        9
+      ],
+      [
+        3,
+        10,
+        11
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        4,
+        6,
+        8
+      ],
+      [
+        4,
+        7,
+        9
+      ],
+      [
+        4,
+        8,
+        11
+      ],
+      [
+        5,
+        6,
+        8
+      ],
+      [
+        5,
+        7,
+        8
+      ],
+      [
+        5,
+        8,
+        9
+      ],
+      [
+        5,
+        8,
+        10
+      ],
+      [
+        5,
+        8,
+        11
+      ],
+      [
+        6,
+        9,
+        11
+      ],
+      [
+        7,
+        8,
+        9
+      ],
+      [
+        7,
+        9,
+        10
+      ]
+    ],
+    "n": 36,
+    "m": 12,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 195,
+      "optimal_mean": 5.416666666666667,
+      "first_totals": [
+        206,
+        196,
+        203,
+        202,
+        198,
+        199,
+        199,
+        195,
+        196,
+        199,
+        205,
+        200
+      ],
+      "argmin": [
+        7
+      ],
+      "optimal_tree": {
+        "question": 7,
+        "yes": {
+          "question": 0,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "object": 0
+            },
+            "no": {
+              "question": 5,
+              "yes": {
+                "object": 3
+              },
+              "no": {
+                "question": 8,
+                "yes": {
+                  "object": 4
+                },
+                "no": {
+                  "object": 5
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 3,
+            "yes": {
+              "question": 1,
+              "yes": {
+                "object": 8
+              },
+              "no": {
+                "question": 4,
+                "yes": {
+                  "object": 20
+                },
+                "no": {
+                  "object": 21
+                }
+              }
+            },
+            "no": {
+              "question": 9,
+              "yes": {
+                "question": 4,
+                "yes": {
+                  "object": 26
+                },
+                "no": {
+                  "question": 8,
+                  "yes": {
+                    "object": 34
+                  },
+                  "no": {
+                    "object": 35
+                  }
+                }
+              },
+              "no": {
+                "question": 2,
+                "yes": {
+                  "question": 5,
+                  "yes": {
+                    "object": 17
+                  },
+                  "no": {
+                    "object": 19
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 13
+                  },
+                  "no": {
+                    "object": 29
+                  }
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 6,
+          "yes": {
+            "question": 4,
+            "yes": {
+              "question": 1,
+              "yes": {
+                "object": 9
+              },
+              "no": {
+                "question": 5,
+                "yes": {
+                  "object": 24
+                },
+                "no": {
+                  "object": 25
+                }
+              }
+            },
+            "no": {
+              "question": 2,
+              "yes": {
+                "question": 1,
+                "yes": {
+                  "object": 6
+                },
+                "no": {
+                  "object": 18
+                }
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "object": 22
+                },
+                "no": {
+                  "question": 5,
+                  "yes": {
+                    "object": 28
+                  },
+                  "no": {
+                    "object": 33
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 11,
+            "yes": {
+              "question": 1,
+              "yes": {
+                "question": 0,
+                "yes": {
+                  "object": 1
+                },
+                "no": {
+                  "question": 4,
+                  "yes": {
+                    "object": 12
+                  },
+                  "no": {
+                    "object": 14
+                  }
+                }
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "object": 23
+                },
+                "no": {
+                  "question": 4,
+                  "yes": {
+                    "object": 27
+                  },
+                  "no": {
+                    "object": 32
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 10,
+              "yes": {
+                "question": 1,
+                "yes": {
+                  "question": 2,
+                  "yes": {
+                    "object": 7
+                  },
+                  "no": {
+                    "object": 11
+                  }
+                },
+                "no": {
+                  "question": 2,
+                  "yes": {
+                    "object": 15
+                  },
+                  "no": {
+                    "object": 31
+                  }
+                }
+              },
+              "no": {
+                "question": 4,
+                "yes": {
+                  "question": 1,
+                  "yes": {
+                    "object": 10
+                  },
+                  "no": {
+                    "object": 16
+                  }
+                },
+                "no": {
+                  "question": 0,
+                  "yes": {
+                    "object": 2
+                  },
+                  "no": {
+                    "object": 30
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        3,
+        5,
+        6,
+        4,
+        5,
+        5,
+        5,
+        6,
+        4,
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        6,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "states": 4139,
+      "elapsed_seconds": 0.010276299999532057
+    },
+    "greedy": {
+      "total_uniform_exact": "789/4",
+      "mean_uniform_exact": "263/48",
+      "mean_uniform": 5.479166666666667,
+      "total_min_ties": 197,
+      "total_max_ties": 198,
+      "gap_exact": "1/16",
+      "gap": 0.0625,
+      "min_tie_gap_exact": "1/18",
+      "min_tie_gap": 0.05555555555555555,
+      "max_tie_gap_exact": "1/12",
+      "max_tie_gap": 0.08333333333333333,
+      "approximation_ratio_exact": "263/260",
+      "approximation_ratio": 1.0115384615384615,
+      "root_questions": [
+        7
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.013149000000339583,
+      "baseline_rss_mb": 45.5625,
+      "sampled_peak_rss_mb": 45.5625,
+      "sampled_increment_mb": 0.0,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-06",
+    "predecessor": null,
+    "trade": null,
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "robust_good": {
+    "node_id": "57055277c3b91940b9d0",
+    "rows": [
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        1,
+        11
+      ],
+      [
+        0,
+        3,
+        8
+      ],
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        0,
+        7,
+        8
+      ],
+      [
+        0,
+        7,
+        9
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        2,
+        10
+      ],
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        4,
+        8
+      ],
+      [
+        1,
+        4,
+        10
+      ],
+      [
+        1,
+        4,
+        11
+      ],
+      [
+        1,
+        6,
+        9
+      ],
+      [
+        1,
+        7,
+        11
+      ],
+      [
+        2,
+        3,
+        10
+      ],
+      [
+        2,
+        4,
+        8
+      ],
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        2,
+        9,
+        11
+      ],
+      [
+        3,
+        4,
+        7
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        3,
+        6,
+        9
+      ],
+      [
+        3,
+        10,
+        11
+      ],
+      [
+        4,
+        5,
+        8
+      ],
+      [
+        4,
+        6,
+        8
+      ],
+      [
+        4,
+        6,
+        11
+      ],
+      [
+        4,
+        7,
+        9
+      ],
+      [
+        5,
+        6,
+        8
+      ],
+      [
+        5,
+        6,
+        9
+      ],
+      [
+        5,
+        7,
+        8
+      ],
+      [
+        5,
+        8,
+        10
+      ],
+      [
+        5,
+        8,
+        11
+      ],
+      [
+        7,
+        8,
+        9
+      ],
+      [
+        7,
+        9,
+        10
+      ],
+      [
+        8,
+        9,
+        11
+      ]
+    ],
+    "n": 36,
+    "m": 12,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 195,
+      "optimal_mean": 5.416666666666667,
+      "first_totals": [
+        206,
+        196,
+        203,
+        202,
+        198,
+        199,
+        199,
+        195,
+        195,
+        199,
+        205,
+        200
+      ],
+      "argmin": [
+        7,
+        8
+      ],
+      "optimal_tree": {
+        "question": 7,
+        "yes": {
+          "question": 0,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "object": 0
+            },
+            "no": {
+              "question": 5,
+              "yes": {
+                "object": 3
+              },
+              "no": {
+                "question": 8,
+                "yes": {
+                  "object": 4
+                },
+                "no": {
+                  "object": 5
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 3,
+            "yes": {
+              "question": 1,
+              "yes": {
+                "object": 8
+              },
+              "no": {
+                "question": 4,
+                "yes": {
+                  "object": 20
+                },
+                "no": {
+                  "object": 21
+                }
+              }
+            },
+            "no": {
+              "question": 9,
+              "yes": {
+                "question": 4,
+                "yes": {
+                  "object": 27
+                },
+                "no": {
+                  "question": 8,
+                  "yes": {
+                    "object": 33
+                  },
+                  "no": {
+                    "object": 34
+                  }
+                }
+              },
+              "no": {
+                "question": 2,
+                "yes": {
+                  "question": 5,
+                  "yes": {
+                    "object": 17
+                  },
+                  "no": {
+                    "object": 18
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 14
+                  },
+                  "no": {
+                    "object": 30
+                  }
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 6,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "question": 2,
+              "yes": {
+                "object": 6
+              },
+              "no": {
+                "question": 4,
+                "yes": {
+                  "object": 9
+                },
+                "no": {
+                  "object": 13
+                }
+              }
+            },
+            "no": {
+              "question": 4,
+              "yes": {
+                "question": 8,
+                "yes": {
+                  "object": 25
+                },
+                "no": {
+                  "object": 26
+                }
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "object": 22
+                },
+                "no": {
+                  "question": 8,
+                  "yes": {
+                    "object": 28
+                  },
+                  "no": {
+                    "object": 29
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 8,
+            "yes": {
+              "question": 4,
+              "yes": {
+                "question": 1,
+                "yes": {
+                  "object": 10
+                },
+                "no": {
+                  "question": 2,
+                  "yes": {
+                    "object": 16
+                  },
+                  "no": {
+                    "object": 24
+                  }
+                }
+              },
+              "no": {
+                "question": 5,
+                "yes": {
+                  "question": 10,
+                  "yes": {
+                    "object": 31
+                  },
+                  "no": {
+                    "object": 32
+                  }
+                },
+                "no": {
+                  "question": 0,
+                  "yes": {
+                    "object": 2
+                  },
+                  "no": {
+                    "object": 35
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 1,
+              "yes": {
+                "question": 4,
+                "yes": {
+                  "question": 10,
+                  "yes": {
+                    "object": 11
+                  },
+                  "no": {
+                    "object": 12
+                  }
+                },
+                "no": {
+                  "question": 0,
+                  "yes": {
+                    "object": 1
+                  },
+                  "no": {
+                    "object": 7
+                  }
+                }
+              },
+              "no": {
+                "question": 2,
+                "yes": {
+                  "question": 3,
+                  "yes": {
+                    "object": 15
+                  },
+                  "no": {
+                    "object": 19
+                  }
+                },
+                "no": {
+                  "object": 23
+                }
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        3,
+        6,
+        6,
+        4,
+        5,
+        5,
+        4,
+        6,
+        4,
+        5,
+        5,
+        6,
+        6,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        5,
+        5,
+        5,
+        6,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "states": 4182,
+      "elapsed_seconds": 0.023155799999585724
+    },
+    "greedy": {
+      "total_uniform_exact": "195",
+      "mean_uniform_exact": "65/12",
+      "mean_uniform": 5.416666666666667,
+      "total_min_ties": 195,
+      "total_max_ties": 195,
+      "gap_exact": "0",
+      "gap": 0.0,
+      "min_tie_gap_exact": "0",
+      "min_tie_gap": 0.0,
+      "max_tie_gap_exact": "0",
+      "max_tie_gap": 0.0,
+      "approximation_ratio_exact": "1",
+      "approximation_ratio": 1.0,
+      "root_questions": [
+        7
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.03150939999977709,
+      "baseline_rss_mb": 47.0625,
+      "sampled_peak_rss_mb": 47.0625,
+      "sampled_increment_mb": 0.0,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-06",
+    "predecessor": "145e02d20e084b472e45",
+    "trade": {
+      "removed": [
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          1,
+          9,
+          11
+        ],
+        [
+          2,
+          6,
+          9
+        ],
+        [
+          2,
+          7,
+          11
+        ]
+      ],
+      "added": [
+        [
+          1,
+          6,
+          9
+        ],
+        [
+          1,
+          7,
+          11
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          2,
+          9,
+          11
+        ]
+      ],
+      "row_replacements": [
+        {
+          "index": 13,
+          "before": [
+            1,
+            6,
+            7
+          ],
+          "after": [
+            1,
+            6,
+            9
+          ]
+        },
+        {
+          "index": 14,
+          "before": [
+            1,
+            9,
+            11
+          ],
+          "after": [
+            1,
+            7,
+            11
+          ]
+        },
+        {
+          "index": 18,
+          "before": [
+            2,
+            6,
+            9
+          ],
+          "after": [
+            2,
+            6,
+            7
+          ]
+        },
+        {
+          "index": 19,
+          "before": [
+            2,
+            7,
+            11
+          ],
+          "after": [
+            2,
+            9,
+            11
+          ]
+        }
+      ]
+    },
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "checks": {
+    "same_gram": true,
+    "same_row_degrees": true,
+    "unique_rows": true,
+    "valid_columns": true,
+    "row_degrees": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "gram": [
+      [
+        6,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0,
+        4,
+        2,
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        11,
+        2,
+        1,
+        4,
+        0,
+        3,
+        3,
+        1,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        7,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        7,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        4,
+        1,
+        1,
+        10,
+        1,
+        3,
+        2,
+        4,
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        1,
+        9,
+        2,
+        4,
+        5,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        3,
+        2,
+        1,
+        3,
+        2,
+        9,
+        1,
+        2,
+        3,
+        0,
+        1
+      ],
+      [
+        4,
+        3,
+        2,
+        3,
+        2,
+        4,
+        1,
+        14,
+        3,
+        4,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1,
+        1,
+        4,
+        5,
+        2,
+        3,
+        12,
+        2,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        4,
+        2,
+        9,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        6,
+        1
+      ],
+      [
+        1,
+        3,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        8
+      ]
+    ],
+    "c4": 76,
+    "c6": 836,
+    "triple_histogram": {
+      "0": 184,
+      "1": 36
+    }
+  }
+}

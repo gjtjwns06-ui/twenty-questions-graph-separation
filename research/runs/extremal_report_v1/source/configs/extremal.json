@@ -1,0 +1,17 @@
+{
+  "name": "extremal_v1",
+  "seed": 2026112517,
+  "source_run": "runs/main",
+  "sizes": [14, 24, 36],
+  "fibers_per_size": 3,
+  "max_unique_nodes_per_fiber": 1200,
+  "max_total_unique_nodes": 8000,
+  "max_seconds": 240,
+  "solver": {"seconds": 5.0, "max_states": 250000, "max_rss_mb": 1024},
+  "objective": "Within a fixed indexed Gram and degree-3 fiber, maximize the span of full uniform-tie IG regret Cg-Copt",
+  "secondary": ["maximum full greedy regret", "all-tie robust regret separation", "Cg/Copt"],
+  "seed_selection": "Top pre-existing paired full-regret contrasts per size, distinct indexed Gram matrices; then include original 14x8 paper witness",
+  "frontier_rule": "Best-first alternate high regret, low regret, and FIFO novelty, cycle high/high/low/fifo; enumerate every valid Pasch neighbor of expanded nodes",
+  "claims": "Extremal discovery only; no population frequencies, no whole-fiber optimum unless all relevant move components are proved connected",
+  "scaling_k": [1, 2, 3, 4, 8, 16, 32]
+}

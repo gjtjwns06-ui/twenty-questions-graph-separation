@@ -1,0 +1,4 @@
+{"base": "base14", "ports": [0, 5, 6], "completed_orientations": 3, "contrast_exact": "0", "contrast": 0.0, "robust_exact": "-1/30", "high_orientation": "aa", "low_orientation": "aa"}
+{"base": "base14", "ports": [0, 2, 3], "completed_orientations": 3, "contrast_exact": "0", "contrast": 0.0, "robust_exact": "0", "high_orientation": "aa", "low_orientation": "aa"}
+{"base": "base18", "ports": [0, 5, 6], "completed_orientations": 3, "contrast_exact": "7/304", "contrast": 0.023026315789473683, "robust_exact": "-1/19", "high_orientation": "aa", "low_orientation": "bb"}
+{"base": "base18", "ports": [0, 2, 3], "completed_orientations": 3, "contrast_exact": "5/76", "contrast": 0.06578947368421052, "robust_exact": "1/19", "high_orientation": "aa", "low_orientation": "bb"}

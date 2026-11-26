@@ -1,0 +1,30 @@
+{
+  "completed": "2026-11-25T15:16:48.735406+09:00",
+  "independent_full_subset_audits_passed": true,
+  "explicit_lift_statuses": [
+    {
+      "kind": "directsum",
+      "base": "a",
+      "status": "complete"
+    },
+    {
+      "kind": "directsum",
+      "base": "b",
+      "status": "complete"
+    },
+    {
+      "kind": "cartesian",
+      "base": "a",
+      "status": "complete"
+    },
+    {
+      "kind": "cartesian",
+      "base": "b",
+      "status": "complete"
+    }
+  ],
+  "fixed_degree3_linear_regret_contrast": "N/392+O(1)",
+  "fixed_degree3_ratio": "bounded; limits65/64 and67/64",
+  "new18_cartesian_contrast": "2k/9 withdegree3k",
+  "new18_directsum_linear_contrast": false
+}

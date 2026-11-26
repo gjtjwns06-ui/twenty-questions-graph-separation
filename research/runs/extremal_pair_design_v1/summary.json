@@ -1,0 +1,18 @@
+{
+  "completed": "2026-11-25T15:12:52.269176+09:00",
+  "unique_candidates": 5728,
+  "proposals": 6000,
+  "accepted": 1260,
+  "profile": {
+    "seconds": 37.46294850000049,
+    "baseline_rss_mb": 21.703125,
+    "sampled_peak_rss_mb": 157.84375,
+    "sampled_increment_mb": 136.140625,
+    "lifetime_peak_rss_mb": 157.86328125,
+    "sampling_interval_seconds": 0.005
+  },
+  "best_candidate": 5580,
+  "best_contrast_exact": "2/9",
+  "scope": "Each pair controlled; Gram varies along shared-background design path",
+  "stop_reason": "scheduled_steps_completed"
+}

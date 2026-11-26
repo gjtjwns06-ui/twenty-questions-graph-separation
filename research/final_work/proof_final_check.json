@@ -1,0 +1,125 @@
+{
+  "0": {
+    "a": {
+      "F": 54,
+      "G": "325/6",
+      "U_min_post": 19,
+      "post_for_026": 34,
+      "K_g": "101/42",
+      "profiles": [
+        {
+          "gains": [
+            7,
+            4,
+            3
+          ],
+          "probability": "1/2"
+        },
+        {
+          "gains": [
+            7,
+            5,
+            2
+          ],
+          "probability": "1/2"
+        }
+      ]
+    },
+    "b": {
+      "F": 54,
+      "G": "163/3",
+      "U_min_post": 19,
+      "post_for_026": 34,
+      "K_g": "193/84",
+      "profiles": [
+        {
+          "gains": [
+            7,
+            4,
+            2,
+            1
+          ],
+          "probability": "1/2"
+        },
+        {
+          "gains": [
+            7,
+            5,
+            2
+          ],
+          "probability": "1/2"
+        }
+      ]
+    }
+  },
+  "3": {
+    "a": {
+      "F": 73,
+      "G": "149/2",
+      "U_min_post": 19,
+      "post_for_026": 52,
+      "K_g": "3",
+      "profiles": [
+        {
+          "gains": [
+            10,
+            4,
+            3
+          ],
+          "probability": "1/2"
+        },
+        {
+          "gains": [
+            10,
+            5,
+            2
+          ],
+          "probability": "1/2"
+        }
+      ]
+    },
+    "b": {
+      "F": 73,
+      "G": "224/3",
+      "U_min_post": 19,
+      "post_for_026": 52,
+      "K_g": "99/34",
+      "profiles": [
+        {
+          "gains": [
+            10,
+            4,
+            2,
+            1
+          ],
+          "probability": "1/2"
+        },
+        {
+          "gains": [
+            10,
+            5,
+            2
+          ],
+          "probability": "1/2"
+        }
+      ]
+    }
+  },
+  "tails": [
+    {
+      "d": 7,
+      "max_leafsum_difference": 48,
+      "at_s": 13
+    },
+    {
+      "d": 10,
+      "max_leafsum_difference": 117,
+      "at_s": 19
+    }
+  ],
+  "arithmetic": {
+    "b3_T76_lower": "31/1292",
+    "b3_T100_lower": "263/340",
+    "incidence_expansion_from_hH_1over20": "1/1775"
+  }
+}

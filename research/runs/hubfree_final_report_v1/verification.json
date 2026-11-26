@@ -1,0 +1,29 @@
+{
+  "completed": "2026-11-25T16:50:35.974221+09:00",
+  "old_artifacts_preserved": true,
+  "best38_Gram_and_trees_verified": true,
+  "independent_profile_DP": {
+    "completed": "2026-11-25T16:42:21.129245+09:00",
+    "profile": {
+      "seconds": 16.966080399999555,
+      "baseline_rss_mb": 38.390625,
+      "sampled_peak_rss_mb": 70.30859375,
+      "sampled_increment_mb": 31.91796875,
+      "lifetime_peak_rss_mb": 70.30859375,
+      "sampling_interval_seconds": 0.005
+    },
+    "finite38_costs_and_all_vertex_deletions_passed": true,
+    "ablation_pairs": 19,
+    "completed_ablation_pairs": 19,
+    "positive_single_deletion_contrast_count": 18,
+    "single_deletion_min_contrast_exact": "17/304",
+    "single_deletion_max_contrast_exact": "13/76",
+    "remove_both_original_root_questions_contrast_exact": "0",
+    "independent_exact_spectral_certificates": 9,
+    "ablation_scope": "EqualGram/equalalignedrowdegrees preserved, constantrowdegree3 relaxed; separate sensitivityexperiment"
+  },
+  "uniform_profile_and_bound_constants_verified": true,
+  "exact_rational_spectral_and_integer_minor_certificates": 9,
+  "formal_proof_assistant_used": false,
+  "novelty_certified": false
+}

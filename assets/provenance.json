@@ -1,0 +1,9 @@
+{
+  "generator": "scripts/make_assets.py",
+  "source_sha256": {
+    "runs/extremal_report_v1/best18.json": "8ed17bad97993d2241b7bf2c8cf79e4d280deff6a99394a0f554b9409e61fda4",
+    "runs/hubfree_search_v1/best.json": "73f7e083efb379bd9f7f66db319ea30b12828913e9e481a396a9e3549505d92c",
+    "runs/main/report/paired_comparisons.csv": "c55651ff3b0e2c94523ec2a8a987f6b9f2b8d1c5beb1f5020cc481a9fcae3020"
+  },
+  "scope": "Presentation regenerated from saved results; no new scientific measurements"
+}

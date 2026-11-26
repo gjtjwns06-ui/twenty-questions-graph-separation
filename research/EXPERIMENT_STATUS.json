@@ -1,0 +1,30 @@
+{
+  "finalized": "2026-11-25T13:26:43.256287+09:00",
+  "witness": "Recomputed; all scientific JSON fields identical",
+  "pilot": "Completed; original and cold-cache repeat preserved, not pooled",
+  "frozen_before_main": true,
+  "source_and_config_unchanged": true,
+  "main": {
+    "parent_attempts": 1400,
+    "controlled_pairs": 1223,
+    "worlds": 2446,
+    "exact_completed": 2446,
+    "incomplete": 0,
+    "zero_cost_change_pairs": 1114,
+    "audit_passed": true,
+    "feature_labels_checked": 26916
+  },
+  "model_selection": "Validation only; boosting_all retained despite lower test point estimates for some other models",
+  "primary_result": "Difference from lookahead3 includes zero in the 95% parent bootstrap interval; no confirmed advantage",
+  "not_performed": [
+    "Full sequential learned policy",
+    "External factual data",
+    "Nonuniform targets or noisy answers"
+  ],
+  "not_established": [
+    "A new general structural theorem",
+    "Population-uniform sampling of a Gram fiber",
+    "General ML superiority"
+  ],
+  "paper": "Twenty_Questions_Paper_Draft.md version 0.2; original Markdown archived, original PDF/DOCX remain version 0.1"
+}

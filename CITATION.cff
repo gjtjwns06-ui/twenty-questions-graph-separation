@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and this reproducibility repository when using these results."
+type: software
+title: "Twenty Questions: Linear Separation under Identical Pairwise Statistics"
+authors:
+  - family-names: Heo
+    given-names: Seojun
+version: 1.0.0
+date-released: '2026-11-26'
+repository-code: 'https://github.com/gjtjwns06-ui/twenty-questions-graph-separation'
+keywords:
+  - adaptive identification
+  - decision trees
+  - information gain
+  - graph theory
+  - exact dynamic programming

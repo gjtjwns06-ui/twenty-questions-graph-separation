@@ -1,0 +1,144 @@
+{
+  "train_median_conditional_l1": 19.905710684269,
+  "groups": [
+    {
+      "split": "test",
+      "above_train_median": false,
+      "pairs": 89,
+      "mean_abs_delta": 0.0018726591760299628,
+      "disjoint_rate": 0.011235955056179775,
+      "zero_cost_effect_count": 84
+    },
+    {
+      "split": "test",
+      "above_train_median": true,
+      "pairs": 90,
+      "mean_abs_delta": 0.004673721340388007,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 80
+    },
+    {
+      "split": "test_family",
+      "above_train_median": false,
+      "pairs": 56,
+      "mean_abs_delta": 0.004960317460317461,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 46
+    },
+    {
+      "split": "test_family",
+      "above_train_median": true,
+      "pairs": 97,
+      "mean_abs_delta": 0.0034364261168384883,
+      "disjoint_rate": 0.020618556701030927,
+      "zero_cost_effect_count": 86
+    },
+    {
+      "split": "test_size",
+      "above_train_median": false,
+      "pairs": 69,
+      "mean_abs_delta": 0.004227053140096618,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 56
+    },
+    {
+      "split": "test_size",
+      "above_train_median": true,
+      "pairs": 91,
+      "mean_abs_delta": 0.003663003663003663,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 75
+    },
+    {
+      "split": "train",
+      "above_train_median": false,
+      "pairs": 275,
+      "mean_abs_delta": 0.002395382395382395,
+      "disjoint_rate": 0.007272727272727273,
+      "zero_cost_effect_count": 260
+    },
+    {
+      "split": "train",
+      "above_train_median": true,
+      "pairs": 274,
+      "mean_abs_delta": 0.0019841269841269845,
+      "disjoint_rate": 0.0036496350364963502,
+      "zero_cost_effect_count": 259
+    },
+    {
+      "split": "validation",
+      "above_train_median": false,
+      "pairs": 79,
+      "mean_abs_delta": 0.003214788024914607,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 74
+    },
+    {
+      "split": "validation",
+      "above_train_median": true,
+      "pairs": 103,
+      "mean_abs_delta": 0.0031206657420249657,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 94
+    }
+  ],
+  "discovery_examples": {
+    "cost_effect": {
+      "parent_id": "main-c00-p00087",
+      "pair_id": "main-c00-p00087-pair0",
+      "split": "train",
+      "conditional_l1": 0.37494804407000004,
+      "h3_max_difference": 0.053920535868999586,
+      "zero_cost_effect": false,
+      "family": "natural",
+      "n": 14,
+      "m": 8,
+      "abs_delta_optimal": 0.07142857142857142,
+      "argmin_disjoint": false,
+      "argmin_changed": true
+    },
+    "no_cost_effect": {
+      "parent_id": "main-c00-p00001",
+      "pair_id": "main-c00-p00001-pair0",
+      "split": "train",
+      "conditional_l1": 20.274478227835,
+      "h3_max_difference": 0.053920535868999586,
+      "zero_cost_effect": true,
+      "family": "natural",
+      "n": 14,
+      "m": 8,
+      "abs_delta_optimal": 0.0,
+      "argmin_disjoint": false,
+      "argmin_changed": true
+    },
+    "disjoint": {
+      "parent_id": "main-c05-p00037",
+      "pair_id": "main-c05-p00037-pair0",
+      "split": "train",
+      "conditional_l1": 0.09190645555399997,
+      "h3_max_difference": 0.03181241743700003,
+      "zero_cost_effect": false,
+      "family": "planted",
+      "n": 36,
+      "m": 12,
+      "abs_delta_optimal": 0.027777777777777776,
+      "argmin_disjoint": true,
+      "argmin_changed": true
+    },
+    "overlapping_optima": {
+      "parent_id": "main-c00-p00001",
+      "pair_id": "main-c00-p00001-pair0",
+      "split": "train",
+      "conditional_l1": 20.274478227835,
+      "h3_max_difference": 0.053920535868999586,
+      "zero_cost_effect": true,
+      "family": "natural",
+      "n": 14,
+      "m": 8,
+      "abs_delta_optimal": 0.0,
+      "argmin_disjoint": false,
+      "argmin_changed": true
+    }
+  },
+  "interpretation": "Descriptive association only; no new sufficient structural theorem established."
+}

@@ -1,0 +1,21 @@
+{
+  "name": "pilot-05",
+  "seed": 35311040,
+  "trades_per_parent": 1,
+  "solver": {
+    "seconds": 5.0,
+    "max_states": 250000,
+    "max_rss_mb": 1024
+  },
+  "tie_tolerance": 1e-10,
+  "baselines": true,
+  "features": true,
+  "cells": [
+    {
+      "n": 36,
+      "m": 12,
+      "family": "planted",
+      "parents": 5
+    }
+  ]
+}

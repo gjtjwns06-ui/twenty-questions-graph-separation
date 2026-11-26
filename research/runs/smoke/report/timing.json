@@ -1,0 +1,7 @@
+{
+  "exact_label_seconds": 0.6115149999998266,
+  "feature_seconds": 2.3256994999992457,
+  "all_target_baseline_evaluation_seconds": 3.061213100000259,
+  "memory_sampling": "5 ms sampled phase RSS; may miss short spikes. OS peak is process lifetime.",
+  "full_ml_policy": "Not performed; root models have no successor-state training."
+}

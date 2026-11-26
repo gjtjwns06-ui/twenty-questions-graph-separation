@@ -1,0 +1,138 @@
+{
+  "name": "main",
+  "seed": 2026112501,
+  "cells": [
+    {
+      "n": 14,
+      "m": 8,
+      "family": "natural",
+      "parents": 180,
+      "cohort": "id"
+    },
+    {
+      "n": 14,
+      "m": 8,
+      "family": "planted",
+      "parents": 180,
+      "cohort": "id"
+    },
+    {
+      "n": 24,
+      "m": 10,
+      "family": "natural",
+      "parents": 180,
+      "cohort": "id"
+    },
+    {
+      "n": 24,
+      "m": 10,
+      "family": "planted",
+      "parents": 180,
+      "cohort": "id"
+    },
+    {
+      "n": 36,
+      "m": 12,
+      "family": "natural",
+      "parents": 180,
+      "cohort": "id"
+    },
+    {
+      "n": 36,
+      "m": 12,
+      "family": "planted",
+      "parents": 180,
+      "cohort": "id"
+    },
+    {
+      "n": 48,
+      "m": 14,
+      "family": "natural",
+      "parents": 80,
+      "cohort": "size"
+    },
+    {
+      "n": 48,
+      "m": 14,
+      "family": "planted",
+      "parents": 80,
+      "cohort": "size"
+    },
+    {
+      "n": 36,
+      "m": 12,
+      "family": "modular",
+      "parents": 160,
+      "cohort": "family"
+    }
+  ],
+  "trades_per_parent": 1,
+  "solver": {
+    "seconds": 10.0,
+    "max_states": 500000,
+    "max_rss_mb": 1024
+  },
+  "tie_tolerance": 1e-10,
+  "selection_tolerance": 1e-12,
+  "baselines": true,
+  "features": true,
+  "split_seed": 2741125,
+  "train_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "pilot_directories": [
+    "runs\\pilot_v2\\cell-00",
+    "runs\\pilot_v2\\cell-01",
+    "runs\\pilot_v2\\cell-02",
+    "runs\\pilot_v2\\cell-03",
+    "runs\\pilot_v2\\cell-04",
+    "runs\\pilot_v2\\cell-05",
+    "runs\\pilot_v2\\cell-06",
+    "runs\\pilot_v2\\cell-07",
+    "runs\\pilot_v2\\cell-08",
+    "runs\\pilot_v2\\cell-09",
+    "runs/smoke"
+  ],
+  "reserved_witness": "verification_recomputed.json",
+  "model_seeds": [
+    41,
+    73,
+    107
+  ],
+  "model_grid": {
+    "ridge": [
+      {
+        "alpha": 0.1
+      },
+      {
+        "alpha": 1.0
+      },
+      {
+        "alpha": 10.0
+      }
+    ],
+    "boosting": [
+      {
+        "max_iter": 120,
+        "max_leaf_nodes": 7
+      },
+      {
+        "max_iter": 120,
+        "max_leaf_nodes": 15
+      }
+    ]
+  },
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 129417,
+  "freeze_receipt": "configs/main.frozen.json",
+  "primary_metric": "Parent-mean expected initial-question regret under uniform tie handling",
+  "primary_comparison": "Validation-selected ML versus lookahead3; fixed seed 41 primary, other seeds sensitivity",
+  "model_fit_scope": "Train only, all hyperparameters selected on validation; no successor-state training",
+  "selection_order": [
+    "base",
+    "base_conditional",
+    "base_search",
+    "all"
+  ],
+  "generation_estimate_seconds_p95_sum": 316.04856159996615,
+  "post_pilot_numerics": "Features clamp abs<=1e-10 and round to 12 decimals to suppress eigensolver permutation noise."
+}

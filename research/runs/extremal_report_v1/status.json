@@ -1,0 +1,17 @@
+{
+  "completed": "2026-11-25T15:22:03.411117+09:00",
+  "search_modes": [
+    "fixed Gram",
+    "joint controlled context"
+  ],
+  "finite_best_contrast_exact": "2/9",
+  "finite_min_tie_contrast_exact": "2/9",
+  "fixed_degree3_asymptotic_contrast": "N/392+O(1)",
+  "global_maximum_proved": false,
+  "failed_extensions_preserved": [
+    "No improvement over2/21 in selected fixed Gram search",
+    "18x9 directsum no linear amplification"
+  ],
+  "previous_main_preserved": true,
+  "note_sha256": "5b229626650d6004ff6e7643a37db63399fdbe583dab5d5f191458173486e4f3"
+}

@@ -1,0 +1,10 @@
+{
+  "renderer": "PyMuPDF 1.3x, page PNGs and contact sheet",
+  "pdf": "output/pdf/Twenty_Questions_Paper_Final.pdf",
+  "pages_rendered": 18,
+  "contact_sheet": "tmp/pdfs/final_overleaf/contact.png",
+  "inspected": "All-page contact sheet; full-size title, theorem, ML table, witness tables and references",
+  "clipping_or_overlaps_found": false,
+  "missing_glyphs_found": false,
+  "bibliography_orphan_page_removed": true
+}

@@ -1,0 +1,50 @@
+{
+  "started": "2026-11-25T16:37:48.421818+09:00",
+  "code_sha256": "23a842a1908c6a2a454edcc8402cd5212bbfe12c7472a80dbb51e7eb363f55ca",
+  "base_sha256": "33451c3fd3caadfa1fb39c975359d7c7819827ba00d657d8158e8262004a269c",
+  "skeletons": [
+    {
+      "name": "K4",
+      "T": 4
+    },
+    {
+      "name": "K33",
+      "T": 6
+    },
+    {
+      "name": "cube",
+      "T": 8
+    },
+    {
+      "name": "Petersen",
+      "T": 10
+    },
+    {
+      "name": "Heawood",
+      "T": 14
+    },
+    {
+      "name": "cubic-32-seed17",
+      "T": 32
+    },
+    {
+      "name": "cubic-64-seed29",
+      "T": 64
+    },
+    {
+      "name": "cubic-76-seed41",
+      "T": 76
+    },
+    {
+      "name": "cubic-100-seed73",
+      "T": 100
+    }
+  ],
+  "prescribed_gap_thresholds": [
+    "1/10",
+    "1/20",
+    "1/100"
+  ],
+  "claims": "Finite exact rational spectral lower certificates; infinite expander existence is a separate known theorem",
+  "large_exact_optimal_labels": "Not attempted or filled from asymptotic formulas"
+}

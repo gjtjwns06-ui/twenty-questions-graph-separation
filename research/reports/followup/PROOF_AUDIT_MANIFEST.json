@@ -1,0 +1,13 @@
+{
+  "created": "2026-11-25T15:41:50.809407+09:00",
+  "files": {
+    "reports\\followup\\PROOF_AUDIT.md": "e510a4c2b61e1fcef9648950d5865c5d348b2e1a781ee7d2bc3741a4c2326013",
+    "followup_work\\proof_audit_certificates.json": "ccf93a63f05f0017b7250eca3c3e985ea12e40abf248fabcdad8733a62117f43",
+    "followup_work\\proof_signature.py": "34e80bae07d0f83be4d3f922c1871c59057e8ecd0601b56dad673c4bf24d40a7",
+    "followup_work\\cover_language.py": "62f81919d42e695067e2ddfa65c3cb1005388b39dd7f12e869610c14fd7a0f88",
+    "followup_work\\cover_language_result.json": "06d9f8acf7b38b28924f5099c8c3196d2b32bd1d27c1cbdd1533441225b85d97",
+    "followup_work\\profile_dominance.py": "7dfd95bab60b74507e82af6f7c359cb32979d51413350f1b643f259df153fd6c",
+    "followup_work\\profile_dominance_result.json": "25449b3eb0b1354e0ce6886440bca088cf8e3703903d87d118d91ea7cfde0844",
+    "followup_work\\audit_bounds.py": "56f83b82ae1f342c4b6c593ed76f419ec8b92a84a1ec4797fc26171e591058f8"
+  }
+}

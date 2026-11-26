@@ -1,0 +1,70 @@
+{
+  "completed": "2026-11-25T15:36:05.600075+09:00",
+  "all_port_cases": 49,
+  "base14_port3_regret_contrast": "R_A-R_B=N/784+O(1)",
+  "base18_all_ports_regret_contrast_leading_zero": true,
+  "base18_port3_optimal_cost_contrast": "Copt_B-Copt_A=N/324+O(1)",
+  "hub_pair_connector_stronger_regret_contrast": "2N/841+O(1); proof in CONNECTED_AGENT.md",
+  "finite_statuses": [
+    {
+      "base": "base14",
+      "copies": 1,
+      "label": "a",
+      "status": "complete"
+    },
+    {
+      "base": "base14",
+      "copies": 1,
+      "label": "b",
+      "status": "complete"
+    },
+    {
+      "base": "base14",
+      "copies": 2,
+      "label": "a",
+      "status": "complete"
+    },
+    {
+      "base": "base14",
+      "copies": 2,
+      "label": "b",
+      "status": "complete"
+    },
+    {
+      "base": "base14",
+      "copies": 3,
+      "label": "a",
+      "status": "state_limit"
+    },
+    {
+      "base": "base14",
+      "copies": 3,
+      "label": "b",
+      "status": "state_limit"
+    },
+    {
+      "base": "base18",
+      "copies": 1,
+      "label": "a",
+      "status": "complete"
+    },
+    {
+      "base": "base18",
+      "copies": 1,
+      "label": "b",
+      "status": "complete"
+    },
+    {
+      "base": "base18",
+      "copies": 2,
+      "label": "a",
+      "status": "complete"
+    },
+    {
+      "base": "base18",
+      "copies": 2,
+      "label": "b",
+      "status": "complete"
+    }
+  ]
+}

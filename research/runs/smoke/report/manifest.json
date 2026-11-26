@@ -1,0 +1,17 @@
+{
+  "first_regret.pdf": "adb9e33f363f14e594989ab4319e3fc5eed00e50456d33f2053f3d5ab7dc9b83",
+  "first_regret.png": "3371d32603d1eb546b1468673b2741839b0a7fc11d1c7bac271a53d47388756c",
+  "incomplete_worlds.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+  "MAIN_REPORT.md": "e7c30ac6c10f7733c754de59f0fd8b5fcc855d17f9a1185024fa1ee7d3a1984d",
+  "model_seed_variation.csv": "7dfdcf100321a98f6e16e27a88a80ffe6b9ccbd32c3a8026144e0824cf756cc8",
+  "occurrence.csv": "00a8a4d551cc028609d5dee21d3dd9641fa83be5f3c828ab30993e01d448c1cf",
+  "paired_comparisons.csv": "4a3315420522974544ed5c0e1263d967378ffb24e939b72f01c345954c445939",
+  "policy_subgroups.csv": "dc03fe05bfd7215bfc0ee8fdf95e298d718a95af97ea6722884ea666ee48665b",
+  "policy_summary.csv": "18297238015b8e8b4cc5fb7414f8f2c25b1891205f64f785e2e5e43ab00be407",
+  "policy_world_metrics.csv": "d7fd66258d50c69397425204671ded510368b949477ad17fdaf777c911a30902",
+  "structure.json": "f865db12a064c9c18b5604653c0c8677c5717d3cf1f077b62fe585587eb3c4cf",
+  "structure_pairs.csv": "87c693c61b49520bd7973720a82ae114a774c40d30c4d704f366a199988c302f",
+  "timing.json": "4dae2fdebfface87b3f2e54da87ee7f0fc284bebff5646653c6502ab879e3c0b",
+  "trade_effects.pdf": "e756f660aab92035ed28f51b24eba808355b3988140b7e5acda78efbb7b4efb5",
+  "trade_effects.png": "f19280ca12fe8167abdb5eb2e0baf5aff283f2b2e00ce8be4f4dc590afe3049e"
+}

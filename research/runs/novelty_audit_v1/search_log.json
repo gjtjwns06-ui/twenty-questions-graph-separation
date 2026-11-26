@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-25",
+  "timezone": "Asia/Seoul",
+  "provider": "connected search_service web_run",
+  "registered_before_search": false,
+  "query_count": 50,
+  "batch_count": 13,
+  "batches": [
+    {
+      "receipt": "web_receipts/11.json",
+      "queries": [
+        "\"min sum set cover\" \"bounded\" \"degree\" greedy",
+        "\"decision tree\" \"pairwise\" \"identification\" lower bound",
+        "\"greedy\" \"identification\" \"cospectral\"",
+        "\"Kirkland\" \"Two-mode\" \"2018\" cny"
+      ]
+    },
+    {
+      "receipt": "web_receipts/12.json",
+      "queries": [
+        "\"On approximately optimal binary decision trees\" Kosaraju pdf",
+        "\"Two-mode networks exhibiting data loss\" \"10.1093\"",
+        "\"Minimum Sum Set Cover: Structures and Algorithm\"",
+        "\"decision tree\" \"co-occurrence\" \"optimal\""
+      ]
+    },
+    {
+      "receipt": "web_receipts/15.json",
+      "queries": [
+        "\"decision tree\" \"same\" \"pairwise\" \"cost\"",
+        "\"query complexity\" \"same marginals\"",
+        "\"identification\" \"pairwise statistics\" questions",
+        "\"min sum set cover\" \"Gram\""
+      ]
+    },
+    {
+      "receipt": "web_receipts/18.json",
+      "queries": [
+        "\"What Response Marginals Miss\" \"pairwise\"",
+        "\"decision tree\" \"matched marginals\"",
+        "\"adaptive\" \"pairwise marginals\" \"query\" identification",
+        "\"optimal decision tree\" \"same\" \"correlations\""
+      ]
+    },
+    {
+      "receipt": "web_receipts/19.json",
+      "queries": [
+        "\"Pandora\" \"pairwise\" \"indistinguishable\"",
+        "\"search\" \"pairwise independent\" \"min-sum\""
+      ]
+    },
+    {
+      "receipt": "web_receipts/21.json",
+      "queries": [
+        "\"decision tree\" \"clique expansion\"",
+        "\"greedy\" \"cut-equivalent\" hypergraphs",
+        "\"hypergraph\" \"pairwise statistics\" \"search\"",
+        "\"hypergraph\" \"Gram matrices\" \"decision\""
+      ]
+    },
+    {
+      "receipt": "web_receipts/22.json",
+      "queries": [
+        "\"identification\" \"same Gram matrix\"",
+        "\"decision trees\" \"same cut\"",
+        "\"min-sum set cover\" \"trade\" hypergraph",
+        "\"greedy\" \"identification\" \"expander\""
+      ]
+    },
+    {
+      "receipt": "web_receipts/01.json",
+      "queries": [
+        "\"min sum set cover\" \"pairwise\"",
+        "\"decision tree\" \"same Gram\"",
+        "\"hypergraph\" \"hidden edge\" \"vertex queries\"",
+        "\"minimum sum\" \"Steiner triple\""
+      ]
+    },
+    {
+      "receipt": "web_receipts/02.json",
+      "queries": [
+        "hypergraph \"hidden edge\" search vertex queries decision tree",
+        "\"decision trees\" \"Pasch\"",
+        "\"search\" \"hypergraph\" \"average\" \"vertex queries\"",
+        "\"min-sum set cover\" \"intersection\" greedy"
+      ]
+    },
+    {
+      "receipt": "web_receipts/04.json",
+      "queries": [
+        "\"min-sum set cover\" \"pairwise intersections\"",
+        "\"hypergraph\" \"same 2-section\" optimization",
+        "\"identification\" \"Steiner triple systems\"",
+        "\"search\" \"hidden hyperedge\""
+      ]
+    },
+    {
+      "receipt": "web_receipts/05.json",
+      "queries": [
+        "\"decision tree\" \"pairwise marginals\"",
+        "\"greedy\" \"Pasch\"",
+        "\"hypergraph\" \"same codegrees\"",
+        "\"edge identification\" \"vertex\" queries"
+      ]
+    },
+    {
+      "receipt": "web_receipts/06.json",
+      "queries": [
+        "Kirkland 2018 hypergraph weighted clique expansion reconstruction incidence matrix",
+        "\"hypergraph\" \"search number\" \"identification\"",
+        "\"searching\" \"hyperedges\" \"average\"",
+        "\"decision tree\" \"bounded degree\" greedy uniform"
+      ]
+    },
+    {
+      "receipt": "web_receipts/08.json",
+      "queries": [
+        "\"Kirkland\" \"2018\" \"hypergraphs\" \"two\"",
+        "\"Two-mode networks exhibiting data loss\"",
+        "\"Kosaraju\" \"Przytycka\" \"Borgstrom\" decision trees",
+        "\"Dasgupta\" \"2004\" \"Analysis of a greedy active learning strategy\""
+      ]
+    }
+  ],
+  "scope": "These are executed search expressions transcribed after execution; this is not an exhaustive bibliographic search."
+}

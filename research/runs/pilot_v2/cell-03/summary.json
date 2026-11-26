@@ -1,0 +1,20 @@
+{
+  "started": "2026-11-25T13:11:18.103217+09:00",
+  "parents": 5,
+  "parents_with_valid_trade": 5,
+  "candidates": 44,
+  "valid_candidates": 21,
+  "worlds": 10,
+  "completed_worlds": 10,
+  "pairs": 5,
+  "completed_pairs": 5,
+  "finished": "2026-11-25T13:11:18.590851+09:00",
+  "profile": {
+    "seconds": 0.48749049999992167,
+    "baseline_rss_mb": 31.39453125,
+    "sampled_peak_rss_mb": 34.8671875,
+    "sampled_increment_mb": 3.47265625,
+    "lifetime_peak_rss_mb": 34.8671875,
+    "sampling_interval_seconds": 0.005
+  }
+}

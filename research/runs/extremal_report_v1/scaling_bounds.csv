@@ -1,0 +1,13 @@
+﻿T,N,m,row_degree,optimal_leading_exact,greedy_a_leading_exact,greedy_b_leading_exact,regret_contrast_leading_exact,certified_regret_b_minus_a_lower_exact,certified_regret_b_minus_a_lower,source
+1,14,8,3,8/7,65/56,67/56,1/28,-214/7,-30.571428571428573,"Proved bounds, NOT exact DP measurements"
+2,28,16,3,16/7,65/28,67/28,1/14,-33/2,-16.5,"Proved bounds, NOT exact DP measurements"
+4,56,32,3,32/7,65/14,67/14,1/7,-527/56,-9.410714285714286,"Proved bounds, NOT exact DP measurements"
+8,112,64,3,64/7,65/7,67/7,2/7,-645/112,-5.758928571428571,"Proved bounds, NOT exact DP measurements"
+16,224,128,3,128/7,130/7,134/7,4/7,-119/32,-3.71875,"Proved bounds, NOT exact DP measurements"
+32,448,256,3,256/7,260/7,268/7,8/7,-1017/448,-2.2700892857142856,"Proved bounds, NOT exact DP measurements"
+64,896,512,3,512/7,520/7,536/7,16/7,-617/896,-0.6886160714285714,"Proved bounds, NOT exact DP measurements"
+81,1134,648,3,648/7,5265/56,5427/56,81/28,2/189,0.010582010582010581,"Proved bounds, NOT exact DP measurements"
+128,1792,1024,3,1024/7,1040/7,1072/7,32/7,465/256,1.81640625,"Proved bounds, NOT exact DP measurements"
+256,3584,2048,3,2048/7,2080/7,2144/7,64/7,23287/3584,6.497488839285714,"Proved bounds, NOT exact DP measurements"
+512,7168,4096,3,4096/7,4160/7,4288/7,128/7,112503/7168,15.695172991071429,"Proved bounds, NOT exact DP measurements"
+1024,14336,8192,3,8192/7,8320/7,8576/7,256/7,69649/2048,34.00830078125,"Proved bounds, NOT exact DP measurements"

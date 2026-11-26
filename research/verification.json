@@ -1,0 +1,710 @@
+{
+  "scope": "One constructed witness; not a sampled experiment or a novelty claim.",
+  "assumptions": [
+    "uniform target",
+    "unit question cost",
+    "noiseless answers",
+    "fixed binary questions",
+    "adaptive identification of a unique object"
+  ],
+  "A": {
+    "rows": [
+      "135",
+      "146",
+      "236",
+      "245",
+      "238",
+      "267",
+      "158",
+      "234",
+      "378",
+      "357",
+      "156",
+      "157",
+      "123",
+      "368"
+    ],
+    "n_objects": 14,
+    "n_questions": 8,
+    "row_degrees": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "column_degrees": [
+      6,
+      6,
+      8,
+      3,
+      6,
+      5,
+      4,
+      4
+    ],
+    "gram": [
+      [
+        6,
+        1,
+        2,
+        1,
+        4,
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        6,
+        4,
+        2,
+        1,
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        4,
+        8,
+        1,
+        2,
+        2,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        1,
+        3,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        2,
+        1,
+        6,
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        1,
+        1,
+        5,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        0,
+        2,
+        1,
+        4,
+        1
+      ],
+      [
+        1,
+        1,
+        3,
+        0,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "total_leaf_depth_optimal": 54,
+    "mean_optimal_exact": "27/7",
+    "mean_optimal_decimal": 3.857142857142857,
+    "first_question_total_costs": [
+      55,
+      54,
+      55,
+      58,
+      55,
+      55,
+      56,
+      57
+    ],
+    "optimal_first_questions": [
+      2
+    ],
+    "total_leaf_depth_greedy_id_ties": 55,
+    "mean_greedy_id_ties_exact": "55/14",
+    "greedy_regret_exact": "1/14",
+    "total_leaf_depth_greedy_uniform_ties_exact": "659/12",
+    "mean_greedy_uniform_ties_exact": "659/168",
+    "mean_greedy_uniform_ties_decimal": 3.9226190476190474,
+    "greedy_uniform_ties_regret_exact": "11/168",
+    "optimal_tree": {
+      "question": 2,
+      "yes": {
+        "question": 4,
+        "yes": {
+          "question": 3,
+          "yes": {
+            "object": 8
+          },
+          "no": {
+            "object": 4
+          }
+        },
+        "no": {
+          "question": 6,
+          "yes": {
+            "question": 3,
+            "yes": {
+              "object": 3
+            },
+            "no": {
+              "object": 6
+            }
+          },
+          "no": {
+            "question": 1,
+            "yes": {
+              "object": 13
+            },
+            "no": {
+              "object": 5
+            }
+          }
+        }
+      },
+      "no": {
+        "question": 3,
+        "yes": {
+          "question": 5,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "object": 1
+            },
+            "no": {
+              "object": 10
+            }
+          },
+          "no": {
+            "question": 6,
+            "yes": {
+              "object": 14
+            },
+            "no": {
+              "object": 9
+            }
+          }
+        },
+        "no": {
+          "question": 6,
+          "yes": {
+            "question": 4,
+            "yes": {
+              "object": 2
+            },
+            "no": {
+              "object": 11
+            }
+          },
+          "no": {
+            "question": 7,
+            "yes": {
+              "object": 12
+            },
+            "no": {
+              "object": 7
+            }
+          }
+        }
+      }
+    },
+    "optimal_tree_object_depths": [
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "simple_4cycles": 23,
+    "simple_6cycles": 140,
+    "triple_counts": {
+      "1,2,3": 1,
+      "1,2,4": 0,
+      "1,2,5": 0,
+      "1,2,6": 0,
+      "1,2,7": 0,
+      "1,2,8": 0,
+      "1,3,4": 0,
+      "1,3,5": 1,
+      "1,3,6": 0,
+      "1,3,7": 0,
+      "1,3,8": 0,
+      "1,4,5": 0,
+      "1,4,6": 1,
+      "1,4,7": 0,
+      "1,4,8": 0,
+      "1,5,6": 1,
+      "1,5,7": 1,
+      "1,5,8": 1,
+      "1,6,7": 0,
+      "1,6,8": 0,
+      "1,7,8": 0,
+      "2,3,4": 1,
+      "2,3,5": 0,
+      "2,3,6": 1,
+      "2,3,7": 0,
+      "2,3,8": 1,
+      "2,4,5": 1,
+      "2,4,6": 0,
+      "2,4,7": 0,
+      "2,4,8": 0,
+      "2,5,6": 0,
+      "2,5,7": 0,
+      "2,5,8": 0,
+      "2,6,7": 1,
+      "2,6,8": 0,
+      "2,7,8": 0,
+      "3,4,5": 0,
+      "3,4,6": 0,
+      "3,4,7": 0,
+      "3,4,8": 0,
+      "3,5,6": 0,
+      "3,5,7": 1,
+      "3,5,8": 0,
+      "3,6,7": 0,
+      "3,6,8": 1,
+      "3,7,8": 1,
+      "4,5,6": 0,
+      "4,5,7": 0,
+      "4,5,8": 0,
+      "4,6,7": 0,
+      "4,6,8": 0,
+      "4,7,8": 0,
+      "5,6,7": 0,
+      "5,6,8": 0,
+      "5,7,8": 0,
+      "6,7,8": 0
+    },
+    "subsets_evaluated": 16383
+  },
+  "B": {
+    "rows": [
+      "136",
+      "145",
+      "235",
+      "246",
+      "238",
+      "267",
+      "158",
+      "234",
+      "378",
+      "357",
+      "156",
+      "157",
+      "123",
+      "368"
+    ],
+    "n_objects": 14,
+    "n_questions": 8,
+    "row_degrees": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "column_degrees": [
+      6,
+      6,
+      8,
+      3,
+      6,
+      5,
+      4,
+      4
+    ],
+    "gram": [
+      [
+        6,
+        1,
+        2,
+        1,
+        4,
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        6,
+        4,
+        2,
+        1,
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        4,
+        8,
+        1,
+        2,
+        2,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        1,
+        3,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        2,
+        1,
+        6,
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        1,
+        1,
+        5,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        0,
+        2,
+        1,
+        4,
+        1
+      ],
+      [
+        1,
+        1,
+        3,
+        0,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "total_leaf_depth_optimal": 55,
+    "mean_optimal_exact": "55/14",
+    "mean_optimal_decimal": 3.9285714285714284,
+    "first_question_total_costs": [
+      56,
+      56,
+      55,
+      58,
+      55,
+      55,
+      56,
+      57
+    ],
+    "optimal_first_questions": [
+      3,
+      5,
+      6
+    ],
+    "total_leaf_depth_greedy_id_ties": 56,
+    "mean_greedy_id_ties_exact": "4",
+    "greedy_regret_exact": "1/14",
+    "total_leaf_depth_greedy_uniform_ties_exact": "111/2",
+    "mean_greedy_uniform_ties_exact": "111/28",
+    "mean_greedy_uniform_ties_decimal": 3.9642857142857144,
+    "greedy_uniform_ties_regret_exact": "1/28",
+    "optimal_tree": {
+      "question": 3,
+      "yes": {
+        "question": 2,
+        "yes": {
+          "question": 1,
+          "yes": {
+            "object": 13
+          },
+          "no": {
+            "question": 4,
+            "yes": {
+              "object": 8
+            },
+            "no": {
+              "question": 5,
+              "yes": {
+                "object": 3
+              },
+              "no": {
+                "object": 5
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 6,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "object": 1
+            },
+            "no": {
+              "object": 14
+            }
+          },
+          "no": {
+            "question": 5,
+            "yes": {
+              "object": 10
+            },
+            "no": {
+              "object": 9
+            }
+          }
+        }
+      },
+      "no": {
+        "question": 4,
+        "yes": {
+          "question": 1,
+          "yes": {
+            "object": 2
+          },
+          "no": {
+            "object": 4
+          }
+        },
+        "no": {
+          "question": 6,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "object": 11
+            },
+            "no": {
+              "object": 6
+            }
+          },
+          "no": {
+            "question": 7,
+            "yes": {
+              "object": 12
+            },
+            "no": {
+              "object": 7
+            }
+          }
+        }
+      }
+    },
+    "optimal_tree_object_depths": [
+      4,
+      3,
+      5,
+      3,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4
+    ],
+    "simple_4cycles": 23,
+    "simple_6cycles": 140,
+    "triple_counts": {
+      "1,2,3": 1,
+      "1,2,4": 0,
+      "1,2,5": 0,
+      "1,2,6": 0,
+      "1,2,7": 0,
+      "1,2,8": 0,
+      "1,3,4": 0,
+      "1,3,5": 0,
+      "1,3,6": 1,
+      "1,3,7": 0,
+      "1,3,8": 0,
+      "1,4,5": 1,
+      "1,4,6": 0,
+      "1,4,7": 0,
+      "1,4,8": 0,
+      "1,5,6": 1,
+      "1,5,7": 1,
+      "1,5,8": 1,
+      "1,6,7": 0,
+      "1,6,8": 0,
+      "1,7,8": 0,
+      "2,3,4": 1,
+      "2,3,5": 1,
+      "2,3,6": 0,
+      "2,3,7": 0,
+      "2,3,8": 1,
+      "2,4,5": 0,
+      "2,4,6": 1,
+      "2,4,7": 0,
+      "2,4,8": 0,
+      "2,5,6": 0,
+      "2,5,7": 0,
+      "2,5,8": 0,
+      "2,6,7": 1,
+      "2,6,8": 0,
+      "2,7,8": 0,
+      "3,4,5": 0,
+      "3,4,6": 0,
+      "3,4,7": 0,
+      "3,4,8": 0,
+      "3,5,6": 0,
+      "3,5,7": 1,
+      "3,5,8": 0,
+      "3,6,7": 0,
+      "3,6,8": 1,
+      "3,7,8": 1,
+      "4,5,6": 0,
+      "4,5,7": 0,
+      "4,5,8": 0,
+      "4,6,7": 0,
+      "4,6,8": 0,
+      "4,7,8": 0,
+      "5,6,7": 0,
+      "5,6,8": 0,
+      "5,7,8": 0,
+      "6,7,8": 0
+    },
+    "subsets_evaluated": 16383
+  },
+  "checks": {
+    "same_gram": true,
+    "same_row_degrees": true,
+    "disjoint_optimal_first_question_sets": true,
+    "optimal_trees_replayed_for_all_objects": true,
+    "simple_6cycles_counted_two_ways": true
+  },
+  "changed_triple_counts": {
+    "1,3,5": [
+      1,
+      0
+    ],
+    "1,3,6": [
+      0,
+      1
+    ],
+    "1,4,5": [
+      0,
+      1
+    ],
+    "1,4,6": [
+      1,
+      0
+    ],
+    "2,3,5": [
+      0,
+      1
+    ],
+    "2,3,6": [
+      1,
+      0
+    ],
+    "2,4,5": [
+      1,
+      0
+    ],
+    "2,4,6": [
+      0,
+      1
+    ]
+  },
+  "pair_stat_only_root_policy_regret_bounds": {
+    "deterministic_worst_case": "1/14",
+    "randomized_worst_case": "1/28",
+    "attaining_randomized_policy": {
+      "Q2": "1/2",
+      "Q3": "1/2"
+    },
+    "continuation": "Oracle-optimal continuation after the first question.",
+    "per_question_regret_A_exact": [
+      "1/14",
+      "0",
+      "1/14",
+      "2/7",
+      "1/14",
+      "1/14",
+      "1/7",
+      "3/14"
+    ],
+    "per_question_regret_B_exact": [
+      "1/14",
+      "1/14",
+      "0",
+      "3/14",
+      "0",
+      "0",
+      "1/14",
+      "1/7"
+    ],
+    "deterministic_minimax_regret_verified": "1/14",
+    "q2_q3_mixture_mean_costs_exact": [
+      "109/28",
+      "111/28"
+    ],
+    "q2_q3_mixture_regrets_exact": [
+      "1/28",
+      "1/28"
+    ],
+    "randomized_lower_bound_proof": "Let p be the probability of Q2. A-regret is at least (1-p)/14 and B-regret at least p/14, so max regret is at least 1/28."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "started": "2026-11-25T16:34:21.388114+09:00",
+  "source_sha256": "58c7c5da48c8b1c4a5c22cc4f13923072ee60abf30405a5ceb248aa7697a3c49",
+  "base_sha256": "33451c3fd3caadfa1fb39c975359d7c7819827ba00d657d8158e8262004a269c",
+  "purpose": "Finite certificates for proved boundeddegreeconnector family, notrandomprevalence",
+  "exact_cases": "DirectedcycleT2 only; otherfamilies structural/proofbounds",
+  "exact_limits": {
+    "seconds": 5,
+    "max_states": 250000,
+    "max_rss_mb": 768
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "completed": "2026-11-25T15:22:01.746949+09:00",
+  "passed": true,
+  "old_main_source_and_config_unchanged": true,
+  "fixed_nodes_checked": 2534,
+  "edges_replayed": 5522,
+  "controlled_candidates_checked": 5728,
+  "background_mutations_replayed": 6000,
+  "independent_full_subset_audits": "runs/extremal_analysis_v1/new18_independent_audit.json",
+  "directsum_and_product_checks_complete": true
+}

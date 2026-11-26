@@ -1,0 +1,8 @@
+# Preserve frozen scientific bytes and hashes on all operating systems.
+research/** -text
+data/** -text
+publication-manifest.json -text
+*.png binary
+*.pdf binary
+*.zip binary
+*.gz binary

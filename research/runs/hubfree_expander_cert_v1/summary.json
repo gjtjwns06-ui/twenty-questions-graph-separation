@@ -1,0 +1,99 @@
+{
+  "completed": "2026-11-25T16:37:50.011042+09:00",
+  "profile": {
+    "seconds": 1.587430100000347,
+    "baseline_rss_mb": 38.62109375,
+    "sampled_peak_rss_mb": 44.12890625,
+    "sampled_increment_mb": 5.5078125,
+    "lifetime_peak_rss_mb": 44.36328125,
+    "sampling_interval_seconds": 0.005
+  },
+  "cases": [
+    {
+      "name": "K4",
+      "T": 4,
+      "n": 68,
+      "spectral_certified": true,
+      "incidence_expansion_lower": "1/1775",
+      "regret_lower": "-365/68",
+      "regret_upper": "369/68"
+    },
+    {
+      "name": "K33",
+      "T": 6,
+      "n": 102,
+      "spectral_certified": true,
+      "incidence_expansion_lower": "1/1775",
+      "regret_lower": "-212/51",
+      "regret_upper": "13/3"
+    },
+    {
+      "name": "cube",
+      "T": 8,
+      "n": 136,
+      "spectral_certified": true,
+      "incidence_expansion_lower": "1/1775",
+      "regret_lower": "-479/136",
+      "regret_upper": "519/136"
+    },
+    {
+      "name": "Petersen",
+      "T": 10,
+      "n": 170,
+      "spectral_certified": true,
+      "incidence_expansion_lower": "1/1775",
+      "regret_lower": "-53/17",
+      "regret_upper": "60/17"
+    },
+    {
+      "name": "Heawood",
+      "T": 14,
+      "n": 238,
+      "spectral_certified": true,
+      "incidence_expansion_lower": "1/1775",
+      "regret_lower": "-310/119",
+      "regret_upper": "387/119"
+    },
+    {
+      "name": "cubic-32-seed17",
+      "T": 32,
+      "n": 544,
+      "spectral_certified": true,
+      "incidence_expansion_lower": "1/1775",
+      "regret_lower": "-827/544",
+      "regret_upper": "1755/544"
+    },
+    {
+      "name": "cubic-64-seed29",
+      "T": 64,
+      "n": 1088,
+      "spectral_certified": true,
+      "incidence_expansion_lower": "1/1775",
+      "regret_lower": "-395/1088",
+      "regret_upper": "4299/1088"
+    },
+    {
+      "name": "cubic-76-seed41",
+      "T": 76,
+      "n": 1292,
+      "spectral_certified": true,
+      "incidence_expansion_lower": "1/1775",
+      "regret_lower": "31/1292",
+      "regret_upper": "5517/1292"
+    },
+    {
+      "name": "cubic-100-seed73",
+      "T": 100,
+      "n": 1700,
+      "spectral_certified": true,
+      "incidence_expansion_lower": "1/1775",
+      "regret_lower": "263/340",
+      "regret_upper": "1677/340"
+    }
+  ],
+  "max_question_degree": 10,
+  "row_degree": 3,
+  "no_articulation_vertex": true,
+  "large_dp_not_used": true,
+  "infinite_expansion_not_inferred_from_samples": true
+}

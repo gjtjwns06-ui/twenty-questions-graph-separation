@@ -1,0 +1,1114 @@
+{
+  "summary": {
+    "base": "base18",
+    "ports": [
+      0,
+      3,
+      1
+    ],
+    "completed_orientations": 3,
+    "contrast_exact": "13/76",
+    "contrast": 0.17105263157894737,
+    "robust_exact": "3/19",
+    "high_orientation": "aa",
+    "low_orientation": "bb"
+  },
+  "bad": {
+    "base": "base18",
+    "pattern_index": 15,
+    "ports": [
+      0,
+      3,
+      1
+    ],
+    "orientation": "aa",
+    "checks": {
+      "connected": true,
+      "biconnected": true,
+      "articulation_questions": [],
+      "articulation_objects": [],
+      "max_question_degree": 10,
+      "min_question_degree": 4,
+      "max_support_fraction": 0.2631578947368421,
+      "root_questions": [
+        3,
+        12
+      ],
+      "root_tie_count": 2,
+      "all_columns_nonconstant": true,
+      "unique_rows": true,
+      "row_degree3": true
+    },
+    "graph": {
+      "node_id": "63114d0a4f5bfeeed766",
+      "rows": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          8
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          1,
+          9,
+          12
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          3,
+          4,
+          6
+        ],
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          3,
+          4,
+          8
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          9,
+          11,
+          13
+        ],
+        [
+          9,
+          11,
+          15
+        ],
+        [
+          9,
+          11,
+          16
+        ],
+        [
+          9,
+          12,
+          14
+        ],
+        [
+          9,
+          12,
+          15
+        ],
+        [
+          9,
+          12,
+          17
+        ],
+        [
+          9,
+          14,
+          17
+        ],
+        [
+          10,
+          11,
+          14
+        ],
+        [
+          10,
+          12,
+          13
+        ],
+        [
+          10,
+          12,
+          16
+        ],
+        [
+          11,
+          12,
+          13
+        ],
+        [
+          11,
+          13,
+          14
+        ],
+        [
+          11,
+          13,
+          15
+        ],
+        [
+          12,
+          13,
+          15
+        ],
+        [
+          12,
+          13,
+          16
+        ],
+        [
+          12,
+          13,
+          17
+        ],
+        [
+          15,
+          16,
+          17
+        ]
+      ],
+      "n": 38,
+      "m": 18,
+      "exact": {
+        "status": "complete",
+        "optimal_total": 215,
+        "optimal_mean": 5.657894736842105,
+        "first_totals": [
+          217,
+          229,
+          218,
+          215,
+          219,
+          231,
+          227,
+          230,
+          231,
+          217,
+          229,
+          218,
+          215,
+          219,
+          231,
+          227,
+          230,
+          231
+        ],
+        "argmin": [
+          3,
+          12
+        ],
+        "optimal_tree": {
+          "question": 3,
+          "yes": {
+            "question": 0,
+            "yes": {
+              "question": 5,
+              "yes": {
+                "object": 4
+              },
+              "no": {
+                "question": 6,
+                "yes": {
+                  "object": 5
+                },
+                "no": {
+                  "question": 8,
+                  "yes": {
+                    "object": 6
+                  },
+                  "no": {
+                    "object": 7
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 1,
+              "yes": {
+                "question": 4,
+                "yes": {
+                  "object": 10
+                },
+                "no": {
+                  "object": 11
+                }
+              },
+              "no": {
+                "question": 2,
+                "yes": {
+                  "object": 13
+                },
+                "no": {
+                  "question": 6,
+                  "yes": {
+                    "object": 16
+                  },
+                  "no": {
+                    "question": 7,
+                    "yes": {
+                      "object": 17
+                    },
+                    "no": {
+                      "object": 18
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 12,
+            "yes": {
+              "question": 9,
+              "yes": {
+                "question": 1,
+                "yes": {
+                  "object": 12
+                },
+                "no": {
+                  "question": 14,
+                  "yes": {
+                    "object": 24
+                  },
+                  "no": {
+                    "question": 15,
+                    "yes": {
+                      "object": 25
+                    },
+                    "no": {
+                      "object": 26
+                    }
+                  }
+                }
+              },
+              "no": {
+                "question": 10,
+                "yes": {
+                  "question": 13,
+                  "yes": {
+                    "object": 29
+                  },
+                  "no": {
+                    "object": 30
+                  }
+                },
+                "no": {
+                  "question": 11,
+                  "yes": {
+                    "object": 31
+                  },
+                  "no": {
+                    "question": 15,
+                    "yes": {
+                      "object": 34
+                    },
+                    "no": {
+                      "question": 16,
+                      "yes": {
+                        "object": 35
+                      },
+                      "no": {
+                        "object": 36
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 2,
+              "yes": {
+                "question": 4,
+                "yes": {
+                  "question": 0,
+                  "yes": {
+                    "object": 1
+                  },
+                  "no": {
+                    "question": 5,
+                    "yes": {
+                      "object": 14
+                    },
+                    "no": {
+                      "object": 15
+                    }
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "question": 0,
+                    "yes": {
+                      "object": 0
+                    },
+                    "no": {
+                      "object": 9
+                    }
+                  },
+                  "no": {
+                    "question": 6,
+                    "yes": {
+                      "object": 2
+                    },
+                    "no": {
+                      "object": 3
+                    }
+                  }
+                }
+              },
+              "no": {
+                "question": 11,
+                "yes": {
+                  "question": 13,
+                  "yes": {
+                    "question": 9,
+                    "yes": {
+                      "object": 21
+                    },
+                    "no": {
+                      "question": 14,
+                      "yes": {
+                        "object": 32
+                      },
+                      "no": {
+                        "object": 33
+                      }
+                    }
+                  },
+                  "no": {
+                    "question": 10,
+                    "yes": {
+                      "question": 9,
+                      "yes": {
+                        "object": 20
+                      },
+                      "no": {
+                        "object": 28
+                      }
+                    },
+                    "no": {
+                      "question": 15,
+                      "yes": {
+                        "object": 22
+                      },
+                      "no": {
+                        "object": 23
+                      }
+                    }
+                  }
+                },
+                "no": {
+                  "question": 8,
+                  "yes": {
+                    "question": 0,
+                    "yes": {
+                      "object": 8
+                    },
+                    "no": {
+                      "object": 19
+                    }
+                  },
+                  "no": {
+                    "question": 9,
+                    "yes": {
+                      "object": 27
+                    },
+                    "no": {
+                      "object": 37
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "replay_depths": [
+          6,
+          5,
+          6,
+          6,
+          3,
+          4,
+          5,
+          5,
+          6,
+          6,
+          4,
+          4,
+          4,
+          4,
+          6,
+          6,
+          5,
+          6,
+          6,
+          6,
+          7,
+          6,
+          7,
+          7,
+          5,
+          6,
+          6,
+          6,
+          7,
+          5,
+          5,
+          5,
+          7,
+          7,
+          6,
+          7,
+          7,
+          6
+        ],
+        "states": 50126,
+        "elapsed_seconds": 0.5595020000000659
+      },
+      "greedy": {
+        "total_uniform_exact": "443/2",
+        "mean_uniform_exact": "443/76",
+        "mean_uniform": 5.828947368421052,
+        "total_min_ties": 221,
+        "total_max_ties": 222,
+        "gap_exact": "13/76",
+        "gap": 0.17105263157894737,
+        "min_tie_gap_exact": "3/19",
+        "min_tie_gap": 0.15789473684210525,
+        "max_tie_gap_exact": "7/38",
+        "max_tie_gap": 0.18421052631578946,
+        "approximation_ratio_exact": "443/430",
+        "approximation_ratio": 1.0302325581395348,
+        "root_questions": [
+          3,
+          12
+        ],
+        "root_oracle_regret_min_exact": "0"
+      },
+      "profile": {
+        "seconds": 0.5652198999996472,
+        "baseline_rss_mb": 45.1171875,
+        "sampled_peak_rss_mb": 47.64453125,
+        "sampled_increment_mb": 2.52734375,
+        "lifetime_peak_rss_mb": 53.921875,
+        "sampling_interval_seconds": 0.005
+      }
+    },
+    "same_gram_within_pattern": true
+  },
+  "good": {
+    "base": "base18",
+    "pattern_index": 15,
+    "ports": [
+      0,
+      3,
+      1
+    ],
+    "orientation": "bb",
+    "checks": {
+      "connected": true,
+      "biconnected": true,
+      "articulation_questions": [],
+      "articulation_objects": [],
+      "max_question_degree": 10,
+      "min_question_degree": 4,
+      "max_support_fraction": 0.2631578947368421,
+      "root_questions": [
+        3,
+        12
+      ],
+      "root_tie_count": 2,
+      "all_columns_nonconstant": true,
+      "unique_rows": true,
+      "row_degree3": true
+    },
+    "graph": {
+      "node_id": "aa3995e678289250265a",
+      "rows": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          3,
+          8
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          1,
+          9,
+          12
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          3,
+          4,
+          6
+        ],
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          3,
+          4,
+          8
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          9,
+          11,
+          14
+        ],
+        [
+          9,
+          11,
+          15
+        ],
+        [
+          9,
+          11,
+          16
+        ],
+        [
+          9,
+          12,
+          13
+        ],
+        [
+          9,
+          12,
+          15
+        ],
+        [
+          9,
+          12,
+          17
+        ],
+        [
+          9,
+          14,
+          17
+        ],
+        [
+          10,
+          11,
+          13
+        ],
+        [
+          10,
+          12,
+          14
+        ],
+        [
+          10,
+          12,
+          16
+        ],
+        [
+          11,
+          12,
+          13
+        ],
+        [
+          11,
+          13,
+          14
+        ],
+        [
+          11,
+          13,
+          15
+        ],
+        [
+          12,
+          13,
+          15
+        ],
+        [
+          12,
+          13,
+          16
+        ],
+        [
+          12,
+          13,
+          17
+        ],
+        [
+          15,
+          16,
+          17
+        ]
+      ],
+      "n": 38,
+      "m": 18,
+      "exact": {
+        "status": "complete",
+        "optimal_total": 216,
+        "optimal_mean": 5.684210526315789,
+        "first_totals": [
+          217,
+          229,
+          219,
+          216,
+          219,
+          231,
+          227,
+          231,
+          231,
+          217,
+          229,
+          219,
+          216,
+          219,
+          231,
+          227,
+          231,
+          231
+        ],
+        "argmin": [
+          3,
+          12
+        ],
+        "optimal_tree": {
+          "question": 3,
+          "yes": {
+            "question": 0,
+            "yes": {
+              "question": 4,
+              "yes": {
+                "object": 4
+              },
+              "no": {
+                "question": 6,
+                "yes": {
+                  "object": 5
+                },
+                "no": {
+                  "question": 8,
+                  "yes": {
+                    "object": 6
+                  },
+                  "no": {
+                    "object": 7
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 1,
+              "yes": {
+                "question": 5,
+                "yes": {
+                  "object": 10
+                },
+                "no": {
+                  "object": 11
+                }
+              },
+              "no": {
+                "question": 2,
+                "yes": {
+                  "object": 13
+                },
+                "no": {
+                  "question": 6,
+                  "yes": {
+                    "object": 16
+                  },
+                  "no": {
+                    "question": 7,
+                    "yes": {
+                      "object": 17
+                    },
+                    "no": {
+                      "object": 18
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 9,
+            "yes": {
+              "question": 11,
+              "yes": {
+                "question": 10,
+                "yes": {
+                  "object": 20
+                },
+                "no": {
+                  "question": 14,
+                  "yes": {
+                    "object": 21
+                  },
+                  "no": {
+                    "question": 15,
+                    "yes": {
+                      "object": 22
+                    },
+                    "no": {
+                      "object": 23
+                    }
+                  }
+                }
+              },
+              "no": {
+                "question": 17,
+                "yes": {
+                  "question": 12,
+                  "yes": {
+                    "object": 26
+                  },
+                  "no": {
+                    "object": 27
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 12
+                  },
+                  "no": {
+                    "question": 13,
+                    "yes": {
+                      "object": 24
+                    },
+                    "no": {
+                      "object": 25
+                    }
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 13,
+              "yes": {
+                "question": 11,
+                "yes": {
+                  "question": 10,
+                  "yes": {
+                    "object": 28
+                  },
+                  "no": {
+                    "question": 12,
+                    "yes": {
+                      "object": 31
+                    },
+                    "no": {
+                      "question": 14,
+                      "yes": {
+                        "object": 32
+                      },
+                      "no": {
+                        "object": 33
+                      }
+                    }
+                  }
+                },
+                "no": {
+                  "question": 15,
+                  "yes": {
+                    "object": 34
+                  },
+                  "no": {
+                    "question": 16,
+                    "yes": {
+                      "object": 35
+                    },
+                    "no": {
+                      "object": 36
+                    }
+                  }
+                }
+              },
+              "no": {
+                "question": 0,
+                "yes": {
+                  "question": 5,
+                  "yes": {
+                    "question": 2,
+                    "yes": {
+                      "object": 1
+                    },
+                    "no": {
+                      "object": 8
+                    }
+                  },
+                  "no": {
+                    "question": 1,
+                    "yes": {
+                      "object": 0
+                    },
+                    "no": {
+                      "question": 6,
+                      "yes": {
+                        "object": 2
+                      },
+                      "no": {
+                        "object": 3
+                      }
+                    }
+                  }
+                },
+                "no": {
+                  "question": 2,
+                  "yes": {
+                    "question": 1,
+                    "yes": {
+                      "object": 9
+                    },
+                    "no": {
+                      "question": 5,
+                      "yes": {
+                        "object": 14
+                      },
+                      "no": {
+                        "object": 15
+                      }
+                    }
+                  },
+                  "no": {
+                    "question": 10,
+                    "yes": {
+                      "question": 14,
+                      "yes": {
+                        "object": 29
+                      },
+                      "no": {
+                        "object": 30
+                      }
+                    },
+                    "no": {
+                      "question": 6,
+                      "yes": {
+                        "object": 19
+                      },
+                      "no": {
+                        "object": 37
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "replay_depths": [
+          6,
+          6,
+          7,
+          7,
+          3,
+          4,
+          5,
+          5,
+          6,
+          6,
+          4,
+          4,
+          5,
+          4,
+          7,
+          7,
+          5,
+          6,
+          6,
+          7,
+          4,
+          5,
+          6,
+          6,
+          6,
+          6,
+          5,
+          5,
+          5,
+          7,
+          7,
+          6,
+          7,
+          7,
+          5,
+          6,
+          6,
+          7
+        ],
+        "states": 52663,
+        "elapsed_seconds": 0.6146390000012616
+      },
+      "greedy": {
+        "total_uniform_exact": "216",
+        "mean_uniform_exact": "108/19",
+        "mean_uniform": 5.684210526315789,
+        "total_min_ties": 216,
+        "total_max_ties": 216,
+        "gap_exact": "0",
+        "gap": 0.0,
+        "min_tie_gap_exact": "0",
+        "min_tie_gap": 0.0,
+        "max_tie_gap_exact": "0",
+        "max_tie_gap": 0.0,
+        "approximation_ratio_exact": "1",
+        "approximation_ratio": 1.0,
+        "root_questions": [
+          3,
+          12
+        ],
+        "root_oracle_regret_min_exact": "0"
+      },
+      "profile": {
+        "seconds": 0.6192993999993632,
+        "baseline_rss_mb": 50.1328125,
+        "sampled_peak_rss_mb": 52.66796875,
+        "sampled_increment_mb": 2.53515625,
+        "lifetime_peak_rss_mb": 53.921875,
+        "sampling_interval_seconds": 0.005
+      }
+    },
+    "same_gram_within_pattern": true
+  }
+}

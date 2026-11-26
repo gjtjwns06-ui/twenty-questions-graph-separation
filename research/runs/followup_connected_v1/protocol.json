@@ -1,0 +1,35 @@
+{
+  "started": "2026-11-25T15:35:28.204406+09:00",
+  "source_sha256": "33451c3fd3caadfa1fb39c975359d7c7819827ba00d657d8158e8262004a269c",
+  "code_sha256": "8bc8a4c185e49730d74d6bbb651d6fce14630ab5b1c14117e6fbbe5858116b44",
+  "constructor": "two oldblocks per degree3 connector; one shared hub",
+  "ports": [
+    0
+  ],
+  "small_exact_s": [
+    1
+  ],
+  "structural_s": [
+    1,
+    2,
+    9,
+    16,
+    54,
+    100,
+    256
+  ],
+  "seeded_policy_s": [
+    9,
+    16
+  ],
+  "seeded_policy_seeds": [
+    17,
+    83
+  ],
+  "exact_limits": {
+    "seconds": 10,
+    "max_states": 500000,
+    "max_rss_mb": 1024
+  },
+  "scientific_scope": "Connected family with proof bounds; no inferred largeexact optimal labels"
+}

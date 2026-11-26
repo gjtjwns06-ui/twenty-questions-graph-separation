@@ -1,0 +1,9 @@
+{
+  "frozen": "2026-11-25T15:12:14.803702+09:00",
+  "config_sha256": "b109a4b57283defdbc3ed734592f7d72e58debf18f746405d4c23593f16e8334",
+  "sources": {
+    "extremal_pair_design.py": "a10cc79d73528e98c47414f234378b6a4fe6318f63d973c80c82c5dc21e9d489",
+    "extremal_experiment.py": "b0d39318c2b3b24ee9560be8098f99ca8c85163cd1f4eadcb41082d25950cd94",
+    "tq/core.py": "4802b232518b57db2f98253d98f7941d8fa1fdb7d645a98b917e4fbb3ce9c982"
+  }
+}

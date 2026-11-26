@@ -1,0 +1,10 @@
+{"candidate_id": 0, "contrast": "0", "robust": "0", "n": 12, "m": 8, "seconds": 0.005826900000101887}
+{"candidate_id": 8, "contrast": "1/96", "robust": "0", "n": 12, "m": 8, "seconds": 0.03096480000021984}
+{"candidate_id": 10, "contrast": "1/72", "robust": "0", "n": 12, "m": 8, "seconds": 0.04034769999998389}
+{"candidate_id": 47, "contrast": "1/40", "robust": "0", "n": 12, "m": 8, "seconds": 0.17584379999971134}
+{"candidate_id": 88, "contrast": "1/24", "robust": "-1/6", "n": 12, "m": 8, "seconds": 0.3077011000004859}
+{"candidate_id": 91, "contrast": "1/12", "robust": "1/12", "n": 12, "m": 8, "seconds": 0.31841370000074676}
+{"candidate_id": 1939, "contrast": "2/21", "robust": "1/14", "n": 14, "m": 8, "seconds": 10.101718199999596}
+{"candidate_id": 2001, "contrast": "1/7", "robust": "1/7", "n": 14, "m": 8, "seconds": 10.52481600000101}
+{"candidate_id": 5577, "contrast": "1/6", "robust": "1/6", "n": 18, "m": 9, "seconds": 35.96372359999987}
+{"candidate_id": 5580, "contrast": "2/9", "robust": "2/9", "n": 18, "m": 9, "seconds": 35.98486419999972}

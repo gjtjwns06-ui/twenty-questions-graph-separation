@@ -1,0 +1,51 @@
+{
+  "scope": "Auxiliary finite direct-sum checks for c00117; separate from the reported c01p00102 scaling certificate.",
+  "provenance": {
+    "origin": "Recovered verbatim numerical fields from the math agent's already-completed tool stdout, session 11929. No solver was rerun for this provenance repair.",
+    "source_worlds": "runs/main/worlds.jsonl",
+    "base_parent_id": "main-c00-p00117",
+    "solver": "tq.core.ExactSolver",
+    "solver_configuration": {"seconds": 20, "max_states": 2000000, "max_rss_mb": 768},
+    "greedy_calculation": "Separate memoized Fraction recurrence minimizing current split imbalance and averaging uniformly over all minimizing questions.",
+    "lift": "T block-diagonal copies; 14T objects and 8T questions; row degree remains 3.",
+    "status": "All six exact calculations completed. Only fields originally printed by the completed check are preserved; missing timings or trees are not fabricated."
+  },
+  "checks": [
+    {
+      "world": "main-c00-p00117-original", "T": 1, "N": 14,
+      "status": "complete", "states": 190,
+      "cstar": "27/7", "cg": "55/14", "cg_decimal": 3.9285714285714284,
+      "regret": "1/14", "g_seconds": 0.000377200000002631
+    },
+    {
+      "world": "main-c00-p00117-original", "T": 2, "N": 28,
+      "status": "complete", "states": 9788,
+      "cstar": "71/14", "cg": "73/14", "cg_decimal": 5.214285714285714,
+      "regret": "1/7", "g_seconds": 0.0012266999992789351
+    },
+    {
+      "world": "main-c00-p00117-original", "T": 3, "N": 42,
+      "status": "complete", "states": 941468,
+      "cstar": "37/6", "cg": "1075/168", "cg_decimal": 6.398809523809524,
+      "regret": "13/56", "g_seconds": 0.00930289999996603
+    },
+    {
+      "world": "main-c00-p00117-trade0", "T": 1, "N": 14,
+      "status": "complete", "states": 188,
+      "cstar": "55/14", "cg": "221/56", "cg_decimal": 3.9464285714285716,
+      "regret": "1/56", "g_seconds": 0.001119999999900756
+    },
+    {
+      "world": "main-c00-p00117-trade0", "T": 2, "N": 28,
+      "status": "complete", "states": 9211,
+      "cstar": "143/28", "cg": "73/14", "cg_decimal": 5.214285714285714,
+      "regret": "3/28", "g_seconds": 0.0025106999992203782
+    },
+    {
+      "world": "main-c00-p00117-trade0", "T": 3, "N": 42,
+      "status": "complete", "states": 857654,
+      "cstar": "87/14", "cg": "1075/168", "cg_decimal": 6.398809523809524,
+      "regret": "31/168", "g_seconds": 0.007631100000253355
+    }
+  ]
+}

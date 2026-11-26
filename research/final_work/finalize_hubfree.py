@@ -1,0 +1,343 @@
+#!/usr/bin/env python3
+"""Final evidence gate and report; no search result or previous artifact is changed."""
+from fractions import Fraction
+from pathlib import Path
+import csv
+import json
+import shutil
+import sys
+
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from tq.io import digest,write_json,now
+from followup_work.root_connected_certificate import sparse_statistics
+
+
+def load(p):return json.loads(Path(p).read_text(encoding='utf-8'))
+
+
+def rows_to_csv(path,rows):
+    with Path(path).open('w',encoding='utf-8-sig',newline='') as f:
+        writer=csv.DictWriter(f,fieldnames=list(rows[0]))
+        writer.writeheader();writer.writerows(rows)
+
+
+def run():
+    out=Path('runs/hubfree_final_report_v1')
+    out.mkdir(parents=True,exist_ok=False)
+    for p in ['reports/final/FINAL_PROOF_AUDIT.md','reports/final/FINAL_LITERATURE_AUDIT.md',
+              'reports/final/HUBFREE_THEORY.md','reports/final/HUBFREE_INDEPENDENT_REVIEW.md']:
+        assert Path(p).is_file(),p
+    old_main=load('runs/main/ARTIFACT_MANIFEST.json')
+    assert all(digest(Path('runs/main')/p)==v for p,v in old_main['files'].items())
+    for name in ['EXTREMAL_ARTIFACT_MANIFEST.json','FOLLOWUP_ARTIFACT_MANIFEST.json']:
+        assert all(digest(p)==v for p,v in load(name)['files'].items())
+    folders=[Path(p) for p in ['runs/hubfree_pilot_v1','runs/hubfree_search_v1',
+        'runs/hubfree_expander_cert_v1','runs/final_independent_certificate_v1',
+        'final_work/hubfree_agent_proven_results','final_work/hubfree_agent_cycle_results']]
+    for folder in folders:
+        manifest=folder/'manifest.json'
+        if manifest.exists():
+            assert all(digest(folder/p)==v for p,v in load(manifest).items())
+    best=load('runs/hubfree_search_v1/best.json')
+    bad,good=best['bad']['graph'],best['good']['graph']
+    assert sparse_statistics(bad['rows'],18)==sparse_statistics(good['rows'],18)
+    assert bad['exact']['optimal_total']==215 and good['exact']['optimal_total']==216
+    assert bad['greedy']['gap_exact']=='13/76' and good['greedy']['gap_exact']=='0'
+    assert set(bad['greedy']['root_questions'])<=set(bad['exact']['argmin'])
+    assert set(good['greedy']['root_questions'])<=set(good['exact']['argmin'])
+    for w in [bad,good]:
+        depths=[]
+        for i,row in enumerate(w['rows']):
+            node=w['exact']['optimal_tree'];depth=0
+            while 'question' in node:
+                node=node['yes'] if node['question'] in row else node['no'];depth+=1
+            assert node['object']==i
+            depths.append(depth)
+        assert sum(depths)==w['exact']['optimal_total']
+    search=load('runs/hubfree_search_v1/summary.json')
+    independent=load('runs/final_independent_certificate_v1/summary.json')
+    assert independent['finite38_costs_and_all_vertex_deletions_passed']
+    assert independent['independent_exact_spectral_certificates']==9
+    constants=load('final_work/hubfree_agent_proven_results/decorated_certificates.json')
+    for b in [1,2,3]:
+        record=constants[str(b)];n=14+b
+        assert Fraction(record['worlds']['a']['certificate']['D_exact'])==Fraction(65,2)+b
+        assert Fraction(record['worlds']['b']['certificate']['D_exact'])==Fraction(67,2)+b
+        assert all(w['certificate']['nested_gains']==[7+b,5,2] for w in record['worlds'].values())
+        assert Fraction(record['greedy_post_difference_exact'])==-Fraction(3,2*n)
+    expansion=load('runs/hubfree_expander_cert_v1/summary.json')
+    assert all(c['spectral_certified'] and c['incidence_expansion_lower']=='1/1775' for c in expansion['cases'])
+    data=[]
+    for b,threshold in [(1,49),(2,62),(3,76)]:
+        c=constants[str(b)]
+        for t in [2,4,8,threshold,100,128,256]:
+            n=14+b
+            lower=Fraction(t,2*n)+Fraction(c['lower_constant_exact'])-Fraction(2*c['tail_leafsum_bound']+1,n*t)
+            upper=Fraction(t,2*n)+Fraction(c['upper_constant_exact'])+Fraction(2*c['tail_leafsum_bound']+1,n*t)
+            data.append(dict(b=b,T=t,N=n*t,max_question_degree=7+b,
+                regret_contrast_lower_exact=str(lower),regret_contrast_upper_exact=str(upper),
+                asymptotic_contrast_per_object_exact=str(Fraction(1,2*n*n)),
+                scope='Proved uniform-tie bound, not exact DP measurement'))
+    rows_to_csv(out/'hubfree_proof_bounds.csv',data)
+    finite=[]
+    for label,w in [('bad',bad),('good',good)]:
+        finite.append(dict(world=label,n=w['n'],m=w['m'],optimal_total=w['exact']['optimal_total'],
+            uniform_greedy_total_exact=w['greedy']['total_uniform_exact'],
+            min_greedy_total=w['greedy']['total_min_ties'],max_greedy_total=w['greedy']['total_max_ties'],
+            regret_exact=w['greedy']['gap_exact'],optimal_first_questions=str(w['exact']['argmin'])))
+    rows_to_csv(out/'finite38_costs.csv',finite)
+    write_json(out/'finite38.json',best)
+    write_json(out/'verification.json',dict(completed=now(),old_artifacts_preserved=True,
+        best38_Gram_and_trees_verified=True,independent_profile_DP=independent,
+        uniform_profile_and_bound_constants_verified=True,
+        exact_rational_spectral_and_integer_minor_certificates=9,
+        formal_proof_assistant_used=False,novelty_certified=False))
+    make_figures(out,data,best)
+    write_note(search,independent)
+    # Preserve the previous README verbatim before pointing readers to this stage.
+    prior=Path('archive/README_followup_v1.md')
+    if not prior.exists():
+        assert digest('README.md')==load('FOLLOWUP_ARTIFACT_MANIFEST.json')['current_readme_sha256']
+        shutil.copy2('README.md',prior)
+    readme=Path('README.md')
+    text=readme.read_text(encoding='utf-8')
+    pointer='최신 검증과 중심 질문 없는 결과는 [허브 없는 최종 연구 검토](Twenty_Questions_Hubfree_Final_Review.md)에 있다.'
+    if pointer not in text:
+        text=text.replace('# Twenty Questions 통제 그래프 실험\n','# Twenty Questions 통제 그래프 실험\n\n'+pointer+'\n',1)
+        text+='\n## 허브 없는 단계 재현\n\n`final_work/hubfree_search.py --mode search --out runs/new_hubfree_search`는 새 폴더에 제한된 제어 탐색을 수행한다. `.venv`의 Python으로 실행한다. `final_work/expander_certificate.py`는 기본 결과 폴더가 없을 때 9개 골격의 정확 유리수 인증을 생성한다. `independent_final_certificate.py`는 별도의 자료구조 DP·단일정점 제거·질문 삭제 민감도·정수 Bareiss 인증을 수행한다. 기본 결과 폴더를 덮어쓰지 않으므로 새 재현에는 설정된 새 폴더나 별도 작업 복사본을 사용한다. 모든 큰 N 비용 경계는 증명값으로 표시하며 대형 정확 DP 값으로 채우지 않는다.\n'
+        readme.write_text(text,encoding='utf-8')
+    sources=[p for p in Path('reports/final').glob('*') if p.is_file()]
+    sources += [p for p in Path('final_work').glob('*.py')]
+    sources += [Path('Twenty_Questions_Hubfree_Final_Review.md'),Path('README.md')]
+    for p in sources:
+        dest=out/'source'/p;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest)
+    status=dict(completed=now(),prior_artifacts_preserved=True,
+        mathematical_audit='No conclusion-breaking flaw found; assumptions and finite certificates cross-checked',
+        literature='Identical narrow full theorem not found; broader cut-equivalent optimization separation is prior work; novelty unconfirmed',
+        center_free_definition=['rowdegree3','same indexedGram','no articulationvertex','bounded questiondegree',
+                                'many tied initial greedy questions','uniform positive expansion for cubicexpander lift'],
+        finite38_regret_contrast_exact='13/76',finite38_all_tie_min_contrast_exact='3/19',
+        finite38_both_initial_greedy_questions_optimal=True,
+        cycle_family_contrast='N/450+O(1), maxquestiondegree8',
+        expanding_cubic_family_contrast='N/578+O(1), maxquestiondegree10, noarticulationvertex',
+        explicit_N1700_regret_contrast_lower_exact='263/340',
+        explicit_incidence_edge_expansion_lower_exact='1/1775',
+        infinite_family_scope='Uses an established existence theorem for simple cubic expanders; not inferred from nine samples',
+        arbitrary_tie_linear_claim=False,global_extremum_or_sharp_constant_claim=False,
+        all_single_question_ablations_positive=True,removing_both_original_greedy_root_questions_contrast_exact='0',
+        ablation_degree3_relaxed=True,large_exact_optimal_labels_fabricated=False,
+        primary_note='Twenty_Questions_Hubfree_Final_Review.md')
+    write_json('FINAL_RESEARCH_STATUS.json',status)
+    roots=[out]+folders
+    files={str(p):digest(p) for root in roots for p in sorted(root.rglob('*')) if p.is_file() and '__pycache__' not in str(p)}
+    for root in [Path('reports/final'),Path('final_work')]:
+        for p in root.glob('*'):
+            if p.is_file():files[str(p)]=digest(p)
+    write_json('FINAL_RESEARCH_ARTIFACT_MANIFEST.json',dict(created=now(),files=files,
+        note_sha256=digest('Twenty_Questions_Hubfree_Final_Review.md'),status_sha256=digest('FINAL_RESEARCH_STATUS.json'),
+        current_readme_sha256=digest('README.md'),previous_readme_archived=str(prior)))
+    print(json.dumps(dict(finalized=True,artifacts=len(files),finite_search_worlds=search['worlds'],
+        finite_search_complete=search['complete_worlds'],spectral_certificates=9)))
+
+
+def write_note(search,independent):
+    text=r'''# 最終 검토: 중심 질문 없는 통제 식별 그래프
+
+2026년 11월 25일. N은 대상 수, m은 질문 수다. 목표는 균등, 응답은 정확한 이진값, 비용은 1이다. R=C_G−C*는 종료까지의 실제 탐욕 초과 비용이다. 선형 성장 명제는 매 상태에서 최대 정보량 질문을 **균등 무작위 동점**으로 고른다. 기존 모든 연구 결과는 보존했다.
+
+## 최종 판정
+
+- 기존 직접합·연결 증명에서 결론을 무너뜨리는 오류는 찾지 못했다. 새 독립 검사기는 프로젝트 solver를 가져오지 않고 핵심 유리수 상수를 재현했다. 형식 증명 검사기나 외부 동료 심사로 확인했다는 뜻은 아니다.
+- 선행연구의 동일성은 더 좁게 평가해야 한다. 같은 CUT 통계 아래 선형 최적화 분리와 복사본 증폭은 이미 알려져 있다. 현재의 단순 차수 3·전체 Gram 일치·균등 숨은 행의 적응형 식별 regret를 모두 결합한 정리는 검토 자료에서 찾지 못했지만, 최초성을 확정하지 않았다.
+- 중심 허브가 없는 강한 구성을 얻었다. 대상 차수 3, 질문 차수 상수 제한, 단절점 부재, 다수의 초기 탐욕 질문을 유지하며 선형 regret 분리가 가능하다. 확장 골격을 쓰면 전체 이분 그래프의 균일한 양의 edge expansion까지 얻는다.
+
+## 1. 중심 질문에 의존하지 않는다는 조건
+
+이번에는 단지 연결된 그래프만 요구하지 않았다.
+
+1. 전체 Gram과 대상 차수 3을 두 세계에서 정확히 보존한다.
+2. 이분 그래프에서 어떤 질문 하나 또는 대상 하나를 제거해도 연결된다.
+3. 질문 차수가 대상 수에 따라 커지지 않으며 8·9·10 같은 상수로 제한된다.
+4. 모든 블록이 공유하는 전역 질문을 사용하지 않는다. 초기 최대 정보량 질문은 2T개다.
+5. 순환형의 작은 균형 분리집합 문제를 별도로 다루기 위해, 확장 골격의 균일한 팽창을 전체 그래프로 전달한다.
+
+이 조건은 모든 질문을 여러 개 제거해도 성능 차이가 남는다는 뜻은 아니다. 동점 규칙에 무관한 점근 명제와도 구분한다.
+
+## 2. 정확하게 찾은 38×18 반례
+
+제어된 고리 연결의 포트와 블록별 교환 상태를 탐색했다. 같은 Gram 안에서 AA·AB·BB 상태를 비교했고 행 차수 3, 질문 차수 ≤10, 전체 단절점 부재를 검사했다. 가장 큰 값은 이 제한된 탐색에서 찾은 값이며 전역 극값이 아니다.
+
+| 세계 | 최적 잎 깊이 합 | 균등 동점 탐욕 합 | 동점 최선–최악 합 | 평균 regret |
+|---|---:|---:|---:|---:|
+| 나쁜 세계 | 215 | 443/2 | 221–222 | 13/76 |
+| 동반 세계 | 216 | 216 | 216–216 | 0 |
+
+두 세계 모두 초기 탐욕 질문은 q3·q12이고, **두 질문 모두 양쪽에서 최적 첫 질문**이다. 따라서 이 반례의 손실은 잘못된 최초 선택이나 하나의 강제 중심 질문으로 설명되지 않는다. 나쁜 세계는 모든 탐욕 동점 규칙에서도 최소 3/19회 손실을 보지만 동반 세계는 항상 최적이다.
+
+다른 자료구조(응답 프로필 튜플)를 사용하는 정확 DP로 모든 첫 질문 비용과 탐욕 균등·최선·최악 값을 다시 계산했고 일치했다. 두 세계의 56개 정점을 각각 하나씩 제거하는 독립 BFS 검사도 전부 통과했다.
+
+질문을 하나씩 지운 18개 민감도 검사에서도 regret 대비는 모두 양수였고 범위는 17/304부터 13/76이었다. 그러나 q3·q12를 함께 지우면 차이는 0이 됐다. 이 음성 결과도 남겼다. 삭제 검사에서는 차수 3을 완화했고, 균등 대상의 행 재명명으로 두 세계의 차수 벡터를 맞췄으므로 본문의 차수 3 정리와 별도로 해석한다.
+
+원시 자료: `runs/hubfree_search_v1/best.json`, `runs/final_independent_certificate_v1`.
+
+## 3. 허브 없는 무한 가족
+
+기반은 앞서 확보한 14×8 통제 쌍 A,B다. 각 블록 v에 질문 q_{v,0},…,q_{v,7}을 따로 두고, 블록 그래프의 각 방향 간선 v→w마다 공통 연결 행
+
+\[
+c_{v\to w}=\{q_{v,0},q_{v,5},q_{w,6}\}
+\]
+
+을 양쪽에 똑같이 추가한다. 새 전역 질문은 없다. 입·출차수가 b인 단순 방향 골격이면 N=(14+b)T, m=8T다. 연결된 단순 b-정규 무방향 골격의 각 간선을 양방향으로 쓰는 것이 주요 특별 경우다. 별도로 방향 순환은 b=1이다.
+
+기반 Gram이 같고 추가 행이 같으므로 전체 Gram이 같다. 모든 행은 서로 다르고 차수는 3이다. q0·q5의 차수는 7+b, q6은 4+b, 나머지는 6 이하다. 연결성을 한 고차수 질문으로 확보하지 않는다. 기반 두 그래프의 2-연결성과 반대 방향 연결 행, 또는 순환의 우회 경로 때문에 전체 그래프에도 단절점이 없다.
+
+### 3.1 피복과 탐욕의 계산
+
+질문 k개가 덮는 원래 대상 수는 기존 최적 포락선 H_old(k) 이하다. 질문 하나는 새 연결 대상을 최대 b개만 덮으므로
+
+\[
+H_{\rm new}(k)\le H_{\rm old}(k)+\min(bk,bT).
+\]
+
+모든 블록의 q0을 먼저, 다음 q2, 마지막 q6을 물으면 모든 시점에서 이 상한을 달성한다. 최적 피복 증가량은 (7+b,5,2)이며
+
+\[
+V_{\min}(T)=\frac{32+b}{2(14+b)}T+\frac12.
+\]
+
+탐욕에서도 아직 첫 선택을 하지 않은 각 블록의 q0·q5만 이득 7+b를 갖는다. 다른 질문의 이득은 최대 max(6,4+b)이므로 모든 블록의 첫 선택이 먼저 처리된다. 이 단계가 끝나면 모든 연결 대상이 사라져 정확히 이전의 독립 잔여 블록 과정이 남는다. 블록별 첫 동전은 독립적인 균등 q0/q5 선택이다.
+
+A의 피복 프로필은 (7+b,5,2)/(7+b,4,3), B는 (7+b,5,2)/(7+b,4,2,1)이며 각각 확률 1/2다. 크기 s 이상 작업 수를 Z_s라 하면 Σ_s(E Z_s)^2는 A에서 65/2+b, B에서 67/2+b다. 첫 yes 집합의 크기가 7+b 이하이고 이후 식별 비용도 유계이므로 실제 완료 비용은
+
+\[
+C^*(M_T)=\frac{32+b}{2(14+b)}T+O_b(1),\quad M\in\{A,B\},
+\]
+\[
+C_G(A_T)=\frac{65/2+b}{2(14+b)}T+O_b(1),\quad
+C_G(B_T)=\frac{67/2+b}{2(14+b)}T+O_b(1).
+\]
+
+따라서
+
+\[
+\boxed{R(B_T)-R(A_T)=\frac{N}{2(14+b)^2}+O_b(1).}
+\]
+
+| 골격 | 최대 질문 차수 | 선형 regret 대비 | 팽창 보증 |
+|---|---:|---|---|
+| 방향 순환, b=1 | 8 | N/450+O(1) | 단절점 없음, 균일 팽창은 주장하지 않음 |
+| 양방향 2-정규 순환 | 9 | N/512+O(1) | 위와 같음 |
+| 양방향 cubic expander | 10 | N/578+O(1) | 전체 이분 그래프에도 균일한 양의 팽창 |
+
+### 3.2 작은 크기에서부터 적용할 수 있는 유한 경계
+
+b=3의 유리수 인증에서 첫 yes 후속 탐욕 상수는 A=3, B=99/34이고, 최적 q0→q2→q6 후속 합의 상한은 52다. 기존 원래 대상에 제한한 후속 합 하한 19도 유지된다. 최대 yes 수는 10이며 후보 19개 이하 꼬리의 잎 깊이 합 차이는 117 이하다. 이를 합치면
+
+\[
+\boxed{\frac{T-69}{34}-\frac{235}{17T}
+\le R(B_T)-R(A_T)
+\le\frac{T+63}{34}+\frac{235}{17T}.}
+\]
+
+T≥76에서 하한이 양수다. 이는 실제 현상의 최초 발생 크기가 아닌 충분 조건이다. 큰 N의 정확 DP 값을 측정한 식이 아니라 유한 기반 인증과 수학적 증명으로 얻은 경계다.
+
+## 4. 작은 균형 절단에도 의존하지 않는 확장
+
+블록 그래프 H의 edge expansion을 h_H라 하자. 한 블록의 기반 22개 정점과 자기 출발 연결 행 b개를 묶은 gadget은 연결되어 있고 크기는 L=22+b다. 전체 정점의 절반 이하인 집합 S에서 완전히 포함된 gadget 수를 f, 부분적으로 포함된 수를 p, 경계 간선 수를 D라 하면
+
+\[
+D\ge p,\qquad D\ge2(h_H f-bp),\qquad |S|\le L(f+p).
+\]
+
+첫 식은 각 부분 gadget의 내부 연결성, 두 번째 식은 양방향 골격 간선의 두 교차 간선에서 나온다. 따라서 전체 **이분 incidence 그래프**의 팽창은
+
+\[
+\boxed{h_G\ge\frac{2h_H}{(22+b)(1+2b+2h_H)}.}
+\]
+
+단순 cubic expander의 존재는 기존 정리이며 여기서 새로 주장하지 않는다. 이 전달 명제를 적용하면 위 regret 대비와 함께 최대 차수 상수 제한·단절점 부재·균일 팽창을 만족하는 무한 가족이 생긴다. 유한 표본 몇 개의 숫자로 무한 팽창을 추정한 것이 아니다. [Friedman의 정규 그래프 고유값 정리](https://arxiv.org/abs/cs/0405020).
+
+### 4.1 실제로 보존한 1,700대상 예시의 유한 인증
+
+T=100, b=3의 두 전체 행렬을 생성했다. N=1,700대상, m=800질문이며 모든 대상 차수 3, 모든 질문 차수 ≤10, 초기 최대 정보량 질문 200개, 전체 단절점 없음, 같은 Gram을 확인했다.
+
+골격 라플라시안 L_H가 영합 부분공간에서 1/10 이상의 gap을 갖는지 정확 유리수 LDL 피벗으로 인증했다. 독립적인 간선 외적 조립과 정수 Bareiss 소행렬식 검사도 일치했다. 반올림 고유값만으로 판정하지 않았다. Rayleigh 식에서 h_H≥1/20을 얻고, 위 전달 식으로 양쪽 전체 이분 그래프에
+
+\[
+h_G\ge\frac1{1775}
+\]
+
+를 인증한다. 이때 regret 대비의 증명 하한은
+
+\[
+R(B)-R(A)\ge\frac{263}{340}\approx0.773529\text{회}.
+\]
+
+이것은 큰 행렬의 정확 최적값 측정이 아니다. 저장한 유한 행렬, 피복 상수의 정확 인증, 위 비용 경계로 얻는 보증이다. T=76의 N=1,292 예시도 동일한 구조·팽창 인증과 양의 하한 31/1292를 가진다. 총 9개 골격에서 유리수·정수 인증을 대조했다.
+
+## 5. 기존 증명과 선행연구의 최종 교차 검토
+
+새 검토자는 기존 결론을 전제로 삼지 않고 국소 동점 동전·스케줄러, 피복 최적 비용 경계, 후속 최소값 19, 단일 가상 상수 노드 꼬리, 허브 연결 전이, 고정 차수 O(r) 비율을 다시 검토했다. 별도의 소규모 검사기는 프로젝트 solver를 가져오지 않고 기존 및 b=3 상수와 피복 확률을 재현했다. 결론을 무너뜨리는 오류는 발견하지 못했지만 형식 증명 인증이나 무제한 검토를 뜻하지 않는다.
+
+문헌 검토에서는 더 가까운 두 선행례를 추가로 확인했다.
+
+- Chen–Khanna–Nagda의 2021년 예제는 같은 CUT의 두 세계와 복사본을 이용한 유도 부분 cut 값의 선형 차이를 이미 보인다. [원문 §3 Example 2](https://arxiv.org/html/2106.10386v1).
+- Aksoy 등의 2026년 원고는 CUT만으로 구별되지 않지만 density 목적이 크게 다른 하이퍼그래프를 이용한다. [원문 §4.1](https://arxiv.org/html/2610.17581v1).
+
+이들은 현재의 동일 단순 3-uniform·전체 Gram·균등 숨은 대상·주어진 열 질문·실제 entropy-greedy regret를 모두 충족하는 같은 정리는 아니다. 하지만 **같은 CUT 아래 선형 최적화 분리가 처음이라는 넓은 기여 문구는 쓸 수 없다**. 검토한 1차 자료에서 좁은 전체 정리는 발견하지 못했으나 최초성은 미확인이다. 정확한 정리 위치·모델 차이·철회 버전·검색 기록은 `reports/final/FINAL_LITERATURE_AUDIT.md`에 있다.
+
+## 6. 음성 결과와 아직 주장하지 않는 내용
+
+- 선형 regret 정리는 균등 동점에 의존한다. q0→q2→q6을 우선하는 탐욕 동점 규칙에서는 양쪽 regret가 O(1)이다. 유한 38×18 쌍의 모든 동점에 대한 분리와 무한 가족을 혼동하지 않는다.
+- 작은 순환 T=2에서는 양쪽 regret가 모두 1/120이라 대비가 없었다. 큰 크기의 성장은 작은 표본의 추세 외삽이 아닌 증명에서 얻는다.
+- 38×18의 단일 질문 삭제 18개는 모두 대비를 유지했지만 두 원래 탐욕 루트를 함께 삭제하면 대비는 0이었다. 차수 3을 완화한 민감도 실험이며 따로 저장했다.
+- 순환형은 작은 균형 분리집합을 가질 수 있다. 팽창까지 보장하는 것은 expander 골격 구성 및 별도의 인증이 있는 경우다.
+- 유한 크기의 전역 최악값, 최적 선도 상수, 모든 동점 규칙에 강건한 고정 차수 3 선형 가족, 문헌상 최초성을 인증하지 않았다.
+
+## 7. 실행 기록과 재현 자료
+
+고정된 허브 없는 조건에서 240개 포트 설정·720세계를 정확 계산했고 모두 완료됐다. 실행 시간 제한으로 예정된 전체 포트 공간을 끝내지는 않았으며, 제한 종료를 기록했다. 발생률·독립 시험 성능을 추정한 실험은 아니다. 구조 정리와 보조 상수 인증, 38×18의 독립 DP·정점 삭제·민감도 검사, 정확 팽창 인증을 별도로 저장했다.
+
+| 경로 | 내용 |
+|---|---|
+| `runs/hubfree_search_v1` | 포트·교환 상태별 원시 세계, 정확 비용, 구조 검사, 중단 기록 |
+| `runs/final_independent_certificate_v1` | 독립 프로필 DP, 모든 정점 삭제, 19개 질문 삭제 쌍, 정수 소행렬식 인증 |
+| `runs/hubfree_expander_cert_v1` | 9개 골격·실제 두 행렬·유리수 gap 인증·증명 비용 경계 |
+| `final_work/hubfree_agent_proven_results` | b=1·2·3 보조 기반의 모든 유리수 상수와 작은 음성 사례 |
+| `reports/final/FINAL_PROOF_AUDIT.md` | 기존·새 증명의 새 독립 감사 |
+| `reports/final/HUBFREE_THEORY.md` | 허브 없는 가족의 전체 증명 |
+| `reports/final/HUBFREE_INDEPENDENT_REVIEW.md` | 다른 검토자의 구성·팽창 검토 |
+
+이 단계의 기여 후보는 '허브가 없는, 차수와 팽창까지 통제한 Gram 동등 세계에서의 실제 적응형 식별 regret 분리'로 좁히는 것이 맞다. 이전 실험·검산·실패 사례는 모두 보존했다.
+'''
+    text=text.replace('最終','최종')
+    Path('Twenty_Questions_Hubfree_Final_Review.md').write_text(text,encoding='utf-8')
+
+
+def make_figures(out,data,best):
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    import numpy as np
+    t=np.arange(76,257,dtype=float)
+    fig,axes=plt.subplots(1,2,figsize=(11,4),constrained_layout=True)
+    labels=['Bad world','Companion']
+    optimal=[215/38,216/38]
+    greedy=[443/76,216/38]
+    x=np.arange(2)
+    axes[0].bar(x-.16,optimal,.32,label='Exact optimum')
+    axes[0].bar(x+.16,greedy,.32,label='Exact uniform-tie greedy')
+    axes[0].set(xticks=x,xticklabels=labels,ylabel='Mean completion questions',title='38objects; no articulation vertex')
+    axes[0].legend()
+    lower=(t-69)/34-235/(17*t)
+    upper=(t+63)/34+235/(17*t)
+    axes[1].fill_between(17*t,lower,upper,alpha=.2,label='Proved finite interval')
+    axes[1].plot(17*t,t/34,label='Leading contrast N/578')
+    axes[1].set(xlabel='Objects N=17T',ylabel='Regret B minus regret A',title='Expanding bounded-degree family; theory')
+    axes[1].legend()
+    for ext in ['png','pdf']:fig.savefig(out/f'hubfree_results.{ext}',dpi=180)
+    plt.close(fig)
+
+
+if __name__=='__main__':run()

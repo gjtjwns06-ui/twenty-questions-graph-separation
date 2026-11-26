@@ -1,0 +1,39 @@
+{
+  "completed_at": "2026-11-25T20:18:10.745683+09:00",
+  "status": "completed",
+  "manuscript": "paper/main.tex",
+  "language": "Korean, English title/abstract",
+  "pdf": "output/pdf/Twenty_Questions_Paper_Final.pdf",
+  "pages": 18,
+  "figures": 3,
+  "tables": 15,
+  "references": 20,
+  "package": "paper/Twenty_Questions_LaTeX.zip",
+  "overleaf": {
+    "project_url": "https://www.overleaf.com/project/6b06bd27056e299464631d9c",
+    "main_document": "Twenty_Questions_Final.tex",
+    "compiler": "XeLaTeX",
+    "tex_live": "2026",
+    "observed_compile_status": "Compile finished",
+    "errors": 0,
+    "warnings": 0,
+    "typesetting_info": "One Underfull hbox in bibliography; visually inspected, no clipping",
+    "pages": 18,
+    "source_matches_local_after_CRLF_normalization": true,
+    "original_main_tex_unchanged": true,
+    "compiled_pdf_text_matches_local_all_pages": true,
+    "local_source_sha256": "fd4131eb9c92f11102246dada30dd5546420f69f70d8e6d5ed816fc219759da2",
+    "server_source_sha256": "654f266f23320c312b5419bf2f90cc5ea7e5b754f36ae5f7dc87c4c9c537d0d7",
+    "pdf_sha256": "c6ef3dd5ef588c2ea5bb174b5cd8c0ed148ad1f4cb0ec2ce1c0a98bbdf7f744c",
+    "project_files": [
+      "Twenty_Questions_Final.tex",
+      "main.tex"
+    ],
+    "original_main_sha256": "d32cde0d5bc5103520d27cd0fd2cbb84831f6690baf51bed39461002984316e6"
+  },
+  "verification": "paper/verification.json",
+  "finalization_record": "paper/FINALIZATION.md",
+  "prior_research_preserved": true,
+  "ml_improvement_claim": false,
+  "novelty_priority_certified": false
+}

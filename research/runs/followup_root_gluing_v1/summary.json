@@ -1,0 +1,10 @@
+{
+  "completed": "2026-11-25T15:39:06.409390+09:00",
+  "passed": true,
+  "structural_graphs": 24,
+  "independently_reviewed_branches": 4,
+  "all_cut_subsets_checked": 512,
+  "connected18_optimal_cost_contrast": "N/324+O(1)",
+  "connected18_regret_contrast_leading": 0,
+  "source_claim": "Connection positive; regret-linear amplification negative for this particular merged-column lift"
+}

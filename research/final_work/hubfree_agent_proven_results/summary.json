@@ -1,0 +1,39 @@
+{
+  "completed": "2026-11-25T16:34:23.878491+09:00",
+  "profile": {
+    "seconds": 2.4443090000004304,
+    "baseline_rss_mb": 38.75,
+    "sampled_peak_rss_mb": 44.59375,
+    "sampled_increment_mb": 5.84375,
+    "lifetime_peak_rss_mb": 45.125,
+    "sampling_interval_seconds": 0.005
+  },
+  "structural_graphs": 30,
+  "biconnected_same_gram_degree3": true,
+  "maximum_question_degrees": [
+    8,
+    9,
+    10
+  ],
+  "cycle_contrast": "N/450+O(1)",
+  "bidirected_cubic_contrast": "N/578+O(1)",
+  "all_tie_robust": false,
+  "expansion": "Conditionalonchoosingexpanderblockgraphs; notinferredfromrandomsamples",
+  "decorated_positive_T": {
+    "1": 49,
+    "2": 62,
+    "3": 76
+  },
+  "small_exact_statuses": [
+    {
+      "world": "a",
+      "status": "complete",
+      "regret": "1/120"
+    },
+    {
+      "world": "b",
+      "status": "complete",
+      "regret": "1/120"
+    }
+  ]
+}

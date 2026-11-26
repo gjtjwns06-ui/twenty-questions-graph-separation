@@ -1,0 +1,29 @@
+{
+  "created": "2026-11-25T20:18:10.745683+09:00",
+  "scope": "Completed manuscript and local/Overleaf evidence, preserving prior frozen packages",
+  "files": {
+    "output/pdf/main.log": "43990e1a50a429b14a561a86703949153b22bc67a1118287106b96cf790ebd6e",
+    "output/pdf/Twenty_Questions_Paper_Final.pdf": "c6ef3dd5ef588c2ea5bb174b5cd8c0ed148ad1f4cb0ec2ce1c0a98bbdf7f744c",
+    "paper/evidence.json": "dc4e6403eea60842e4b66cbdca412c8aa6972d67f4e8a7776aff92432b0455ba",
+    "paper/FINALIZATION.md": "ce5607a978f9ea4a2c5da43d2c45a1f02f601cc7e1ef3f7f4d183bd7e16395cf",
+    "paper/main.tex": "fd4131eb9c92f11102246dada30dd5546420f69f70d8e6d5ed816fc219759da2",
+    "paper/README.md": "753328382ea1f0933a6b0f010c3d0b579a16610bd341793d6c217f933191f51e",
+    "paper/Twenty_Questions_Final.tex": "fd4131eb9c92f11102246dada30dd5546420f69f70d8e6d5ed816fc219759da2",
+    "paper/Twenty_Questions_LaTeX.zip": "c9f115384c0fe45f7ba30c7426f82fe13731471bdbb69f5cf50a872935cd2f55",
+    "paper/verification.json": "ec6d5de88bfa72ef0e4630bb1c84df198f8d9814742e7f2ecdc23e9b1bcf5b8e",
+    "paper/visual_qa.json": "cf04ab6a9369220d868704a34bc2c12e50b2cfddeceb220cb146461021c0688f",
+    "PAPER_STATUS.json": "9f9c852d9455e5976c3f1e0861520025816fd7e8c5ce7f19f4fd890a807ad3de",
+    "paper_work/bootstrap_tex.py": "a341a411dffc8e72b39ecd1f7fdf9d1a72b94dc47085a229ae995804da8c1270",
+    "paper_work/build_manuscript.py": "de38764246f04aca002a68e5568701ccf60536c6a9652dc9381f5f6fafce464b",
+    "paper_work/manuscript.tex.in": "b23a03f5e1e78aee54514327d312775b7fb4e2da622c1ab4c376d2ab6608f657",
+    "paper_work/overleaf_verification/completed_project.zip": "51b9122369756b82aba5c76fc0b95c690667aa35aea39d0b6b541ae92b5455e9",
+    "paper_work/overleaf_verification/original_project.zip": "e973e4482fafd7fb490611a128664857ff2b9f4deb6a23ee803400e20f3bf98e",
+    "paper_work/overleaf_verification/overleaf_compiled.pdf": "c6ef3dd5ef588c2ea5bb174b5cd8c0ed148ad1f4cb0ec2ce1c0a98bbdf7f744c",
+    "paper_work/overleaf_verification/verification.json": "7923ca05373cc1ccadb698e37255c37b61edd4d7b1a2c52c0971c8ac4035bb30",
+    "paper_work/package_manuscript.py": "624184f4c8f33c2aac7c044b75d4cce849eb081939eaabb0aac8cc07818dbfc3",
+    "paper_work/smoke.log": "11ee882de03f40f77093141d37160b61cc5af9e77f1bf30ff7a98e477b3e01b6",
+    "paper_work/smoke.pdf": "417ff82f1a2edbcc273747496d0e7dd42a1630c46857dbd2ea786179278bd540",
+    "paper_work/smoke.tex": "ed49142668e1f0f982d632c3f35cbb432791f701506c1dd81d93526a95779585",
+    "paper_work/verify_manuscript.py": "3594fdaa0199ee84b435c5d613064c9788e534b54a348f4962162d46e85f9542"
+  }
+}

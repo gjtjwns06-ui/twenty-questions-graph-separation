@@ -1,0 +1,16 @@
+{
+  "started": "2026-11-25T16:42:04.131089+09:00",
+  "source_sha256": "eb47a7d4b1429c37fd9c068b1ef4e62e18ec71332e45d6c4f311c07fe8e46323",
+  "tasks": [
+    "Independent tuple-profile exact DP",
+    "All single vertex removals",
+    "All single question ablations and deletion of both original greedyroots",
+    "Independent integer Bareiss certificate for all9 skeleton spectral gaps"
+  ],
+  "ablation_limits": {
+    "seconds": 3,
+    "max_states": 250000,
+    "max_rss_mb": 1024
+  },
+  "scope": "Ablations may relax uniform rowdegree3 to aligned equal degreevectors; record separately"
+}

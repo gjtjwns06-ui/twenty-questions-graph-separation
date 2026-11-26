@@ -1,0 +1,61 @@
+{
+  "checked_at": "2026-11-25T20:17:04.294021+09:00",
+  "passed": true,
+  "raw_input_hashes_checked": 31,
+  "preserved_manifests": [
+    {
+      "manifest": "runs/main/ARTIFACT_MANIFEST.json",
+      "listed_entries": 79
+    },
+    {
+      "manifest": "EXTREMAL_ARTIFACT_MANIFEST.json",
+      "listed_entries": 59
+    },
+    {
+      "manifest": "FOLLOWUP_ARTIFACT_MANIFEST.json",
+      "listed_entries": 54
+    },
+    {
+      "manifest": "FINAL_RESEARCH_ARTIFACT_MANIFEST.json",
+      "listed_entries": 74
+    },
+    {
+      "manifest": "NOVELTY_ARTIFACT_MANIFEST.json",
+      "listed_entries": 85
+    }
+  ],
+  "preserved_listed_entries": 351,
+  "references": 20,
+  "labels": 48,
+  "pages": 18,
+  "source_matches_overleaf_after_line_ending_normalization": true,
+  "original_overleaf_main_preserved_byte_for_byte": true,
+  "pdf_text_matches_overleaf_on_all_pages": true,
+  "pdf_replacement_glyphs": 0,
+  "unresolved_references": 0,
+  "ml_null_and_failed_constructions_retained": true,
+  "new_experiments_or_retraining_performed_in_manuscript_stage": false,
+  "priority_or_formal_proof_certification": false,
+  "overleaf": {
+    "project_url": "https://www.overleaf.com/project/6b06bd27056e299464631d9c",
+    "main_document": "Twenty_Questions_Final.tex",
+    "compiler": "XeLaTeX",
+    "tex_live": "2026",
+    "observed_compile_status": "Compile finished",
+    "errors": 0,
+    "warnings": 0,
+    "typesetting_info": "One Underfull hbox in bibliography; visually inspected, no clipping",
+    "pages": 18,
+    "source_matches_local_after_CRLF_normalization": true,
+    "original_main_tex_unchanged": true,
+    "compiled_pdf_text_matches_local_all_pages": true,
+    "local_source_sha256": "fd4131eb9c92f11102246dada30dd5546420f69f70d8e6d5ed816fc219759da2",
+    "server_source_sha256": "654f266f23320c312b5419bf2f90cc5ea7e5b754f36ae5f7dc87c4c9c537d0d7",
+    "pdf_sha256": "c6ef3dd5ef588c2ea5bb174b5cd8c0ed148ad1f4cb0ec2ce1c0a98bbdf7f744c",
+    "project_files": [
+      "Twenty_Questions_Final.tex",
+      "main.tex"
+    ],
+    "original_main_sha256": "d32cde0d5bc5103520d27cd0fd2cbb84831f6690baf51bed39461002984316e6"
+  }
+}

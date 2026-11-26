@@ -1,0 +1,821 @@
+{
+  "source_ids": [
+    "main-c01-p00102-original",
+    "main-c01-p00102-trade0"
+  ],
+  "a": {
+    "node_id": "8a74c790613f74d4cc52",
+    "rows": [
+      [
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        2,
+        5
+      ],
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        0,
+        4,
+        5
+      ],
+      [
+        0,
+        4,
+        6
+      ],
+      [
+        0,
+        6,
+        7
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        7
+      ],
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        4,
+        5,
+        6
+      ]
+    ],
+    "n": 14,
+    "m": 8,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 54,
+      "optimal_mean": 3.857142857142857,
+      "first_totals": [
+        54,
+        55,
+        54,
+        58,
+        54,
+        54,
+        56,
+        56
+      ],
+      "argmin": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "optimal_tree": {
+        "question": 0,
+        "yes": {
+          "question": 4,
+          "yes": {
+            "question": 3,
+            "yes": {
+              "object": 3
+            },
+            "no": {
+              "question": 5,
+              "yes": {
+                "object": 4
+              },
+              "no": {
+                "object": 5
+              }
+            }
+          },
+          "no": {
+            "question": 1,
+            "yes": {
+              "question": 5,
+              "yes": {
+                "object": 0
+              },
+              "no": {
+                "object": 1
+              }
+            },
+            "no": {
+              "question": 2,
+              "yes": {
+                "object": 2
+              },
+              "no": {
+                "object": 6
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 1,
+          "yes": {
+            "question": 2,
+            "yes": {
+              "question": 4,
+              "yes": {
+                "object": 7
+              },
+              "no": {
+                "object": 8
+              }
+            },
+            "no": {
+              "object": 9
+            }
+          },
+          "no": {
+            "question": 4,
+            "yes": {
+              "question": 2,
+              "yes": {
+                "object": 11
+              },
+              "no": {
+                "object": 13
+              }
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "object": 10
+              },
+              "no": {
+                "object": 12
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ],
+      "states": 177,
+      "elapsed_seconds": 0.0006293999995250488
+    },
+    "greedy": {
+      "total_uniform_exact": "325/6",
+      "mean_uniform_exact": "325/84",
+      "mean_uniform": 3.869047619047619,
+      "total_min_ties": 54,
+      "total_max_ties": 55,
+      "gap_exact": "1/84",
+      "gap": 0.011904761904761904,
+      "min_tie_gap_exact": "0",
+      "min_tie_gap": 0.0,
+      "max_tie_gap_exact": "1/14",
+      "max_tie_gap": 0.07142857142857142,
+      "approximation_ratio_exact": "325/324",
+      "approximation_ratio": 1.0030864197530864,
+      "root_questions": [
+        0,
+        5
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.002182999998694868,
+      "baseline_rss_mb": 95.22265625,
+      "sampled_peak_rss_mb": 95.25390625,
+      "sampled_increment_mb": 0.03125,
+      "lifetime_peak_rss_mb": 95.27734375,
+      "sampling_interval_seconds": 0.005
+    }
+  },
+  "b": {
+    "node_id": "05b17f9926df2f1bdab5",
+    "rows": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        2,
+        5
+      ],
+      [
+        0,
+        3,
+        5
+      ],
+      [
+        0,
+        4,
+        5
+      ],
+      [
+        0,
+        4,
+        6
+      ],
+      [
+        0,
+        6,
+        7
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        2,
+        7
+      ],
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        4,
+        5,
+        6
+      ]
+    ],
+    "n": 14,
+    "m": 8,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 54,
+      "optimal_mean": 3.857142857142857,
+      "first_totals": [
+        54,
+        55,
+        54,
+        58,
+        54,
+        54,
+        56,
+        56
+      ],
+      "argmin": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "optimal_tree": {
+        "question": 0,
+        "yes": {
+          "question": 4,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "object": 0
+            },
+            "no": {
+              "question": 5,
+              "yes": {
+                "object": 4
+              },
+              "no": {
+                "object": 5
+              }
+            }
+          },
+          "no": {
+            "question": 5,
+            "yes": {
+              "question": 2,
+              "yes": {
+                "object": 2
+              },
+              "no": {
+                "object": 3
+              }
+            },
+            "no": {
+              "question": 1,
+              "yes": {
+                "object": 1
+              },
+              "no": {
+                "object": 6
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 4,
+          "yes": {
+            "question": 2,
+            "yes": {
+              "question": 3,
+              "yes": {
+                "object": 10
+              },
+              "no": {
+                "object": 11
+              }
+            },
+            "no": {
+              "object": 13
+            }
+          },
+          "no": {
+            "question": 5,
+            "yes": {
+              "question": 1,
+              "yes": {
+                "object": 7
+              },
+              "no": {
+                "object": 12
+              }
+            },
+            "no": {
+              "question": 2,
+              "yes": {
+                "object": 8
+              },
+              "no": {
+                "object": 9
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "states": 184,
+      "elapsed_seconds": 0.000492600000143284
+    },
+    "greedy": {
+      "total_uniform_exact": "163/3",
+      "mean_uniform_exact": "163/42",
+      "mean_uniform": 3.880952380952381,
+      "total_min_ties": 54,
+      "total_max_ties": 55,
+      "gap_exact": "1/42",
+      "gap": 0.023809523809523808,
+      "min_tie_gap_exact": "0",
+      "min_tie_gap": 0.0,
+      "max_tie_gap_exact": "1/14",
+      "max_tie_gap": 0.07142857142857142,
+      "approximation_ratio_exact": "163/162",
+      "approximation_ratio": 1.0061728395061729,
+      "root_questions": [
+        0,
+        5
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.001609499999176478,
+      "baseline_rss_mb": 95.25390625,
+      "sampled_peak_rss_mb": 95.27734375,
+      "sampled_increment_mb": 0.0234375,
+      "lifetime_peak_rss_mb": 95.30078125,
+      "sampling_interval_seconds": 0.005
+    }
+  },
+  "checks": {
+    "same_gram": true,
+    "same_row_degrees": true,
+    "unique_rows": true,
+    "valid_columns": true,
+    "row_degrees": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "gram": [
+      [
+        7,
+        2,
+        1,
+        1,
+        3,
+        3,
+        2,
+        2
+      ],
+      [
+        2,
+        5,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        6,
+        1,
+        2,
+        4,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        1,
+        2,
+        1,
+        6,
+        3,
+        2,
+        0
+      ],
+      [
+        3,
+        1,
+        4,
+        1,
+        3,
+        7,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        1,
+        2,
+        1,
+        4,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        0,
+        0,
+        1,
+        1,
+        4
+      ]
+    ],
+    "c4": 23,
+    "c6": 142,
+    "triple_histogram": {
+      "0": 42,
+      "1": 14
+    }
+  },
+  "certificates": {
+    "a": {
+      "n": 14,
+      "m": 8,
+      "coverage_envelope": [
+        0,
+        7,
+        12,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "achieving_sets": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "nested_order": [
+        0,
+        2,
+        6
+      ],
+      "nested_gains": [
+        7,
+        5,
+        2
+      ],
+      "local_optimal_postyes_totals": [
+        20,
+        12,
+        2
+      ],
+      "nested_optimal_postyes_mean_exact": "17/7",
+      "profiles": [
+        {
+          "gains": [
+            7,
+            4,
+            3
+          ],
+          "probability_exact": "1/2"
+        },
+        {
+          "gains": [
+            7,
+            5,
+            2
+          ],
+          "probability_exact": "1/2"
+        }
+      ],
+      "mu_exact": [
+        "3",
+        "3",
+        "5/2",
+        "2",
+        "3/2",
+        "1",
+        "1"
+      ],
+      "variance_exact": [
+        "0",
+        "0",
+        "1/4",
+        "0",
+        "1/4",
+        "0",
+        "0"
+      ],
+      "D_exact": "65/2",
+      "virtual_cover_slope_exact": "65/56",
+      "virtual_cover_intercept_exact": "29/56",
+      "expected_local_postyes_greedy_exact": "101/42"
+    },
+    "b": {
+      "n": 14,
+      "m": 8,
+      "coverage_envelope": [
+        0,
+        7,
+        12,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "achieving_sets": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "nested_order": [
+        0,
+        2,
+        6
+      ],
+      "nested_gains": [
+        7,
+        5,
+        2
+      ],
+      "local_optimal_postyes_totals": [
+        20,
+        12,
+        2
+      ],
+      "nested_optimal_postyes_mean_exact": "17/7",
+      "profiles": [
+        {
+          "gains": [
+            7,
+            4,
+            2,
+            1
+          ],
+          "probability_exact": "1/2"
+        },
+        {
+          "gains": [
+            7,
+            5,
+            2
+          ],
+          "probability_exact": "1/2"
+        }
+      ],
+      "mu_exact": [
+        "7/2",
+        "3",
+        "2",
+        "2",
+        "3/2",
+        "1",
+        "1"
+      ],
+      "variance_exact": [
+        "1/4",
+        "0",
+        "0",
+        "0",
+        "1/4",
+        "0",
+        "0"
+      ],
+      "D_exact": "67/2",
+      "virtual_cover_slope_exact": "67/56",
+      "virtual_cover_intercept_exact": "29/56",
+      "expected_local_postyes_greedy_exact": "193/84"
+    }
+  }
+}

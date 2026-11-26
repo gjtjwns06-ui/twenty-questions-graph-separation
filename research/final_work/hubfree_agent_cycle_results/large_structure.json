@@ -1,0 +1,506 @@
+[
+  {
+    "left": 1,
+    "right": 4,
+    "copies": 4,
+    "world": "a",
+    "n": 56,
+    "m": 28,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 11,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 4,
+    "copies": 4,
+    "world": "b",
+    "n": 56,
+    "m": 28,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 11,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 4,
+    "copies": 8,
+    "world": "a",
+    "n": 112,
+    "m": 56,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 11,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 4,
+    "copies": 8,
+    "world": "b",
+    "n": 112,
+    "m": 56,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 11,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 4,
+    "copies": 32,
+    "world": "a",
+    "n": 448,
+    "m": 224,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 11,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 4,
+    "copies": 32,
+    "world": "b",
+    "n": 448,
+    "m": 224,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 11,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 4,
+    "copies": 128,
+    "world": "a",
+    "n": 1792,
+    "m": 896,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 11,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 4,
+    "copies": 128,
+    "world": "b",
+    "n": 1792,
+    "m": 896,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 11,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 5,
+    "copies": 4,
+    "world": "a",
+    "n": 56,
+    "m": 28,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 12,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 5,
+    "copies": 4,
+    "world": "b",
+    "n": 56,
+    "m": 28,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 12,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 5,
+    "copies": 8,
+    "world": "a",
+    "n": 112,
+    "m": 56,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 12,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 5,
+    "copies": 8,
+    "world": "b",
+    "n": 112,
+    "m": 56,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 12,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 5,
+    "copies": 32,
+    "world": "a",
+    "n": 448,
+    "m": 224,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 12,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 5,
+    "copies": 32,
+    "world": "b",
+    "n": 448,
+    "m": 224,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 12,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 5,
+    "copies": 128,
+    "world": "a",
+    "n": 1792,
+    "m": 896,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 12,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 5,
+    "copies": 128,
+    "world": "b",
+    "n": 1792,
+    "m": 896,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 12,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 6,
+    "copies": 4,
+    "world": "a",
+    "n": 56,
+    "m": 28,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 9,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 6,
+    "copies": 4,
+    "world": "b",
+    "n": 56,
+    "m": 28,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 9,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 6,
+    "copies": 8,
+    "world": "a",
+    "n": 112,
+    "m": 56,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 9,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 6,
+    "copies": 8,
+    "world": "b",
+    "n": 112,
+    "m": 56,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 9,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 6,
+    "copies": 32,
+    "world": "a",
+    "n": 448,
+    "m": 224,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 9,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 6,
+    "copies": 32,
+    "world": "b",
+    "n": 448,
+    "m": 224,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 9,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 6,
+    "copies": 128,
+    "world": "a",
+    "n": 1792,
+    "m": 896,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 9,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  },
+  {
+    "left": 1,
+    "right": 6,
+    "copies": 128,
+    "world": "b",
+    "n": 1792,
+    "m": 896,
+    "structure": {
+      "connected": true,
+      "question_articulations": [],
+      "object_articulations": [],
+      "biconnected": true,
+      "maximum_question_degree": 9,
+      "minimum_question_degree": 3,
+      "constant_questions": [],
+      "row_degree_set": [
+        3
+      ]
+    },
+    "cost_labels": "notcomputed"
+  }
+]

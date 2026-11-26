@@ -1,0 +1,28 @@
+{
+  "mode": "search",
+  "started": "2026-11-25T16:29:56.423372+09:00",
+  "code_sha256": "52f06c92a2a6cf4873264c961093b96081b864443cac173e6eab4511d513cd31",
+  "hard_conditions": [
+    "connected",
+    "no articulation vertex of either bipartite class",
+    "degree3 rows",
+    "uniform-in-size bounded question degree",
+    "same indexed Gram per controlled pair",
+    "at least2 tied greedy first questions"
+  ],
+  "constructor": "Tperiodicblocks + c_j={two localports, one nextblockport}",
+  "copies": 2,
+  "orientations": [
+    "aa",
+    "ab",
+    "bb"
+  ],
+  "solver": {
+    "seconds": 3,
+    "max_states": 250000,
+    "max_rss_mb": 1024
+  },
+  "global_seconds": 180,
+  "purpose": "Extremal discovery, not prevalence or global optimality",
+  "secondary_objective": "all-tie robust regret contrast"
+}

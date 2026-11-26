@@ -1,0 +1,21 @@
+{
+  "created": "2026-11-25T15:16:39.281930+09:00",
+  "purpose": "Independent audits and theorem certificates; no retuning",
+  "sources": {
+    "extremal_certify.py": "3fa6c257bdaf9ee5a2159fd4606e87a62778b431f0c75b16e5457f852d26e663",
+    "extremal_experiment.py": "b0d39318c2b3b24ee9560be8098f99ca8c85163cd1f4eadcb41082d25950cd94",
+    "tq/core.py": "4802b232518b57db2f98253d98f7941d8fa1fdb7d645a98b917e4fbb3ce9c982"
+  },
+  "full_subset_audit_sizes": [
+    18
+  ],
+  "explicit_lift_checks": [
+    "degree3 directsum T=2",
+    "cartesian k=2"
+  ],
+  "lift_limits": {
+    "seconds": 20,
+    "max_states": 1500000,
+    "max_rss_mb": 1024
+  }
+}

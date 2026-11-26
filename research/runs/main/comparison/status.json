@@ -1,0 +1,33 @@
+{
+  "completed": "2026-11-25T13:25:03.040958+09:00",
+  "primary_model": "boosting_all",
+  "full_ml_policy": "Not evaluated: models trained on initial states only.",
+  "training_rows": 11316,
+  "training_parents": 549,
+  "model_files_sha256": {
+    "boosting_all-seed107.joblib": "d9cef4c944db2d7e9a5737d79e2312c98efc18089da7e1d302baab3b4110a815",
+    "boosting_all-seed41.joblib": "5dc2d3f243bee12b48582a00317c916032a7179f4bd6df785337c8fb5733388d",
+    "boosting_all-seed73.joblib": "08d9a3ccd57a06beeae4544cf13746ac58022d97ce9a2a9b33a31b06a7c2ced5",
+    "boosting_base-seed107.joblib": "14b7d9c823813b70b342f8629b798508f91d9e61c87d006978bbdf713ee46bd0",
+    "boosting_base-seed41.joblib": "8e2e597d0d82a9f67f5f39f92ec3a836f87ce6fb672856d4b8d76118533c6c55",
+    "boosting_base-seed73.joblib": "97afcaeed1e36594c7d1e7b41ed73eb95c5563ba590eade12aacdcebd730f7fe",
+    "boosting_base_conditional-seed107.joblib": "829e577b178645066efd829158ee56daea42ea8839cd9105e90ddc0a51b78061",
+    "boosting_base_conditional-seed41.joblib": "9f752288992eb0ec93f28f70e96762152b98d9a4e6047561284ee1255d6c4038",
+    "boosting_base_conditional-seed73.joblib": "86d166f7030fd321b5ae2dfd9205c500c576d8ddf73bf9433347b0d056fb7a58",
+    "boosting_base_search-seed107.joblib": "99f33cd9ce6d1295dc5293f716964a292ab300053330de846b61144a1a0aa0cd",
+    "boosting_base_search-seed41.joblib": "5c632740f9d0a4c32b39255064074dd8968594f0c6dc356ab87349173741bfbf",
+    "boosting_base_search-seed73.joblib": "c6c51b31255eb3cd1f92dfa081a7c5be6ab03fe536107f87c522f6b60c52ed30",
+    "ridge_all-seed107.joblib": "6d95a5e8f1fc5a294718db4de522d209086d559c35a561f3ffd143c94ba72117",
+    "ridge_all-seed41.joblib": "6d95a5e8f1fc5a294718db4de522d209086d559c35a561f3ffd143c94ba72117",
+    "ridge_all-seed73.joblib": "6d95a5e8f1fc5a294718db4de522d209086d559c35a561f3ffd143c94ba72117",
+    "ridge_base-seed107.joblib": "e858569497f798a1c7acbb964cd8fcb4625ba4c6a1b0f80fdf98369b0f46e8ff",
+    "ridge_base-seed41.joblib": "e858569497f798a1c7acbb964cd8fcb4625ba4c6a1b0f80fdf98369b0f46e8ff",
+    "ridge_base-seed73.joblib": "e858569497f798a1c7acbb964cd8fcb4625ba4c6a1b0f80fdf98369b0f46e8ff",
+    "ridge_base_conditional-seed107.joblib": "38aaf4c28ab48896c27a2e3066959f9253dd0afa28ef154f07755c24ec42ec4e",
+    "ridge_base_conditional-seed41.joblib": "38aaf4c28ab48896c27a2e3066959f9253dd0afa28ef154f07755c24ec42ec4e",
+    "ridge_base_conditional-seed73.joblib": "38aaf4c28ab48896c27a2e3066959f9253dd0afa28ef154f07755c24ec42ec4e",
+    "ridge_base_search-seed107.joblib": "06cd5c569578c6aeeebe406abb61f5a605a5372d73557807dc8b7419f759003f",
+    "ridge_base_search-seed41.joblib": "06cd5c569578c6aeeebe406abb61f5a605a5372d73557807dc8b7419f759003f",
+    "ridge_base_search-seed73.joblib": "06cd5c569578c6aeeebe406abb61f5a605a5372d73557807dc8b7419f759003f"
+  }
+}

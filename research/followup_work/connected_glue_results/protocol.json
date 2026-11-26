@@ -1,0 +1,15 @@
+{
+  "started": "2026-11-25T15:36:02.158330+09:00",
+  "source_sha256": "5c45a863494b4cf6b342666854e7e4b20359626b16184b33bb0ff6917f83de11",
+  "purpose": "Exact all-port structural certificate; bounded finite connected checks",
+  "constraints": "Binary, uniform targets, unit cost, degree3; same indexed Gram at each size",
+  "finite_limits": {
+    "seconds": 3,
+    "max_states": 250000,
+    "max_rss_mb": 768
+  },
+  "finite_cases": [
+    "14x8 port3 T=1,2,3",
+    "18x9 port3 T=1,2"
+  ]
+}

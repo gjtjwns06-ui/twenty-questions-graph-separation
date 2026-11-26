@@ -1,0 +1,1039 @@
+{
+  "summary": {
+    "fiber_id": "fiber-01",
+    "source": "main-c00-p00087-pair0",
+    "n": 14,
+    "m": 8,
+    "nodes": 2,
+    "completed": 2,
+    "expanded": 2,
+    "edges": 2,
+    "stop_reason": "component_exhausted",
+    "component_certified_exhausted": true,
+    "uniform_span_exact": "1/14",
+    "uniform_span": 0.07142857142857142,
+    "max_uniform_gap_exact": "1/14",
+    "max_uniform_gap": 0.07142857142857142,
+    "robust_separation_exact": "1/14",
+    "bad_id": "7bb4ee8929d6820f7e2e",
+    "good_id": "4e0da4e093e338139ceb",
+    "robust_bad_id": "7bb4ee8929d6820f7e2e",
+    "robust_good_id": "4e0da4e093e338139ceb"
+  },
+  "bad": {
+    "node_id": "7bb4ee8929d6820f7e2e",
+    "rows": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        2,
+        5
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        0,
+        3,
+        6
+      ],
+      [
+        0,
+        6,
+        7
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        6,
+        7
+      ],
+      [
+        2,
+        4,
+        7
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        3,
+        6,
+        7
+      ],
+      [
+        4,
+        5,
+        6
+      ]
+    ],
+    "n": 14,
+    "m": 8,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 54,
+      "optimal_mean": 3.857142857142857,
+      "first_totals": [
+        54,
+        56,
+        55,
+        58,
+        58,
+        55,
+        56,
+        55
+      ],
+      "argmin": [
+        0
+      ],
+      "optimal_tree": {
+        "question": 0,
+        "yes": {
+          "question": 6,
+          "yes": {
+            "question": 2,
+            "yes": {
+              "object": 3
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "object": 4
+              },
+              "no": {
+                "object": 5
+              }
+            }
+          },
+          "no": {
+            "question": 1,
+            "yes": {
+              "object": 0
+            },
+            "no": {
+              "question": 4,
+              "yes": {
+                "object": 1
+              },
+              "no": {
+                "object": 2
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 5,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "question": 2,
+              "yes": {
+                "object": 6
+              },
+              "no": {
+                "object": 7
+              }
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "object": 11
+              },
+              "no": {
+                "object": 13
+              }
+            }
+          },
+          "no": {
+            "question": 2,
+            "yes": {
+              "question": 4,
+              "yes": {
+                "object": 9
+              },
+              "no": {
+                "object": 10
+              }
+            },
+            "no": {
+              "question": 1,
+              "yes": {
+                "object": 8
+              },
+              "no": {
+                "object": 12
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        3,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "states": 172,
+      "elapsed_seconds": 0.00038470000072265975
+    },
+    "greedy": {
+      "total_uniform_exact": "55",
+      "mean_uniform_exact": "55/14",
+      "mean_uniform": 3.9285714285714284,
+      "total_min_ties": 55,
+      "total_max_ties": 55,
+      "gap_exact": "1/14",
+      "gap": 0.07142857142857142,
+      "min_tie_gap_exact": "1/14",
+      "min_tie_gap": 0.07142857142857142,
+      "max_tie_gap_exact": "1/14",
+      "max_tie_gap": 0.07142857142857142,
+      "approximation_ratio_exact": "55/54",
+      "approximation_ratio": 1.0185185185185186,
+      "root_questions": [
+        2
+      ],
+      "root_oracle_regret_min_exact": "1/14"
+    },
+    "profile": {
+      "seconds": 0.0009858000003077905,
+      "baseline_rss_mb": 45.109375,
+      "sampled_peak_rss_mb": 45.109375,
+      "sampled_increment_mb": 0.0,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-01",
+    "predecessor": null,
+    "trade": null,
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "good": {
+    "node_id": "4e0da4e093e338139ceb",
+    "rows": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        0,
+        2,
+        7
+      ],
+      [
+        0,
+        3,
+        6
+      ],
+      [
+        0,
+        5,
+        6
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        6,
+        7
+      ],
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        3,
+        6,
+        7
+      ],
+      [
+        4,
+        6,
+        7
+      ]
+    ],
+    "n": 14,
+    "m": 8,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 55,
+      "optimal_mean": 3.9285714285714284,
+      "first_totals": [
+        55,
+        56,
+        55,
+        58,
+        58,
+        55,
+        56,
+        55
+      ],
+      "argmin": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "optimal_tree": {
+        "question": 0,
+        "yes": {
+          "question": 6,
+          "yes": {
+            "question": 2,
+            "yes": {
+              "object": 2
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "object": 4
+              },
+              "no": {
+                "object": 5
+              }
+            }
+          },
+          "no": {
+            "question": 1,
+            "yes": {
+              "object": 0
+            },
+            "no": {
+              "question": 4,
+              "yes": {
+                "object": 1
+              },
+              "no": {
+                "object": 3
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 1,
+          "yes": {
+            "question": 2,
+            "yes": {
+              "object": 6
+            },
+            "no": {
+              "question": 5,
+              "yes": {
+                "object": 7
+              },
+              "no": {
+                "object": 8
+              }
+            }
+          },
+          "no": {
+            "question": 2,
+            "yes": {
+              "question": 4,
+              "yes": {
+                "object": 9
+              },
+              "no": {
+                "object": 10
+              }
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "question": 5,
+                "yes": {
+                  "object": 11
+                },
+                "no": {
+                  "object": 12
+                }
+              },
+              "no": {
+                "object": 13
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        3,
+        4,
+        3,
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        4
+      ],
+      "states": 171,
+      "elapsed_seconds": 0.0003553000005922513
+    },
+    "greedy": {
+      "total_uniform_exact": "55",
+      "mean_uniform_exact": "55/14",
+      "mean_uniform": 3.9285714285714284,
+      "total_min_ties": 55,
+      "total_max_ties": 55,
+      "gap_exact": "0",
+      "gap": 0.0,
+      "min_tie_gap_exact": "0",
+      "min_tie_gap": 0.0,
+      "max_tie_gap_exact": "0",
+      "max_tie_gap": 0.0,
+      "approximation_ratio_exact": "1",
+      "approximation_ratio": 1.0,
+      "root_questions": [
+        2
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.0009086999998544343,
+      "baseline_rss_mb": 45.109375,
+      "sampled_peak_rss_mb": 45.109375,
+      "sampled_increment_mb": 0.0,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-01",
+    "predecessor": null,
+    "trade": null,
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "robust_bad": {
+    "node_id": "7bb4ee8929d6820f7e2e",
+    "rows": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        2,
+        5
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        0,
+        3,
+        6
+      ],
+      [
+        0,
+        6,
+        7
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        6,
+        7
+      ],
+      [
+        2,
+        4,
+        7
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        3,
+        6,
+        7
+      ],
+      [
+        4,
+        5,
+        6
+      ]
+    ],
+    "n": 14,
+    "m": 8,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 54,
+      "optimal_mean": 3.857142857142857,
+      "first_totals": [
+        54,
+        56,
+        55,
+        58,
+        58,
+        55,
+        56,
+        55
+      ],
+      "argmin": [
+        0
+      ],
+      "optimal_tree": {
+        "question": 0,
+        "yes": {
+          "question": 6,
+          "yes": {
+            "question": 2,
+            "yes": {
+              "object": 3
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "object": 4
+              },
+              "no": {
+                "object": 5
+              }
+            }
+          },
+          "no": {
+            "question": 1,
+            "yes": {
+              "object": 0
+            },
+            "no": {
+              "question": 4,
+              "yes": {
+                "object": 1
+              },
+              "no": {
+                "object": 2
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 5,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "question": 2,
+              "yes": {
+                "object": 6
+              },
+              "no": {
+                "object": 7
+              }
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "object": 11
+              },
+              "no": {
+                "object": 13
+              }
+            }
+          },
+          "no": {
+            "question": 2,
+            "yes": {
+              "question": 4,
+              "yes": {
+                "object": 9
+              },
+              "no": {
+                "object": 10
+              }
+            },
+            "no": {
+              "question": 1,
+              "yes": {
+                "object": 8
+              },
+              "no": {
+                "object": 12
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        3,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "states": 172,
+      "elapsed_seconds": 0.00038470000072265975
+    },
+    "greedy": {
+      "total_uniform_exact": "55",
+      "mean_uniform_exact": "55/14",
+      "mean_uniform": 3.9285714285714284,
+      "total_min_ties": 55,
+      "total_max_ties": 55,
+      "gap_exact": "1/14",
+      "gap": 0.07142857142857142,
+      "min_tie_gap_exact": "1/14",
+      "min_tie_gap": 0.07142857142857142,
+      "max_tie_gap_exact": "1/14",
+      "max_tie_gap": 0.07142857142857142,
+      "approximation_ratio_exact": "55/54",
+      "approximation_ratio": 1.0185185185185186,
+      "root_questions": [
+        2
+      ],
+      "root_oracle_regret_min_exact": "1/14"
+    },
+    "profile": {
+      "seconds": 0.0009858000003077905,
+      "baseline_rss_mb": 45.109375,
+      "sampled_peak_rss_mb": 45.109375,
+      "sampled_increment_mb": 0.0,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-01",
+    "predecessor": null,
+    "trade": null,
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "robust_good": {
+    "node_id": "4e0da4e093e338139ceb",
+    "rows": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        0,
+        2,
+        7
+      ],
+      [
+        0,
+        3,
+        6
+      ],
+      [
+        0,
+        5,
+        6
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        6,
+        7
+      ],
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        3,
+        6,
+        7
+      ],
+      [
+        4,
+        6,
+        7
+      ]
+    ],
+    "n": 14,
+    "m": 8,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 55,
+      "optimal_mean": 3.9285714285714284,
+      "first_totals": [
+        55,
+        56,
+        55,
+        58,
+        58,
+        55,
+        56,
+        55
+      ],
+      "argmin": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "optimal_tree": {
+        "question": 0,
+        "yes": {
+          "question": 6,
+          "yes": {
+            "question": 2,
+            "yes": {
+              "object": 2
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "object": 4
+              },
+              "no": {
+                "object": 5
+              }
+            }
+          },
+          "no": {
+            "question": 1,
+            "yes": {
+              "object": 0
+            },
+            "no": {
+              "question": 4,
+              "yes": {
+                "object": 1
+              },
+              "no": {
+                "object": 3
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 1,
+          "yes": {
+            "question": 2,
+            "yes": {
+              "object": 6
+            },
+            "no": {
+              "question": 5,
+              "yes": {
+                "object": 7
+              },
+              "no": {
+                "object": 8
+              }
+            }
+          },
+          "no": {
+            "question": 2,
+            "yes": {
+              "question": 4,
+              "yes": {
+                "object": 9
+              },
+              "no": {
+                "object": 10
+              }
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "question": 5,
+                "yes": {
+                  "object": 11
+                },
+                "no": {
+                  "object": 12
+                }
+              },
+              "no": {
+                "object": 13
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        3,
+        4,
+        3,
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        4
+      ],
+      "states": 171,
+      "elapsed_seconds": 0.0003553000005922513
+    },
+    "greedy": {
+      "total_uniform_exact": "55",
+      "mean_uniform_exact": "55/14",
+      "mean_uniform": 3.9285714285714284,
+      "total_min_ties": 55,
+      "total_max_ties": 55,
+      "gap_exact": "0",
+      "gap": 0.0,
+      "min_tie_gap_exact": "0",
+      "min_tie_gap": 0.0,
+      "max_tie_gap_exact": "0",
+      "max_tie_gap": 0.0,
+      "approximation_ratio_exact": "1",
+      "approximation_ratio": 1.0,
+      "root_questions": [
+        2
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.0009086999998544343,
+      "baseline_rss_mb": 45.109375,
+      "sampled_peak_rss_mb": 45.109375,
+      "sampled_increment_mb": 0.0,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-01",
+    "predecessor": null,
+    "trade": null,
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "checks": {
+    "same_gram": true,
+    "same_row_degrees": true,
+    "unique_rows": true,
+    "valid_columns": true,
+    "row_degrees": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "gram": [
+      [
+        6,
+        1,
+        4,
+        1,
+        1,
+        1,
+        3,
+        1
+      ],
+      [
+        1,
+        4,
+        2,
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        4,
+        2,
+        7,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        0,
+        0,
+        3,
+        0,
+        1,
+        3,
+        1
+      ],
+      [
+        1,
+        0,
+        2,
+        0,
+        3,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        2,
+        1,
+        1,
+        5,
+        3,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        3,
+        1,
+        3,
+        9,
+        4
+      ],
+      [
+        1,
+        1,
+        2,
+        1,
+        1,
+        0,
+        4,
+        5
+      ]
+    ],
+    "c4": 28,
+    "c6": 140,
+    "triple_histogram": {
+      "0": 42,
+      "1": 14
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "seed": 2026112529,
+  "sizes": [{"n": 12, "m": 8}, {"n": 14, "m": 8}, {"n": 18, "m": 9}],
+  "restarts": 4,
+  "steps_per_restart": 500,
+  "max_seconds": 180,
+  "initial_temperature": 0.02,
+  "final_temperature": 0.0002,
+  "solver": {"seconds": 5.0, "max_states": 250000, "max_rss_mb": 1024},
+  "seed_pair": "runs/extremal_v1/fiber-00-extrema.json",
+  "objective": "Absolute difference in full uniform-tie IG regret between fixed Pasch worlds with a jointly optimized common background",
+  "constraint": "A_t and B_t have identical indexed Gram and degree3; Gram may change between t and t+1",
+  "selection": "Largest regret contrast, then all-tie robust separation, then single-world regret",
+  "annealing_energy": "contrast + 0.02 * maximum single-world regret"
+}

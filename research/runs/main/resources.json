@@ -1,0 +1,20 @@
+{
+  "generation": {
+    "seconds": 449.7231317999999,
+    "baseline_rss_mb": 35.1328125,
+    "sampled_peak_rss_mb": 45.55859375,
+    "sampled_increment_mb": 10.42578125,
+    "lifetime_peak_rss_mb": 45.55859375,
+    "sampling_interval_seconds": 0.005
+  },
+  "candidate_training": {
+    "seconds": 12.833625500000153,
+    "baseline_rss_mb": 522.75390625,
+    "sampled_peak_rss_mb": 564.4765625,
+    "sampled_increment_mb": 41.72265625,
+    "lifetime_peak_rss_mb": 564.4765625,
+    "sampling_interval_seconds": 0.005
+  },
+  "generation_to_final_audit_seconds": 539.334942,
+  "note": "Candidate training includes 20 candidates and validation. Additional-seed fits and test inference follow separately."
+}

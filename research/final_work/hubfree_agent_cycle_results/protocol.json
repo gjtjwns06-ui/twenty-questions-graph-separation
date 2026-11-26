@@ -1,0 +1,15 @@
+{
+  "started": "2026-11-25T16:25:21.651899+09:00",
+  "source_sha256": "33451c3fd3caadfa1fb39c975359d7c7819827ba00d657d8158e8262004a269c",
+  "code_sha256": "d932c4e377ac7972174b7f274186fb849f76884b915310c2a0388d261a7cab77",
+  "constructor": "Cycle identify distinctleft/rightports; no globalcolumn; degree≤14",
+  "small_scan_copies": 2,
+  "ports": "All28unordered distinctpairs of8columns",
+  "followup": "Top3 completed controlledregretcontrasts atcopies3, plusallstructuralT4,8,32,128",
+  "exact_limits": {
+    "seconds": 3,
+    "max_states": 250000,
+    "max_rss_mb": 768
+  },
+  "scope": "Adaptive discovery, no asymptoticregretclaim"
+}

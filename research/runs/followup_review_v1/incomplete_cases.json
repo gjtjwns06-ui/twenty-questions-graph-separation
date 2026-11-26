@@ -1,0 +1,14 @@
+[
+  {
+    "base": "base14",
+    "copies": 3,
+    "world": "a",
+    "status": "state_limit"
+  },
+  {
+    "base": "base14",
+    "copies": 3,
+    "world": "b",
+    "status": "state_limit"
+  }
+]

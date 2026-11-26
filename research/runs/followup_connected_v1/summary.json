@@ -1,0 +1,22 @@
+{
+  "completed": "2026-11-25T15:35:30.968763+09:00",
+  "profile": {
+    "seconds": 2.7517499000005046,
+    "baseline_rss_mb": 21.83203125,
+    "sampled_peak_rss_mb": 32.87109375,
+    "sampled_increment_mb": 11.0390625,
+    "lifetime_peak_rss_mb": 33.89453125,
+    "sampling_interval_seconds": 0.005
+  },
+  "connected_same_gram_degree3": true,
+  "structural_graphs_checked": 14,
+  "exact_graphs_checked": 2,
+  "seeded_trees_replayed": 8,
+  "regret_contrast": "2N/841+O(1)",
+  "cost_ratios": [
+    "131/129",
+    "45/43"
+  ],
+  "finite_bound_positive_for_s_ge": 54,
+  "exact_large_n_optimal_labels": "Not computed or fabricated"
+}

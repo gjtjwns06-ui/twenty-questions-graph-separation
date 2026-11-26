@@ -1,0 +1,38 @@
+{
+  "completed": "2026-11-25T15:22:03.411117+09:00",
+  "search_modes": [
+    "fixed Gram",
+    "joint controlled context"
+  ],
+  "finite_best_contrast_exact": "2/9",
+  "finite_min_tie_contrast_exact": "2/9",
+  "fixed_degree3_asymptotic_contrast": "N/392+O(1)",
+  "global_maximum_proved": false,
+  "failed_extensions_preserved": [
+    "No improvement over2/21 in selected fixed Gram search",
+    "18x9 directsum no linear amplification"
+  ],
+  "previous_main_preserved": true,
+  "note_sha256": "5b229626650d6004ff6e7643a37db63399fdbe583dab5d5f191458173486e4f3",
+  "finalized": "2026-11-25T15:22:37.295161+09:00",
+  "all_original_main_artifacts_unchanged": true,
+  "explicit_costs": {
+    "18x9_A": {
+      "optimal": "77/18",
+      "greedy": "9/2",
+      "all_tie_regret": "2/9"
+    },
+    "18x9_B": {
+      "optimal": "13/3",
+      "greedy": "13/3",
+      "all_tie_regret": "0"
+    }
+  },
+  "asymptotic_scope": "Disconnected degree3 directsum family; sameGram at each N=14T; absolute regret contrastN/392+O(1); not an unbounded ratio",
+  "not_certified": [
+    "Whole-fiber global extrema",
+    "Literature novelty",
+    "Connected-family amplification"
+  ],
+  "primary_note": "Twenty_Questions_Extremal_Note.md"
+}

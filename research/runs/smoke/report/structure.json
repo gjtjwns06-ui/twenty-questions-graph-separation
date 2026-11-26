@@ -1,0 +1,131 @@
+{
+  "train_median_conditional_l1": 16.343518805912503,
+  "groups": [
+    {
+      "split": "test",
+      "above_train_median": false,
+      "pairs": 4,
+      "mean_abs_delta": 0.010416666666666666,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 3
+    },
+    {
+      "split": "test",
+      "above_train_median": true,
+      "pairs": 5,
+      "mean_abs_delta": 0.0,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 5
+    },
+    {
+      "split": "test_family",
+      "above_train_median": false,
+      "pairs": 3,
+      "mean_abs_delta": 0.0,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 3
+    },
+    {
+      "split": "test_family",
+      "above_train_median": true,
+      "pairs": 1,
+      "mean_abs_delta": 0.0,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 1
+    },
+    {
+      "split": "test_size",
+      "above_train_median": false,
+      "pairs": 1,
+      "mean_abs_delta": 0.0,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 1
+    },
+    {
+      "split": "test_size",
+      "above_train_median": true,
+      "pairs": 3,
+      "mean_abs_delta": 0.0,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 3
+    },
+    {
+      "split": "train",
+      "above_train_median": false,
+      "pairs": 13,
+      "mean_abs_delta": 0.010989010989010988,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 11
+    },
+    {
+      "split": "train",
+      "above_train_median": true,
+      "pairs": 13,
+      "mean_abs_delta": 0.003205128205128205,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 12
+    },
+    {
+      "split": "validation",
+      "above_train_median": false,
+      "pairs": 3,
+      "mean_abs_delta": 0.0,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 3
+    },
+    {
+      "split": "validation",
+      "above_train_median": true,
+      "pairs": 2,
+      "mean_abs_delta": 0.020833333333333332,
+      "disjoint_rate": 0.0,
+      "zero_cost_effect_count": 1
+    }
+  ],
+  "discovery_examples": {
+    "cost_effect": {
+      "parent_id": "smoke-c01-p00008",
+      "pair_id": "smoke-c01-p00008-pair0",
+      "split": "train",
+      "conditional_l1": 0.3280036349200001,
+      "h3_max_difference": 0.053920535868999586,
+      "zero_cost_effect": false,
+      "family": "planted",
+      "n": 14,
+      "m": 8,
+      "abs_delta_optimal": 0.07142857142857142,
+      "argmin_disjoint": false,
+      "argmin_changed": true
+    },
+    "no_cost_effect": {
+      "parent_id": "smoke-c00-p00005",
+      "pair_id": "smoke-c00-p00005-pair0",
+      "split": "train",
+      "conditional_l1": 16.28567234304,
+      "h3_max_difference": 0.0,
+      "zero_cost_effect": true,
+      "family": "natural",
+      "n": 14,
+      "m": 8,
+      "abs_delta_optimal": 0.0,
+      "argmin_disjoint": false,
+      "argmin_changed": false
+    },
+    "disjoint": null,
+    "overlapping_optima": {
+      "parent_id": "smoke-c00-p00005",
+      "pair_id": "smoke-c00-p00005-pair0",
+      "split": "train",
+      "conditional_l1": 16.28567234304,
+      "h3_max_difference": 0.0,
+      "zero_cost_effect": true,
+      "family": "natural",
+      "n": 14,
+      "m": 8,
+      "abs_delta_optimal": 0.0,
+      "argmin_disjoint": false,
+      "argmin_changed": false
+    }
+  },
+  "interpretation": "Descriptive association only; no new sufficient structural theorem established."
+}

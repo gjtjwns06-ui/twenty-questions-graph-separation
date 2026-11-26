@@ -1,0 +1,29 @@
+{
+  "completed": "2026-11-25T16:50:37.438702+09:00",
+  "prior_artifacts_preserved": true,
+  "mathematical_audit": "No conclusion-breaking flaw found; assumptions and finite certificates cross-checked",
+  "literature": "Identical narrow full theorem not found; broader cut-equivalent optimization separation is prior work; novelty unconfirmed",
+  "center_free_definition": [
+    "rowdegree3",
+    "same indexedGram",
+    "no articulationvertex",
+    "bounded questiondegree",
+    "many tied initial greedy questions",
+    "uniform positive expansion for cubicexpander lift"
+  ],
+  "finite38_regret_contrast_exact": "13/76",
+  "finite38_all_tie_min_contrast_exact": "3/19",
+  "finite38_both_initial_greedy_questions_optimal": true,
+  "cycle_family_contrast": "N/450+O(1), maxquestiondegree8",
+  "expanding_cubic_family_contrast": "N/578+O(1), maxquestiondegree10, noarticulationvertex",
+  "explicit_N1700_regret_contrast_lower_exact": "263/340",
+  "explicit_incidence_edge_expansion_lower_exact": "1/1775",
+  "infinite_family_scope": "Uses an established existence theorem for simple cubic expanders; not inferred from nine samples",
+  "arbitrary_tie_linear_claim": false,
+  "global_extremum_or_sharp_constant_claim": false,
+  "all_single_question_ablations_positive": true,
+  "removing_both_original_greedy_root_questions_contrast_exact": "0",
+  "ablation_degree3_relaxed": true,
+  "large_exact_optimal_labels_fabricated": false,
+  "primary_note": "Twenty_Questions_Hubfree_Final_Review.md"
+}

@@ -1,0 +1,7 @@
+﻿family,n,m,cohort,attempted_parents,parents_with_pasch,parents_with_valid_trade,candidates,valid_candidates,candidate_acceptance,pairs,complete_pairs,complete_parents,signed_delta,absolute_delta,disjoint_count,disjoint_rate,disjoint_ci_low,disjoint_ci_high,changed_count,zero_cost_effect_count
+modular,36,12,family,4,4,4,53,16,0.3018867924528302,4,4,4,0.0,0.0,0,0.0,0.0,0.0,0,4
+natural,14,8,id,12,11,7,20,10,0.5,7,7,7,0.0,0.0,0,0.0,0.0,0.0,0,7
+natural,24,10,id,12,12,12,114,52,0.45614035087719296,12,12,12,-0.003472222222222222,0.003472222222222222,0,0.0,0.0,0.0,1,11
+natural,36,12,size,4,4,4,80,52,0.65,4,4,4,0.0,0.0,0,0.0,0.0,0.0,0,4
+planted,14,8,id,12,12,10,44,20,0.45454545454545453,10,10,10,0.0,0.014285714285714285,0,0.0,0.0,0.0,3,8
+planted,24,10,id,12,12,11,145,62,0.42758620689655175,11,11,11,0.0,0.007575757575757575,0,0.0,0.0,0.0,3,9

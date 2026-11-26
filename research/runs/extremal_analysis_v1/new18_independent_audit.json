@@ -1,0 +1,187 @@
+{
+  "a": {
+    "optimal_total": 77,
+    "first_totals": [
+      77,
+      80,
+      77,
+      79,
+      78,
+      81,
+      79,
+      80,
+      81
+    ],
+    "greedy_total_uniform_exact": "81",
+    "greedy_total_min": 81,
+    "greedy_total_max": 81,
+    "all_subsets": 262143,
+    "profile": {
+      "seconds": 2.084157300001607,
+      "baseline_rss_mb": 29.6796875,
+      "sampled_peak_rss_mb": 42.28515625,
+      "sampled_increment_mb": 12.60546875,
+      "lifetime_peak_rss_mb": 42.3046875,
+      "sampling_interval_seconds": 0.005
+    }
+  },
+  "b": {
+    "optimal_total": 78,
+    "first_totals": [
+      78,
+      80,
+      78,
+      78,
+      78,
+      81,
+      79,
+      81,
+      81
+    ],
+    "greedy_total_uniform_exact": "78",
+    "greedy_total_min": 78,
+    "greedy_total_max": 78,
+    "all_subsets": 262143,
+    "profile": {
+      "seconds": 2.587688599998728,
+      "baseline_rss_mb": 32.28515625,
+      "sampled_peak_rss_mb": 42.125,
+      "sampled_increment_mb": 9.83984375,
+      "lifetime_peak_rss_mb": 42.3046875,
+      "sampling_interval_seconds": 0.005
+    }
+  },
+  "same_gram_checks": {
+    "same_gram": true,
+    "same_row_degrees": true,
+    "unique_rows": true,
+    "valid_columns": true,
+    "row_degrees": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "gram": [
+      [
+        8,
+        1,
+        4,
+        3,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      [
+        1,
+        4,
+        2,
+        2,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        4,
+        2,
+        8,
+        1,
+        4,
+        2,
+        2,
+        1,
+        0
+      ],
+      [
+        3,
+        2,
+        1,
+        9,
+        5,
+        1,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        1,
+        4,
+        5,
+        8,
+        1,
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        1,
+        4,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        2,
+        2,
+        2,
+        0,
+        5,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        4,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "c4": 36,
+    "c6": 224,
+    "triple_histogram": {
+      "0": 66,
+      "1": 18
+    }
+  }
+}

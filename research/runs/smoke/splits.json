@@ -1,0 +1,964 @@
+{
+  "created": "2026-11-25T13:15:05.147356+09:00",
+  "config_sha256": "544a4c2dbc6ab9c3bf4f4aa668ebc92689b0019e7ce80e70abd2d564db745633",
+  "rule": "Exact weighted Gram graph isomorphism after WL bucketing; group before splitting.",
+  "parents": {
+    "smoke-c00-p00000": {
+      "split": "test",
+      "gram_group": "gram-000000"
+    },
+    "smoke-c00-p00001": {
+      "split": "validation",
+      "gram_group": "gram-000001"
+    },
+    "smoke-c00-p00002": {
+      "split": "test",
+      "gram_group": "gram-000002"
+    },
+    "smoke-c00-p00003": {
+      "split": "test",
+      "gram_group": "gram-000003"
+    },
+    "smoke-c00-p00004": {
+      "split": "test",
+      "gram_group": "gram-000004"
+    },
+    "smoke-c00-p00005": {
+      "split": "train",
+      "gram_group": "gram-000005"
+    },
+    "smoke-c00-p00006": {
+      "split": "test",
+      "gram_group": "gram-000006"
+    },
+    "smoke-c00-p00007": {
+      "split": "train",
+      "gram_group": "gram-000007"
+    },
+    "smoke-c00-p00008": {
+      "split": "train",
+      "gram_group": "gram-000008"
+    },
+    "smoke-c00-p00009": {
+      "split": "train",
+      "gram_group": "gram-000009"
+    },
+    "smoke-c00-p00010": {
+      "split": "train",
+      "gram_group": "gram-000010"
+    },
+    "smoke-c00-p00011": {
+      "split": "train",
+      "gram_group": "gram-000011"
+    },
+    "smoke-c01-p00000": {
+      "split": "train",
+      "gram_group": "gram-000012"
+    },
+    "smoke-c01-p00001": {
+      "split": "test",
+      "gram_group": "gram-000013"
+    },
+    "smoke-c01-p00002": {
+      "split": "train",
+      "gram_group": "gram-000014"
+    },
+    "smoke-c01-p00003": {
+      "split": "validation",
+      "gram_group": "gram-000015"
+    },
+    "smoke-c01-p00004": {
+      "split": "train",
+      "gram_group": "gram-000016"
+    },
+    "smoke-c01-p00005": {
+      "split": "train",
+      "gram_group": "gram-000017"
+    },
+    "smoke-c01-p00006": {
+      "split": "validation",
+      "gram_group": "gram-000018"
+    },
+    "smoke-c01-p00007": {
+      "split": "train",
+      "gram_group": "gram-000019"
+    },
+    "smoke-c01-p00008": {
+      "split": "train",
+      "gram_group": "gram-000020"
+    },
+    "smoke-c01-p00009": {
+      "split": "train",
+      "gram_group": "gram-000021"
+    },
+    "smoke-c01-p00010": {
+      "split": "train",
+      "gram_group": "gram-000022"
+    },
+    "smoke-c01-p00011": {
+      "split": "validation",
+      "gram_group": "gram-000023"
+    },
+    "smoke-c02-p00000": {
+      "split": "train",
+      "gram_group": "gram-000024"
+    },
+    "smoke-c02-p00001": {
+      "split": "train",
+      "gram_group": "gram-000025"
+    },
+    "smoke-c02-p00002": {
+      "split": "train",
+      "gram_group": "gram-000026"
+    },
+    "smoke-c02-p00003": {
+      "split": "train",
+      "gram_group": "gram-000027"
+    },
+    "smoke-c02-p00004": {
+      "split": "train",
+      "gram_group": "gram-000028"
+    },
+    "smoke-c02-p00005": {
+      "split": "test",
+      "gram_group": "gram-000029"
+    },
+    "smoke-c02-p00006": {
+      "split": "test",
+      "gram_group": "gram-000030"
+    },
+    "smoke-c02-p00007": {
+      "split": "test",
+      "gram_group": "gram-000031"
+    },
+    "smoke-c02-p00008": {
+      "split": "validation",
+      "gram_group": "gram-000032"
+    },
+    "smoke-c02-p00009": {
+      "split": "train",
+      "gram_group": "gram-000033"
+    },
+    "smoke-c02-p00010": {
+      "split": "train",
+      "gram_group": "gram-000034"
+    },
+    "smoke-c02-p00011": {
+      "split": "test",
+      "gram_group": "gram-000035"
+    },
+    "smoke-c03-p00000": {
+      "split": "train",
+      "gram_group": "gram-000036"
+    },
+    "smoke-c03-p00001": {
+      "split": "train",
+      "gram_group": "gram-000037"
+    },
+    "smoke-c03-p00002": {
+      "split": "train",
+      "gram_group": "gram-000038"
+    },
+    "smoke-c03-p00003": {
+      "split": "train",
+      "gram_group": "gram-000039"
+    },
+    "smoke-c03-p00004": {
+      "split": "test",
+      "gram_group": "gram-000040"
+    },
+    "smoke-c03-p00005": {
+      "split": "train",
+      "gram_group": "gram-000041"
+    },
+    "smoke-c03-p00006": {
+      "split": "validation",
+      "gram_group": "gram-000042"
+    },
+    "smoke-c03-p00007": {
+      "split": "validation",
+      "gram_group": "gram-000043"
+    },
+    "smoke-c03-p00008": {
+      "split": "test",
+      "gram_group": "gram-000044"
+    },
+    "smoke-c03-p00009": {
+      "split": "validation",
+      "gram_group": "gram-000045"
+    },
+    "smoke-c03-p00010": {
+      "split": "train",
+      "gram_group": "gram-000046"
+    },
+    "smoke-c03-p00011": {
+      "split": "train",
+      "gram_group": "gram-000047"
+    },
+    "smoke-c04-p00000": {
+      "split": "test_family",
+      "gram_group": "gram-000048"
+    },
+    "smoke-c04-p00001": {
+      "split": "test_family",
+      "gram_group": "gram-000049"
+    },
+    "smoke-c04-p00002": {
+      "split": "test_family",
+      "gram_group": "gram-000050"
+    },
+    "smoke-c04-p00003": {
+      "split": "test_family",
+      "gram_group": "gram-000051"
+    },
+    "smoke-c05-p00000": {
+      "split": "test_size",
+      "gram_group": "gram-000052"
+    },
+    "smoke-c05-p00001": {
+      "split": "test_size",
+      "gram_group": "gram-000053"
+    },
+    "smoke-c05-p00002": {
+      "split": "test_size",
+      "gram_group": "gram-000054"
+    },
+    "smoke-c05-p00003": {
+      "split": "test_size",
+      "gram_group": "gram-000055"
+    }
+  },
+  "groups": [
+    {
+      "group_id": "gram-000000",
+      "parents": [
+        "smoke-c00-p00000"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000001",
+      "parents": [
+        "smoke-c00-p00001"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "validation"
+    },
+    {
+      "group_id": "gram-000002",
+      "parents": [
+        "smoke-c00-p00002"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000003",
+      "parents": [
+        "smoke-c00-p00003"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000004",
+      "parents": [
+        "smoke-c00-p00004"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000005",
+      "parents": [
+        "smoke-c00-p00005"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000006",
+      "parents": [
+        "smoke-c00-p00006"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000007",
+      "parents": [
+        "smoke-c00-p00007"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000008",
+      "parents": [
+        "smoke-c00-p00008"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000009",
+      "parents": [
+        "smoke-c00-p00009"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000010",
+      "parents": [
+        "smoke-c00-p00010"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000011",
+      "parents": [
+        "smoke-c00-p00011"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000012",
+      "parents": [
+        "smoke-c01-p00000"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000013",
+      "parents": [
+        "smoke-c01-p00001"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000014",
+      "parents": [
+        "smoke-c01-p00002"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000015",
+      "parents": [
+        "smoke-c01-p00003"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "validation"
+    },
+    {
+      "group_id": "gram-000016",
+      "parents": [
+        "smoke-c01-p00004"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000017",
+      "parents": [
+        "smoke-c01-p00005"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000018",
+      "parents": [
+        "smoke-c01-p00006"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "validation"
+    },
+    {
+      "group_id": "gram-000019",
+      "parents": [
+        "smoke-c01-p00007"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000020",
+      "parents": [
+        "smoke-c01-p00008"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000021",
+      "parents": [
+        "smoke-c01-p00009"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000022",
+      "parents": [
+        "smoke-c01-p00010"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000023",
+      "parents": [
+        "smoke-c01-p00011"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 14,
+      "m": 8,
+      "pilot_overlap": false,
+      "split": "validation"
+    },
+    {
+      "group_id": "gram-000024",
+      "parents": [
+        "smoke-c02-p00000"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000025",
+      "parents": [
+        "smoke-c02-p00001"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000026",
+      "parents": [
+        "smoke-c02-p00002"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000027",
+      "parents": [
+        "smoke-c02-p00003"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000028",
+      "parents": [
+        "smoke-c02-p00004"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000029",
+      "parents": [
+        "smoke-c02-p00005"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000030",
+      "parents": [
+        "smoke-c02-p00006"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000031",
+      "parents": [
+        "smoke-c02-p00007"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000032",
+      "parents": [
+        "smoke-c02-p00008"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "validation"
+    },
+    {
+      "group_id": "gram-000033",
+      "parents": [
+        "smoke-c02-p00009"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000034",
+      "parents": [
+        "smoke-c02-p00010"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000035",
+      "parents": [
+        "smoke-c02-p00011"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000036",
+      "parents": [
+        "smoke-c03-p00000"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000037",
+      "parents": [
+        "smoke-c03-p00001"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000038",
+      "parents": [
+        "smoke-c03-p00002"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000039",
+      "parents": [
+        "smoke-c03-p00003"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000040",
+      "parents": [
+        "smoke-c03-p00004"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000041",
+      "parents": [
+        "smoke-c03-p00005"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000042",
+      "parents": [
+        "smoke-c03-p00006"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "validation"
+    },
+    {
+      "group_id": "gram-000043",
+      "parents": [
+        "smoke-c03-p00007"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "validation"
+    },
+    {
+      "group_id": "gram-000044",
+      "parents": [
+        "smoke-c03-p00008"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "test"
+    },
+    {
+      "group_id": "gram-000045",
+      "parents": [
+        "smoke-c03-p00009"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "validation"
+    },
+    {
+      "group_id": "gram-000046",
+      "parents": [
+        "smoke-c03-p00010"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000047",
+      "parents": [
+        "smoke-c03-p00011"
+      ],
+      "cohorts": [
+        "id"
+      ],
+      "n": 24,
+      "m": 10,
+      "pilot_overlap": false,
+      "split": "train"
+    },
+    {
+      "group_id": "gram-000048",
+      "parents": [
+        "smoke-c04-p00000"
+      ],
+      "cohorts": [
+        "family"
+      ],
+      "n": 36,
+      "m": 12,
+      "pilot_overlap": false,
+      "split": "test_family"
+    },
+    {
+      "group_id": "gram-000049",
+      "parents": [
+        "smoke-c04-p00001"
+      ],
+      "cohorts": [
+        "family"
+      ],
+      "n": 36,
+      "m": 12,
+      "pilot_overlap": false,
+      "split": "test_family"
+    },
+    {
+      "group_id": "gram-000050",
+      "parents": [
+        "smoke-c04-p00002"
+      ],
+      "cohorts": [
+        "family"
+      ],
+      "n": 36,
+      "m": 12,
+      "pilot_overlap": false,
+      "split": "test_family"
+    },
+    {
+      "group_id": "gram-000051",
+      "parents": [
+        "smoke-c04-p00003"
+      ],
+      "cohorts": [
+        "family"
+      ],
+      "n": 36,
+      "m": 12,
+      "pilot_overlap": false,
+      "split": "test_family"
+    },
+    {
+      "group_id": "gram-000052",
+      "parents": [
+        "smoke-c05-p00000"
+      ],
+      "cohorts": [
+        "size"
+      ],
+      "n": 36,
+      "m": 12,
+      "pilot_overlap": false,
+      "split": "test_size"
+    },
+    {
+      "group_id": "gram-000053",
+      "parents": [
+        "smoke-c05-p00001"
+      ],
+      "cohorts": [
+        "size"
+      ],
+      "n": 36,
+      "m": 12,
+      "pilot_overlap": false,
+      "split": "test_size"
+    },
+    {
+      "group_id": "gram-000054",
+      "parents": [
+        "smoke-c05-p00002"
+      ],
+      "cohorts": [
+        "size"
+      ],
+      "n": 36,
+      "m": 12,
+      "pilot_overlap": false,
+      "split": "test_size"
+    },
+    {
+      "group_id": "gram-000055",
+      "parents": [
+        "smoke-c05-p00003"
+      ],
+      "cohorts": [
+        "size"
+      ],
+      "n": 36,
+      "m": 12,
+      "pilot_overlap": false,
+      "split": "test_size"
+    }
+  ],
+  "pilot_gram_overlaps": 0,
+  "cross_split_gram_duplicates": 0,
+  "full_bipartite_iso_leakage": "Impossible across distinct exact Gram groups; iso M implies iso Gram."
+}

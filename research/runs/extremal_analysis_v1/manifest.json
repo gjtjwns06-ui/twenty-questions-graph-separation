@@ -1,0 +1,11 @@
+{
+  "auxiliary_c117_checks.json": "de3dc405f83afc42369bccfb10058a9fa9c78b1ab475f44f79b19384046e31a9",
+  "explicit_lift_checks.json": "2a96608ae98dccb4aa8834f74d9bc19e74877677431ca887790f0c0b437221fa",
+  "fixed_degree3_base.json": "33451c3fd3caadfa1fb39c975359d7c7819827ba00d657d8158e8262004a269c",
+  "new18_directsum_negative.json": "d0723796a81fba49d68a704d9992a0e9d70da9e65af8216efe11e6906a139cff",
+  "new18_independent_audit.json": "d1b59a46615377b413aca6a28b3a06b6f68245ec1bfd9047513d3445e2a48fc9",
+  "protocol.json": "9eb4f4d53939704e372797203588c6b3a7ed6129fc5bb3475147e9d9bb5c306d",
+  "scaling_bounds.json": "16012c9b7e6e0c117a296cfdbcf8a80636568a5b0eb29b12ea1c4c6c4550dcff",
+  "source_executed\\extremal_certify.py": "3fa6c257bdaf9ee5a2159fd4606e87a62778b431f0c75b16e5457f852d26e663",
+  "summary.json": "eb89840812839cc05f0495fe5a180916949e9fe1e40872017692c5a036e5f6e4"
+}

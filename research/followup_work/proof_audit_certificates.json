@@ -1,0 +1,1711 @@
+{
+  "created": "2026-11-25T15:38:47.669475+09:00",
+  "source_sha256": {
+    "followup_work/audit_bounds.py": "56f83b82ae1f342c4b6c593ed76f419ec8b92a84a1ec4797fc26171e591058f8",
+    "followup_work/proof_signature.py": "34e80bae07d0f83be4d3f922c1871c59057e8ecd0601b56dad673c4bf24d40a7"
+  },
+  "minimum_post": {
+    "a": {
+      "minimum": 19,
+      "path": [
+        {
+          "question": 3,
+          "new_coverage": 3,
+          "post_cost": 5
+        },
+        {
+          "question": 1,
+          "new_coverage": 4,
+          "post_cost": 8
+        },
+        {
+          "question": 7,
+          "new_coverage": 2,
+          "post_cost": 2
+        },
+        {
+          "question": 2,
+          "new_coverage": 2,
+          "post_cost": 2
+        },
+        {
+          "question": 0,
+          "new_coverage": 2,
+          "post_cost": 2
+        },
+        {
+          "question": 4,
+          "new_coverage": 1,
+          "post_cost": 0
+        }
+      ],
+      "reachable_states": 104,
+      "states": {
+        "8192": {
+          "value": 0,
+          "question": 4,
+          "yes_mask": 8192,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "4096": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 4096,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "2048": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 2048,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "6144": {
+          "value": 0,
+          "question": 4,
+          "yes_mask": 2048,
+          "no_mask": 4096,
+          "yes_cost": 0
+        },
+        "10240": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 2048,
+          "no_mask": 8192,
+          "yes_cost": 0
+        },
+        "14336": {
+          "value": 0,
+          "question": 6,
+          "yes_mask": 8192,
+          "no_mask": 6144,
+          "yes_cost": 0
+        },
+        "1024": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 1024,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "5120": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 1024,
+          "no_mask": 4096,
+          "yes_cost": 0
+        },
+        "3072": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 1024,
+          "no_mask": 2048,
+          "yes_cost": 0
+        },
+        "7168": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 1024,
+          "no_mask": 6144,
+          "yes_cost": 0
+        },
+        "11264": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 1024,
+          "no_mask": 10240,
+          "yes_cost": 0
+        },
+        "15360": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 1024,
+          "no_mask": 14336,
+          "yes_cost": 0
+        },
+        "512": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 512,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "8704": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 512,
+          "no_mask": 8192,
+          "yes_cost": 0
+        },
+        "256": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 256,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "4352": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 256,
+          "no_mask": 4096,
+          "yes_cost": 0
+        },
+        "128": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 128,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "384": {
+          "value": 0,
+          "question": 4,
+          "yes_mask": 128,
+          "no_mask": 256,
+          "yes_cost": 0
+        },
+        "2176": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 128,
+          "no_mask": 2048,
+          "yes_cost": 0
+        },
+        "6528": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 384,
+          "no_mask": 6144,
+          "yes_cost": 2
+        },
+        "10368": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 128,
+          "no_mask": 10240,
+          "yes_cost": 0
+        },
+        "14720": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 384,
+          "no_mask": 14336,
+          "yes_cost": 2
+        },
+        "768": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 256,
+          "no_mask": 512,
+          "yes_cost": 0
+        },
+        "5376": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 256,
+          "no_mask": 5120,
+          "yes_cost": 0
+        },
+        "1536": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 512,
+          "no_mask": 1024,
+          "yes_cost": 0
+        },
+        "5888": {
+          "value": 0,
+          "question": 6,
+          "yes_mask": 512,
+          "no_mask": 5376,
+          "yes_cost": 0
+        },
+        "640": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 128,
+          "no_mask": 512,
+          "yes_cost": 0
+        },
+        "896": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 512,
+          "no_mask": 384,
+          "yes_cost": 0
+        },
+        "3200": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 128,
+          "no_mask": 3072,
+          "yes_cost": 0
+        },
+        "7552": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 384,
+          "no_mask": 7168,
+          "yes_cost": 2
+        },
+        "11904": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 640,
+          "no_mask": 11264,
+          "yes_cost": 2
+        },
+        "16256": {
+          "value": 4,
+          "question": 3,
+          "yes_mask": 1536,
+          "no_mask": 14720,
+          "yes_cost": 2
+        },
+        "64": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 64,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "32": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 32,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "96": {
+          "value": 0,
+          "question": 4,
+          "yes_mask": 32,
+          "no_mask": 64,
+          "yes_cost": 0
+        },
+        "16": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 16,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "8240": {
+          "value": 2,
+          "question": 0,
+          "yes_mask": 48,
+          "no_mask": 8192,
+          "yes_cost": 2
+        },
+        "8304": {
+          "value": 2,
+          "question": 5,
+          "yes_mask": 8208,
+          "no_mask": 96,
+          "yes_cost": 2
+        },
+        "8": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 8,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "40": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 32,
+          "yes_cost": 0
+        },
+        "104": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 96,
+          "yes_cost": 0
+        },
+        "24": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 16,
+          "yes_cost": 0
+        },
+        "8248": {
+          "value": 2,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 8240,
+          "yes_cost": 0
+        },
+        "8312": {
+          "value": 2,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 8304,
+          "yes_cost": 0
+        },
+        "4": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 4,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "4100": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 4,
+          "no_mask": 4096,
+          "yes_cost": 0
+        },
+        "4164": {
+          "value": 0,
+          "question": 6,
+          "yes_mask": 64,
+          "no_mask": 4100,
+          "yes_cost": 0
+        },
+        "2068": {
+          "value": 2,
+          "question": 0,
+          "yes_mask": 20,
+          "no_mask": 2048,
+          "yes_cost": 2
+        },
+        "6164": {
+          "value": 2,
+          "question": 0,
+          "yes_mask": 20,
+          "no_mask": 6144,
+          "yes_cost": 2
+        },
+        "10292": {
+          "value": 4,
+          "question": 2,
+          "yes_mask": 2052,
+          "no_mask": 8240,
+          "yes_cost": 2
+        },
+        "14452": {
+          "value": 6,
+          "question": 7,
+          "yes_mask": 4160,
+          "no_mask": 10292,
+          "yes_cost": 2
+        },
+        "1028": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 4,
+          "no_mask": 1024,
+          "yes_cost": 0
+        },
+        "5124": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 4,
+          "no_mask": 5120,
+          "yes_cost": 0
+        },
+        "5188": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 1024,
+          "no_mask": 4164,
+          "yes_cost": 0
+        },
+        "3100": {
+          "value": 4,
+          "question": 3,
+          "yes_mask": 1032,
+          "no_mask": 2068,
+          "yes_cost": 2
+        },
+        "7196": {
+          "value": 4,
+          "question": 3,
+          "yes_mask": 1032,
+          "no_mask": 6164,
+          "yes_cost": 2
+        },
+        "11324": {
+          "value": 6,
+          "question": 3,
+          "yes_mask": 1032,
+          "no_mask": 10292,
+          "yes_cost": 2
+        },
+        "15484": {
+          "value": 8,
+          "question": 3,
+          "yes_mask": 1032,
+          "no_mask": 14452,
+          "yes_cost": 2
+        },
+        "2": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 2,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "66": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 2,
+          "no_mask": 64,
+          "yes_cost": 0
+        },
+        "1": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 1,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "3": {
+          "value": 0,
+          "question": 5,
+          "yes_mask": 1,
+          "no_mask": 2,
+          "yes_cost": 0
+        },
+        "67": {
+          "value": 0,
+          "question": 5,
+          "yes_mask": 1,
+          "no_mask": 66,
+          "yes_cost": 0
+        },
+        "98": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 2,
+          "no_mask": 96,
+          "yes_cost": 0
+        },
+        "17": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 1,
+          "no_mask": 16,
+          "yes_cost": 0
+        },
+        "19": {
+          "value": 0,
+          "question": 4,
+          "yes_mask": 16,
+          "no_mask": 3,
+          "yes_cost": 0
+        },
+        "8241": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 1,
+          "no_mask": 8240,
+          "yes_cost": 0
+        },
+        "8307": {
+          "value": 4,
+          "question": 1,
+          "yes_mask": 3,
+          "no_mask": 8304,
+          "yes_cost": 2
+        },
+        "578": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 512,
+          "no_mask": 66,
+          "yes_cost": 0
+        },
+        "513": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 1,
+          "no_mask": 512,
+          "yes_cost": 0
+        },
+        "579": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 512,
+          "no_mask": 67,
+          "yes_cost": 0
+        },
+        "10": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 2,
+          "no_mask": 8,
+          "yes_cost": 0
+        },
+        "552": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 512,
+          "no_mask": 40,
+          "yes_cost": 0
+        },
+        "618": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 514,
+          "no_mask": 104,
+          "yes_cost": 2
+        },
+        "25": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 1,
+          "no_mask": 24,
+          "yes_cost": 0
+        },
+        "27": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 19,
+          "yes_cost": 0
+        },
+        "8761": {
+          "value": 4,
+          "question": 1,
+          "yes_mask": 513,
+          "no_mask": 8248,
+          "yes_cost": 2
+        },
+        "8827": {
+          "value": 6,
+          "question": 3,
+          "yes_mask": 520,
+          "no_mask": 8307,
+          "yes_cost": 2
+        },
+        "258": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 2,
+          "no_mask": 256,
+          "yes_cost": 0
+        },
+        "322": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 256,
+          "no_mask": 66,
+          "yes_cost": 0
+        },
+        "5": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 1,
+          "no_mask": 4,
+          "yes_cost": 0
+        },
+        "4359": {
+          "value": 5,
+          "question": 0,
+          "yes_mask": 7,
+          "no_mask": 4352,
+          "yes_cost": 5
+        },
+        "4423": {
+          "value": 5,
+          "question": 1,
+          "yes_mask": 259,
+          "no_mask": 4164,
+          "yes_cost": 5
+        },
+        "386": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 2,
+          "no_mask": 384,
+          "yes_cost": 0
+        },
+        "160": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 32,
+          "no_mask": 128,
+          "yes_cost": 0
+        },
+        "482": {
+          "value": 2,
+          "question": 2,
+          "yes_mask": 384,
+          "no_mask": 98,
+          "yes_cost": 2
+        },
+        "2197": {
+          "value": 4,
+          "question": 1,
+          "yes_mask": 129,
+          "no_mask": 2068,
+          "yes_cost": 2
+        },
+        "6551": {
+          "value": 9,
+          "question": 7,
+          "yes_mask": 4354,
+          "no_mask": 2197,
+          "yes_cost": 5
+        },
+        "10421": {
+          "value": 6,
+          "question": 1,
+          "yes_mask": 129,
+          "no_mask": 10292,
+          "yes_cost": 2
+        },
+        "14839": {
+          "value": 14,
+          "question": 1,
+          "yes_mask": 387,
+          "no_mask": 14452,
+          "yes_cost": 8
+        },
+        "834": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 256,
+          "no_mask": 578,
+          "yes_cost": 0
+        },
+        "1029": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 1,
+          "no_mask": 1028,
+          "yes_cost": 0
+        },
+        "5383": {
+          "value": 5,
+          "question": 0,
+          "yes_mask": 7,
+          "no_mask": 5376,
+          "yes_cost": 5
+        },
+        "1541": {
+          "value": 0,
+          "question": 6,
+          "yes_mask": 512,
+          "no_mask": 1029,
+          "yes_cost": 0
+        },
+        "5959": {
+          "value": 7,
+          "question": 3,
+          "yes_mask": 1536,
+          "no_mask": 4423,
+          "yes_cost": 2
+        },
+        "136": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 8,
+          "no_mask": 128,
+          "yes_cost": 0
+        },
+        "394": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 386,
+          "yes_cost": 0
+        },
+        "680": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 128,
+          "no_mask": 552,
+          "yes_cost": 0
+        },
+        "1002": {
+          "value": 4,
+          "question": 2,
+          "yes_mask": 384,
+          "no_mask": 618,
+          "yes_cost": 2
+        },
+        "3229": {
+          "value": 6,
+          "question": 1,
+          "yes_mask": 129,
+          "no_mask": 3100,
+          "yes_cost": 2
+        },
+        "7583": {
+          "value": 11,
+          "question": 3,
+          "yes_mask": 1032,
+          "no_mask": 6551,
+          "yes_cost": 2
+        },
+        "11965": {
+          "value": 11,
+          "question": 1,
+          "yes_mask": 641,
+          "no_mask": 11324,
+          "yes_cost": 5
+        },
+        "16383": {
+          "value": 19,
+          "question": 3,
+          "yes_mask": 1544,
+          "no_mask": 14839,
+          "yes_cost": 5
+        }
+      }
+    },
+    "b": {
+      "minimum": 19,
+      "path": [
+        {
+          "question": 3,
+          "new_coverage": 3,
+          "post_cost": 5
+        },
+        {
+          "question": 1,
+          "new_coverage": 4,
+          "post_cost": 8
+        },
+        {
+          "question": 7,
+          "new_coverage": 2,
+          "post_cost": 2
+        },
+        {
+          "question": 2,
+          "new_coverage": 2,
+          "post_cost": 2
+        },
+        {
+          "question": 0,
+          "new_coverage": 2,
+          "post_cost": 2
+        },
+        {
+          "question": 4,
+          "new_coverage": 1,
+          "post_cost": 0
+        }
+      ],
+      "reachable_states": 102,
+      "states": {
+        "8192": {
+          "value": 0,
+          "question": 4,
+          "yes_mask": 8192,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "4096": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 4096,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "2048": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 2048,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "6144": {
+          "value": 0,
+          "question": 4,
+          "yes_mask": 2048,
+          "no_mask": 4096,
+          "yes_cost": 0
+        },
+        "10240": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 2048,
+          "no_mask": 8192,
+          "yes_cost": 0
+        },
+        "14336": {
+          "value": 0,
+          "question": 6,
+          "yes_mask": 8192,
+          "no_mask": 6144,
+          "yes_cost": 0
+        },
+        "1024": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 1024,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "3072": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 1024,
+          "no_mask": 2048,
+          "yes_cost": 0
+        },
+        "7168": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 1024,
+          "no_mask": 6144,
+          "yes_cost": 0
+        },
+        "11264": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 1024,
+          "no_mask": 10240,
+          "yes_cost": 0
+        },
+        "15360": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 1024,
+          "no_mask": 14336,
+          "yes_cost": 0
+        },
+        "512": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 512,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "8704": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 512,
+          "no_mask": 8192,
+          "yes_cost": 0
+        },
+        "256": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 256,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "128": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 128,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "4480": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 384,
+          "no_mask": 4096,
+          "yes_cost": 2
+        },
+        "2176": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 128,
+          "no_mask": 2048,
+          "yes_cost": 0
+        },
+        "6528": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 384,
+          "no_mask": 6144,
+          "yes_cost": 2
+        },
+        "10368": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 128,
+          "no_mask": 10240,
+          "yes_cost": 0
+        },
+        "14720": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 384,
+          "no_mask": 14336,
+          "yes_cost": 2
+        },
+        "768": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 256,
+          "no_mask": 512,
+          "yes_cost": 0
+        },
+        "640": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 128,
+          "no_mask": 512,
+          "yes_cost": 0
+        },
+        "4992": {
+          "value": 2,
+          "question": 3,
+          "yes_mask": 512,
+          "no_mask": 4480,
+          "yes_cost": 0
+        },
+        "1280": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 256,
+          "no_mask": 1024,
+          "yes_cost": 0
+        },
+        "1536": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 512,
+          "no_mask": 1024,
+          "yes_cost": 0
+        },
+        "1792": {
+          "value": 0,
+          "question": 4,
+          "yes_mask": 1024,
+          "no_mask": 768,
+          "yes_cost": 0
+        },
+        "3200": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 128,
+          "no_mask": 3072,
+          "yes_cost": 0
+        },
+        "7552": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 384,
+          "no_mask": 7168,
+          "yes_cost": 2
+        },
+        "11904": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 640,
+          "no_mask": 11264,
+          "yes_cost": 2
+        },
+        "16256": {
+          "value": 4,
+          "question": 3,
+          "yes_mask": 1536,
+          "no_mask": 14720,
+          "yes_cost": 2
+        },
+        "64": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 64,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "32": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 32,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "96": {
+          "value": 0,
+          "question": 4,
+          "yes_mask": 32,
+          "no_mask": 64,
+          "yes_cost": 0
+        },
+        "16": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 16,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "8240": {
+          "value": 2,
+          "question": 0,
+          "yes_mask": 48,
+          "no_mask": 8192,
+          "yes_cost": 2
+        },
+        "8304": {
+          "value": 2,
+          "question": 5,
+          "yes_mask": 8208,
+          "no_mask": 96,
+          "yes_cost": 2
+        },
+        "8": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 8,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "72": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 64,
+          "yes_cost": 0
+        },
+        "24": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 16,
+          "yes_cost": 0
+        },
+        "8248": {
+          "value": 2,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 8240,
+          "yes_cost": 0
+        },
+        "8312": {
+          "value": 2,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 8304,
+          "yes_cost": 0
+        },
+        "4": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 4,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "4100": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 4,
+          "no_mask": 4096,
+          "yes_cost": 0
+        },
+        "4164": {
+          "value": 0,
+          "question": 6,
+          "yes_mask": 64,
+          "no_mask": 4100,
+          "yes_cost": 0
+        },
+        "2068": {
+          "value": 2,
+          "question": 0,
+          "yes_mask": 20,
+          "no_mask": 2048,
+          "yes_cost": 2
+        },
+        "6164": {
+          "value": 2,
+          "question": 0,
+          "yes_mask": 20,
+          "no_mask": 6144,
+          "yes_cost": 2
+        },
+        "10292": {
+          "value": 4,
+          "question": 2,
+          "yes_mask": 2052,
+          "no_mask": 8240,
+          "yes_cost": 2
+        },
+        "14452": {
+          "value": 6,
+          "question": 7,
+          "yes_mask": 4160,
+          "no_mask": 10292,
+          "yes_cost": 2
+        },
+        "12": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 4,
+          "no_mask": 8,
+          "yes_cost": 0
+        },
+        "4108": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 4100,
+          "yes_cost": 0
+        },
+        "4172": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 4164,
+          "yes_cost": 0
+        },
+        "1056": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 32,
+          "no_mask": 1024,
+          "yes_cost": 0
+        },
+        "1120": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 1024,
+          "no_mask": 96,
+          "yes_cost": 0
+        },
+        "3100": {
+          "value": 4,
+          "question": 3,
+          "yes_mask": 1032,
+          "no_mask": 2068,
+          "yes_cost": 2
+        },
+        "7196": {
+          "value": 4,
+          "question": 3,
+          "yes_mask": 1032,
+          "no_mask": 6164,
+          "yes_cost": 2
+        },
+        "11324": {
+          "value": 6,
+          "question": 3,
+          "yes_mask": 1032,
+          "no_mask": 10292,
+          "yes_cost": 2
+        },
+        "15484": {
+          "value": 8,
+          "question": 3,
+          "yes_mask": 1032,
+          "no_mask": 14452,
+          "yes_cost": 2
+        },
+        "2": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 2,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "66": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 2,
+          "no_mask": 64,
+          "yes_cost": 0
+        },
+        "1": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 1,
+          "no_mask": 0,
+          "yes_cost": 0
+        },
+        "3": {
+          "value": 0,
+          "question": 4,
+          "yes_mask": 1,
+          "no_mask": 2,
+          "yes_cost": 0
+        },
+        "33": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 1,
+          "no_mask": 32,
+          "yes_cost": 0
+        },
+        "99": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 3,
+          "no_mask": 96,
+          "yes_cost": 2
+        },
+        "17": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 1,
+          "no_mask": 16,
+          "yes_cost": 0
+        },
+        "19": {
+          "value": 0,
+          "question": 5,
+          "yes_mask": 16,
+          "no_mask": 3,
+          "yes_cost": 0
+        },
+        "8241": {
+          "value": 2,
+          "question": 1,
+          "yes_mask": 1,
+          "no_mask": 8240,
+          "yes_cost": 0
+        },
+        "8307": {
+          "value": 4,
+          "question": 1,
+          "yes_mask": 3,
+          "no_mask": 8304,
+          "yes_cost": 2
+        },
+        "578": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 512,
+          "no_mask": 66,
+          "yes_cost": 0
+        },
+        "10": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 2,
+          "no_mask": 8,
+          "yes_cost": 0
+        },
+        "520": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 8,
+          "no_mask": 512,
+          "yes_cost": 0
+        },
+        "586": {
+          "value": 0,
+          "question": 5,
+          "yes_mask": 8,
+          "no_mask": 578,
+          "yes_cost": 0
+        },
+        "545": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 512,
+          "no_mask": 33,
+          "yes_cost": 0
+        },
+        "611": {
+          "value": 2,
+          "question": 3,
+          "yes_mask": 512,
+          "no_mask": 99,
+          "yes_cost": 0
+        },
+        "25": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 1,
+          "no_mask": 24,
+          "yes_cost": 0
+        },
+        "27": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 19,
+          "yes_cost": 0
+        },
+        "8761": {
+          "value": 4,
+          "question": 1,
+          "yes_mask": 513,
+          "no_mask": 8248,
+          "yes_cost": 2
+        },
+        "8827": {
+          "value": 6,
+          "question": 3,
+          "yes_mask": 520,
+          "no_mask": 8307,
+          "yes_cost": 2
+        },
+        "258": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 2,
+          "no_mask": 256,
+          "yes_cost": 0
+        },
+        "322": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 256,
+          "no_mask": 66,
+          "yes_cost": 0
+        },
+        "132": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 4,
+          "no_mask": 128,
+          "yes_cost": 0
+        },
+        "4486": {
+          "value": 4,
+          "question": 0,
+          "yes_mask": 6,
+          "no_mask": 4480,
+          "yes_cost": 2
+        },
+        "4550": {
+          "value": 4,
+          "question": 6,
+          "yes_mask": 64,
+          "no_mask": 4486,
+          "yes_cost": 0
+        },
+        "259": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 256,
+          "no_mask": 3,
+          "yes_cost": 0
+        },
+        "355": {
+          "value": 2,
+          "question": 2,
+          "yes_mask": 256,
+          "no_mask": 99,
+          "yes_cost": 0
+        },
+        "2197": {
+          "value": 4,
+          "question": 1,
+          "yes_mask": 129,
+          "no_mask": 2068,
+          "yes_cost": 2
+        },
+        "6551": {
+          "value": 9,
+          "question": 4,
+          "yes_mask": 2065,
+          "no_mask": 4486,
+          "yes_cost": 5
+        },
+        "10421": {
+          "value": 6,
+          "question": 1,
+          "yes_mask": 129,
+          "no_mask": 10292,
+          "yes_cost": 2
+        },
+        "14839": {
+          "value": 14,
+          "question": 1,
+          "yes_mask": 387,
+          "no_mask": 14452,
+          "yes_cost": 8
+        },
+        "834": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 256,
+          "no_mask": 578,
+          "yes_cost": 0
+        },
+        "140": {
+          "value": 0,
+          "question": 1,
+          "yes_mask": 128,
+          "no_mask": 12,
+          "yes_cost": 0
+        },
+        "4494": {
+          "value": 4,
+          "question": 3,
+          "yes_mask": 8,
+          "no_mask": 4486,
+          "yes_cost": 0
+        },
+        "652": {
+          "value": 0,
+          "question": 6,
+          "yes_mask": 512,
+          "no_mask": 140,
+          "yes_cost": 0
+        },
+        "5070": {
+          "value": 6,
+          "question": 3,
+          "yes_mask": 520,
+          "no_mask": 4550,
+          "yes_cost": 2
+        },
+        "1025": {
+          "value": 0,
+          "question": 0,
+          "yes_mask": 1,
+          "no_mask": 1024,
+          "yes_cost": 0
+        },
+        "1283": {
+          "value": 0,
+          "question": 3,
+          "yes_mask": 1024,
+          "no_mask": 259,
+          "yes_cost": 0
+        },
+        "1569": {
+          "value": 0,
+          "question": 2,
+          "yes_mask": 1024,
+          "no_mask": 545,
+          "yes_cost": 0
+        },
+        "1891": {
+          "value": 4,
+          "question": 2,
+          "yes_mask": 1280,
+          "no_mask": 611,
+          "yes_cost": 2
+        },
+        "3229": {
+          "value": 6,
+          "question": 1,
+          "yes_mask": 129,
+          "no_mask": 3100,
+          "yes_cost": 2
+        },
+        "7583": {
+          "value": 11,
+          "question": 3,
+          "yes_mask": 1032,
+          "no_mask": 6551,
+          "yes_cost": 2
+        },
+        "11965": {
+          "value": 11,
+          "question": 1,
+          "yes_mask": 641,
+          "no_mask": 11324,
+          "yes_cost": 5
+        },
+        "16383": {
+          "value": 19,
+          "question": 3,
+          "yes_mask": 1544,
+          "no_mask": 14839,
+          "yes_cost": 5
+        }
+      }
+    }
+  },
+  "tail_leaf_bounds": [
+    {
+      "s": 1,
+      "Lmin": 0,
+      "Lmax": 0,
+      "max_constant_descendants": 1,
+      "difference_bound": 1
+    },
+    {
+      "s": 2,
+      "Lmin": 2,
+      "Lmax": 2,
+      "max_constant_descendants": 2,
+      "difference_bound": 2
+    },
+    {
+      "s": 3,
+      "Lmin": 5,
+      "Lmax": 5,
+      "max_constant_descendants": 3,
+      "difference_bound": 3
+    },
+    {
+      "s": 4,
+      "Lmin": 8,
+      "Lmax": 9,
+      "max_constant_descendants": 4,
+      "difference_bound": 5
+    },
+    {
+      "s": 5,
+      "Lmin": 12,
+      "Lmax": 14,
+      "max_constant_descendants": 5,
+      "difference_bound": 7
+    },
+    {
+      "s": 6,
+      "Lmin": 16,
+      "Lmax": 20,
+      "max_constant_descendants": 6,
+      "difference_bound": 10
+    },
+    {
+      "s": 7,
+      "Lmin": 20,
+      "Lmax": 27,
+      "max_constant_descendants": 7,
+      "difference_bound": 14
+    },
+    {
+      "s": 8,
+      "Lmin": 24,
+      "Lmax": 35,
+      "max_constant_descendants": 7,
+      "difference_bound": 18
+    },
+    {
+      "s": 9,
+      "Lmin": 29,
+      "Lmax": 44,
+      "max_constant_descendants": 7,
+      "difference_bound": 22
+    },
+    {
+      "s": 10,
+      "Lmin": 34,
+      "Lmax": 54,
+      "max_constant_descendants": 7,
+      "difference_bound": 27
+    },
+    {
+      "s": 11,
+      "Lmin": 39,
+      "Lmax": 65,
+      "max_constant_descendants": 7,
+      "difference_bound": 33
+    },
+    {
+      "s": 12,
+      "Lmin": 44,
+      "Lmax": 77,
+      "max_constant_descendants": 7,
+      "difference_bound": 40
+    },
+    {
+      "s": 13,
+      "Lmin": 49,
+      "Lmax": 90,
+      "max_constant_descendants": 7,
+      "difference_bound": 48
+    }
+  ],
+  "maximum_tail_leaf_difference": 48,
+  "disconnected_stronger_bound": {
+    "lower": "(T-33)/28-97/(14T)",
+    "upper": "(T+27)/28+97/(14T)",
+    "first_uniformly_positive_integer_T": 39,
+    "values": [
+      {
+        "T": 1,
+        "lower_exact": "-113/14",
+        "upper_exact": "111/14",
+        "lower": -8.071428571428571,
+        "upper": 7.928571428571429
+      },
+      {
+        "T": 2,
+        "lower_exact": "-32/7",
+        "upper_exact": "9/2",
+        "lower": -4.571428571428571,
+        "upper": 4.5
+      },
+      {
+        "T": 38,
+        "lower_exact": "-1/266",
+        "upper_exact": "333/133",
+        "lower": -0.0037593984962406013,
+        "upper": 2.5037593984962405
+      },
+      {
+        "T": 39,
+        "lower_exact": "10/273",
+        "upper_exact": "692/273",
+        "lower": 0.03663003663003663,
+        "upper": 2.5347985347985347
+      },
+      {
+        "T": 50,
+        "lower_exact": "82/175",
+        "upper_exact": "1011/350",
+        "lower": 0.4685714285714286,
+        "upper": 2.888571428571429
+      },
+      {
+        "T": 81,
+        "lower_exact": "1847/1134",
+        "upper_exact": "4471/1134",
+        "lower": 1.628747795414462,
+        "upper": 3.942680776014109
+      },
+      {
+        "T": 100,
+        "lower_exact": "3253/1400",
+        "upper_exact": "921/200",
+        "lower": 2.3235714285714284,
+        "upper": 4.605
+      }
+    ]
+  },
+  "paired_hub_bridge_stronger_bound": {
+    "lower": "(2S-62)/29-97/(29S)",
+    "upper": "(2S+56)/29+97/(29S)",
+    "first_uniformly_positive_integer_S": 33,
+    "values": [
+      {
+        "S": 9,
+        "N": 261,
+        "lower_exact": "-17/9",
+        "upper_exact": "763/261",
+        "lower": -1.8888888888888888,
+        "upper": 2.9233716475095783
+      },
+      {
+        "S": 32,
+        "N": 928,
+        "lower_exact": "-33/928",
+        "upper_exact": "3937/928",
+        "lower": -0.03556034482758621,
+        "upper": 4.242456896551724
+      },
+      {
+        "S": 33,
+        "N": 957,
+        "lower_exact": "35/957",
+        "upper_exact": "4123/957",
+        "lower": 0.03657262277951933,
+        "upper": 4.308254963427377
+      },
+      {
+        "S": 54,
+        "N": 1566,
+        "lower_exact": "2387/1566",
+        "upper_exact": "8953/1566",
+        "lower": 1.5242656449553,
+        "upper": 5.717113665389528
+      },
+      {
+        "S": 100,
+        "N": 2900,
+        "lower_exact": "13703/2900",
+        "upper_exact": "25697/2900",
+        "lower": 4.7251724137931035,
+        "upper": 8.86103448275862
+      }
+    ]
+  },
+  "interpretation": "Finite proof certificates, not measured large-graph exact costs"
+}

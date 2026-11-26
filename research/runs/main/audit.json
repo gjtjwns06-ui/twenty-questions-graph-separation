@@ -1,0 +1,78 @@
+{
+  "completed": "2026-11-25T13:25:19.999245+09:00",
+  "passed": true,
+  "pairs_checked": 1223,
+  "optimal_trees_replayed": 2446,
+  "feature_labels_checked": 26916,
+  "iso_duplicate_parent_pairs": 0,
+  "rename_audits": [
+    {
+      "n": 14,
+      "m": 8,
+      "family": "natural",
+      "world_id": "main-c00-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 14,
+      "m": 8,
+      "family": "planted",
+      "world_id": "main-c01-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 24,
+      "m": 10,
+      "family": "natural",
+      "world_id": "main-c02-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 24,
+      "m": 10,
+      "family": "planted",
+      "world_id": "main-c03-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 36,
+      "m": 12,
+      "family": "modular",
+      "world_id": "main-c08-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 36,
+      "m": 12,
+      "family": "natural",
+      "world_id": "main-c04-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 36,
+      "m": 12,
+      "family": "planted",
+      "world_id": "main-c05-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 48,
+      "m": 14,
+      "family": "natural",
+      "world_id": "main-c06-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 48,
+      "m": 14,
+      "family": "planted",
+      "world_id": "main-c07-p00000-original",
+      "passed": true
+    }
+  ],
+  "incomplete_world_labels_absent": true,
+  "pairwise_features_identical": true,
+  "cross_split_gram_duplicates": 0,
+  "exact_H2_invariance": true,
+  "full_bipartite_iso_scope": "No cross-split duplicates possible because Gram isomorphism is grouped exactly."
+}

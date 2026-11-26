@@ -1,0 +1,81 @@
+{
+  "name": "smoke",
+  "seed": 78421,
+  "trades_per_parent": 1,
+  "solver": {
+    "seconds": 5.0,
+    "max_states": 250000,
+    "max_rss_mb": 1024
+  },
+  "tie_tolerance": 1e-10,
+  "baselines": true,
+  "features": true,
+  "cells": [
+    {
+      "n": 14,
+      "m": 8,
+      "family": "natural",
+      "parents": 12,
+      "cohort": "id"
+    },
+    {
+      "n": 14,
+      "m": 8,
+      "family": "planted",
+      "parents": 12,
+      "cohort": "id"
+    },
+    {
+      "n": 24,
+      "m": 10,
+      "family": "natural",
+      "parents": 12,
+      "cohort": "id"
+    },
+    {
+      "n": 24,
+      "m": 10,
+      "family": "planted",
+      "parents": 12,
+      "cohort": "id"
+    },
+    {
+      "n": 36,
+      "m": 12,
+      "family": "modular",
+      "parents": 4,
+      "cohort": "family"
+    },
+    {
+      "n": 36,
+      "m": 12,
+      "family": "natural",
+      "parents": 4,
+      "cohort": "size"
+    }
+  ],
+  "split_seed": 211,
+  "train_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "pilot_directories": [],
+  "model_seeds": [
+    41,
+    73
+  ],
+  "model_grid": {
+    "ridge": [
+      {
+        "alpha": 1.0
+      }
+    ],
+    "boosting": [
+      {
+        "max_iter": 20,
+        "max_leaf_nodes": 7
+      }
+    ]
+  },
+  "selection_tolerance": 1e-12,
+  "bootstrap_replicates": 200,
+  "bootstrap_seed": 121
+}

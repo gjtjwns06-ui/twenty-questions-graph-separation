@@ -1,0 +1,21 @@
+{
+  "name": "pilot",
+  "seed": 25311025,
+  "trades_per_parent": 1,
+  "solver": {"seconds": 5.0, "max_states": 250000, "max_rss_mb": 1024},
+  "tie_tolerance": 1e-10,
+  "baselines": true,
+  "features": true,
+  "cells": [
+    {"n": 14, "m": 8, "family": "natural", "parents": 5},
+    {"n": 14, "m": 8, "family": "planted", "parents": 5},
+    {"n": 24, "m": 10, "family": "natural", "parents": 5},
+    {"n": 24, "m": 10, "family": "planted", "parents": 5},
+    {"n": 36, "m": 12, "family": "natural", "parents": 5},
+    {"n": 36, "m": 12, "family": "planted", "parents": 5},
+    {"n": 48, "m": 14, "family": "natural", "parents": 3},
+    {"n": 48, "m": 14, "family": "planted", "parents": 3},
+    {"n": 64, "m": 16, "family": "planted", "parents": 2},
+    {"n": 96, "m": 20, "family": "planted", "parents": 1}
+  ]
+}

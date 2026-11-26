@@ -1,0 +1,2518 @@
+{
+  "summary": {
+    "fiber_id": "fiber-07",
+    "source": "main-c08-p00063-pair0",
+    "n": 36,
+    "m": 12,
+    "nodes": 1200,
+    "completed": 1200,
+    "expanded": 489,
+    "edges": 3127,
+    "stop_reason": "fiber_node_budget",
+    "component_certified_exhausted": false,
+    "uniform_span_exact": "1/18",
+    "uniform_span": 0.05555555555555555,
+    "max_uniform_gap_exact": "1/18",
+    "max_uniform_gap": 0.05555555555555555,
+    "robust_separation_exact": "1/18",
+    "bad_id": "f5f703a37257e964454e",
+    "good_id": "0030e2e63dae2d6d46ff",
+    "robust_bad_id": "f5f703a37257e964454e",
+    "robust_good_id": "3e4d916f146dd65e113d"
+  },
+  "bad": {
+    "node_id": "f5f703a37257e964454e",
+    "rows": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        0,
+        2,
+        7
+      ],
+      [
+        0,
+        3,
+        7
+      ],
+      [
+        0,
+        3,
+        9
+      ],
+      [
+        0,
+        4,
+        9
+      ],
+      [
+        0,
+        5,
+        11
+      ],
+      [
+        0,
+        7,
+        8
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        5,
+        7
+      ],
+      [
+        1,
+        6,
+        11
+      ],
+      [
+        1,
+        7,
+        9
+      ],
+      [
+        1,
+        8,
+        9
+      ],
+      [
+        1,
+        10,
+        11
+      ],
+      [
+        2,
+        3,
+        9
+      ],
+      [
+        2,
+        4,
+        10
+      ],
+      [
+        2,
+        4,
+        11
+      ],
+      [
+        2,
+        5,
+        10
+      ],
+      [
+        2,
+        6,
+        11
+      ],
+      [
+        2,
+        10,
+        11
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        3,
+        6,
+        10
+      ],
+      [
+        3,
+        8,
+        9
+      ],
+      [
+        3,
+        10,
+        11
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        4,
+        6,
+        10
+      ],
+      [
+        4,
+        6,
+        11
+      ],
+      [
+        4,
+        10,
+        11
+      ],
+      [
+        5,
+        6,
+        8
+      ],
+      [
+        5,
+        7,
+        11
+      ],
+      [
+        5,
+        8,
+        10
+      ],
+      [
+        5,
+        9,
+        11
+      ],
+      [
+        5,
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        11
+      ],
+      [
+        6,
+        9,
+        11
+      ],
+      [
+        7,
+        8,
+        9
+      ],
+      [
+        9,
+        10,
+        11
+      ]
+    ],
+    "n": 36,
+    "m": 12,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 196,
+      "optimal_mean": 5.444444444444445,
+      "first_totals": [
+        204,
+        203,
+        201,
+        204,
+        201,
+        197,
+        200,
+        199,
+        207,
+        196,
+        196,
+        196
+      ],
+      "argmin": [
+        9,
+        10,
+        11
+      ],
+      "optimal_tree": {
+        "question": 9,
+        "yes": {
+          "question": 0,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "object": 0
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "object": 3
+              },
+              "no": {
+                "object": 4
+              }
+            }
+          },
+          "no": {
+            "question": 8,
+            "yes": {
+              "question": 1,
+              "yes": {
+                "object": 11
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "object": 21
+                },
+                "no": {
+                  "object": 34
+                }
+              }
+            },
+            "no": {
+              "question": 11,
+              "yes": {
+                "question": 5,
+                "yes": {
+                  "object": 30
+                },
+                "no": {
+                  "question": 6,
+                  "yes": {
+                    "object": 33
+                  },
+                  "no": {
+                    "object": 35
+                  }
+                }
+              },
+              "no": {
+                "question": 1,
+                "yes": {
+                  "object": 10
+                },
+                "no": {
+                  "object": 13
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 10,
+          "yes": {
+            "question": 4,
+            "yes": {
+              "question": 2,
+              "yes": {
+                "object": 14
+              },
+              "no": {
+                "question": 6,
+                "yes": {
+                  "object": 24
+                },
+                "no": {
+                  "object": 26
+                }
+              }
+            },
+            "no": {
+              "question": 5,
+              "yes": {
+                "question": 2,
+                "yes": {
+                  "object": 16
+                },
+                "no": {
+                  "question": 8,
+                  "yes": {
+                    "object": 29
+                  },
+                  "no": {
+                    "object": 31
+                  }
+                }
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "question": 6,
+                  "yes": {
+                    "object": 20
+                  },
+                  "no": {
+                    "object": 22
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 12
+                  },
+                  "no": {
+                    "object": 18
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 7,
+            "yes": {
+              "question": 0,
+              "yes": {
+                "question": 2,
+                "yes": {
+                  "object": 1
+                },
+                "no": {
+                  "question": 3,
+                  "yes": {
+                    "object": 2
+                  },
+                  "no": {
+                    "object": 6
+                  }
+                }
+              },
+              "no": {
+                "question": 11,
+                "yes": {
+                  "question": 5,
+                  "yes": {
+                    "object": 28
+                  },
+                  "no": {
+                    "object": 32
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 8
+                  },
+                  "no": {
+                    "object": 19
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 4,
+              "yes": {
+                "question": 2,
+                "yes": {
+                  "question": 1,
+                  "yes": {
+                    "object": 7
+                  },
+                  "no": {
+                    "object": 15
+                  }
+                },
+                "no": {
+                  "question": 5,
+                  "yes": {
+                    "object": 23
+                  },
+                  "no": {
+                    "object": 25
+                  }
+                }
+              },
+              "no": {
+                "question": 5,
+                "yes": {
+                  "question": 0,
+                  "yes": {
+                    "object": 5
+                  },
+                  "no": {
+                    "object": 27
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 9
+                  },
+                  "no": {
+                    "object": 17
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        3,
+        5,
+        6,
+        4,
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        4,
+        6,
+        5,
+        4,
+        6,
+        5,
+        6,
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        5,
+        6,
+        5,
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        6,
+        5,
+        6
+      ],
+      "states": 3719,
+      "elapsed_seconds": 0.014771499999369553
+    },
+    "greedy": {
+      "total_uniform_exact": "198",
+      "mean_uniform_exact": "11/2",
+      "mean_uniform": 5.5,
+      "total_min_ties": 198,
+      "total_max_ties": 198,
+      "gap_exact": "1/18",
+      "gap": 0.05555555555555555,
+      "min_tie_gap_exact": "1/18",
+      "min_tie_gap": 0.05555555555555555,
+      "max_tie_gap_exact": "1/18",
+      "max_tie_gap": 0.05555555555555555,
+      "approximation_ratio_exact": "99/98",
+      "approximation_ratio": 1.010204081632653,
+      "root_questions": [
+        11
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.017555800000081945,
+      "baseline_rss_mb": 57.69140625,
+      "sampled_peak_rss_mb": 57.84375,
+      "sampled_increment_mb": 0.15234375,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-07",
+    "predecessor": "5b7afb1ff3d073608f99",
+    "trade": {
+      "removed": [
+        [
+          1,
+          6,
+          8
+        ],
+        [
+          1,
+          9,
+          11
+        ],
+        [
+          5,
+          6,
+          11
+        ],
+        [
+          5,
+          8,
+          9
+        ]
+      ],
+      "added": [
+        [
+          1,
+          6,
+          11
+        ],
+        [
+          1,
+          8,
+          9
+        ],
+        [
+          5,
+          6,
+          8
+        ],
+        [
+          5,
+          9,
+          11
+        ]
+      ],
+      "row_replacements": [
+        {
+          "index": 9,
+          "before": [
+            1,
+            6,
+            8
+          ],
+          "after": [
+            1,
+            6,
+            11
+          ]
+        },
+        {
+          "index": 11,
+          "before": [
+            1,
+            9,
+            11
+          ],
+          "after": [
+            1,
+            8,
+            9
+          ]
+        },
+        {
+          "index": 27,
+          "before": [
+            5,
+            6,
+            11
+          ],
+          "after": [
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "index": 29,
+          "before": [
+            5,
+            8,
+            9
+          ],
+          "after": [
+            5,
+            9,
+            11
+          ]
+        }
+      ]
+    },
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "good": {
+    "node_id": "0030e2e63dae2d6d46ff",
+    "rows": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        0,
+        2,
+        9
+      ],
+      [
+        0,
+        3,
+        7
+      ],
+      [
+        0,
+        3,
+        9
+      ],
+      [
+        0,
+        4,
+        11
+      ],
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        0,
+        7,
+        8
+      ],
+      [
+        1,
+        2,
+        7
+      ],
+      [
+        1,
+        4,
+        9
+      ],
+      [
+        1,
+        5,
+        7
+      ],
+      [
+        1,
+        6,
+        11
+      ],
+      [
+        1,
+        8,
+        9
+      ],
+      [
+        1,
+        10,
+        11
+      ],
+      [
+        2,
+        3,
+        10
+      ],
+      [
+        2,
+        4,
+        6
+      ],
+      [
+        2,
+        4,
+        10
+      ],
+      [
+        2,
+        4,
+        11
+      ],
+      [
+        2,
+        5,
+        11
+      ],
+      [
+        2,
+        10,
+        11
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        3,
+        7,
+        9
+      ],
+      [
+        3,
+        8,
+        9
+      ],
+      [
+        3,
+        10,
+        11
+      ],
+      [
+        4,
+        5,
+        10
+      ],
+      [
+        4,
+        6,
+        10
+      ],
+      [
+        4,
+        6,
+        11
+      ],
+      [
+        5,
+        6,
+        8
+      ],
+      [
+        5,
+        7,
+        11
+      ],
+      [
+        5,
+        8,
+        10
+      ],
+      [
+        5,
+        9,
+        11
+      ],
+      [
+        5,
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        11
+      ],
+      [
+        6,
+        9,
+        11
+      ],
+      [
+        6,
+        10,
+        11
+      ],
+      [
+        7,
+        8,
+        9
+      ],
+      [
+        9,
+        10,
+        11
+      ]
+    ],
+    "n": 36,
+    "m": 12,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 196,
+      "optimal_mean": 5.444444444444445,
+      "first_totals": [
+        204,
+        203,
+        201,
+        204,
+        201,
+        197,
+        200,
+        199,
+        207,
+        196,
+        196,
+        196
+      ],
+      "argmin": [
+        9,
+        10,
+        11
+      ],
+      "optimal_tree": {
+        "question": 9,
+        "yes": {
+          "question": 0,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "object": 0
+            },
+            "no": {
+              "question": 2,
+              "yes": {
+                "object": 1
+              },
+              "no": {
+                "object": 3
+              }
+            }
+          },
+          "no": {
+            "question": 8,
+            "yes": {
+              "question": 1,
+              "yes": {
+                "object": 11
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "object": 21
+                },
+                "no": {
+                  "object": 34
+                }
+              }
+            },
+            "no": {
+              "question": 11,
+              "yes": {
+                "question": 5,
+                "yes": {
+                  "object": 29
+                },
+                "no": {
+                  "question": 6,
+                  "yes": {
+                    "object": 32
+                  },
+                  "no": {
+                    "object": 35
+                  }
+                }
+              },
+              "no": {
+                "question": 1,
+                "yes": {
+                  "object": 8
+                },
+                "no": {
+                  "object": 20
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 10,
+          "yes": {
+            "question": 2,
+            "yes": {
+              "question": 3,
+              "yes": {
+                "object": 13
+              },
+              "no": {
+                "question": 4,
+                "yes": {
+                  "object": 15
+                },
+                "no": {
+                  "object": 18
+                }
+              }
+            },
+            "no": {
+              "question": 5,
+              "yes": {
+                "question": 4,
+                "yes": {
+                  "object": 23
+                },
+                "no": {
+                  "question": 8,
+                  "yes": {
+                    "object": 28
+                  },
+                  "no": {
+                    "object": 30
+                  }
+                }
+              },
+              "no": {
+                "question": 6,
+                "yes": {
+                  "question": 4,
+                  "yes": {
+                    "object": 24
+                  },
+                  "no": {
+                    "object": 33
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 12
+                  },
+                  "no": {
+                    "object": 22
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 7,
+            "yes": {
+              "question": 0,
+              "yes": {
+                "question": 3,
+                "yes": {
+                  "object": 2
+                },
+                "no": {
+                  "question": 5,
+                  "yes": {
+                    "object": 5
+                  },
+                  "no": {
+                    "object": 6
+                  }
+                }
+              },
+              "no": {
+                "question": 1,
+                "yes": {
+                  "question": 2,
+                  "yes": {
+                    "object": 7
+                  },
+                  "no": {
+                    "object": 9
+                  }
+                },
+                "no": {
+                  "question": 5,
+                  "yes": {
+                    "object": 27
+                  },
+                  "no": {
+                    "object": 31
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 4,
+              "yes": {
+                "question": 2,
+                "yes": {
+                  "question": 6,
+                  "yes": {
+                    "object": 14
+                  },
+                  "no": {
+                    "object": 16
+                  }
+                },
+                "no": {
+                  "question": 0,
+                  "yes": {
+                    "object": 4
+                  },
+                  "no": {
+                    "object": 25
+                  }
+                }
+              },
+              "no": {
+                "question": 11,
+                "yes": {
+                  "question": 1,
+                  "yes": {
+                    "object": 10
+                  },
+                  "no": {
+                    "object": 17
+                  }
+                },
+                "no": {
+                  "question": 3,
+                  "yes": {
+                    "object": 19
+                  },
+                  "no": {
+                    "object": 26
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        3,
+        4,
+        5,
+        4,
+        6,
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        4,
+        6,
+        4,
+        6,
+        5,
+        6,
+        6,
+        5,
+        6,
+        5,
+        5,
+        6,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        6,
+        6,
+        5,
+        6
+      ],
+      "states": 3715,
+      "elapsed_seconds": 0.013817699999890465
+    },
+    "greedy": {
+      "total_uniform_exact": "196",
+      "mean_uniform_exact": "49/9",
+      "mean_uniform": 5.444444444444445,
+      "total_min_ties": 196,
+      "total_max_ties": 196,
+      "gap_exact": "0",
+      "gap": 0.0,
+      "min_tie_gap_exact": "0",
+      "min_tie_gap": 0.0,
+      "max_tie_gap_exact": "0",
+      "max_tie_gap": 0.0,
+      "approximation_ratio_exact": "1",
+      "approximation_ratio": 1.0,
+      "root_questions": [
+        11
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.01690350000080798,
+      "baseline_rss_mb": 68.23046875,
+      "sampled_peak_rss_mb": 68.23046875,
+      "sampled_increment_mb": 0.0,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-07",
+    "predecessor": "648a51515d4211ebb3ce",
+    "trade": {
+      "removed": [
+        [
+          5,
+          6,
+          11
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7,
+          9,
+          11
+        ]
+      ],
+      "added": [
+        [
+          5,
+          6,
+          8
+        ],
+        [
+          5,
+          7,
+          11
+        ],
+        [
+          6,
+          9,
+          11
+        ],
+        [
+          7,
+          8,
+          9
+        ]
+      ],
+      "row_replacements": [
+        {
+          "index": 26,
+          "before": [
+            5,
+            6,
+            11
+          ],
+          "after": [
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "index": 27,
+          "before": [
+            5,
+            7,
+            8
+          ],
+          "after": [
+            5,
+            7,
+            11
+          ]
+        },
+        {
+          "index": 32,
+          "before": [
+            6,
+            8,
+            9
+          ],
+          "after": [
+            6,
+            9,
+            11
+          ]
+        },
+        {
+          "index": 34,
+          "before": [
+            7,
+            9,
+            11
+          ],
+          "after": [
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "robust_bad": {
+    "node_id": "f5f703a37257e964454e",
+    "rows": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        0,
+        2,
+        7
+      ],
+      [
+        0,
+        3,
+        7
+      ],
+      [
+        0,
+        3,
+        9
+      ],
+      [
+        0,
+        4,
+        9
+      ],
+      [
+        0,
+        5,
+        11
+      ],
+      [
+        0,
+        7,
+        8
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        5,
+        7
+      ],
+      [
+        1,
+        6,
+        11
+      ],
+      [
+        1,
+        7,
+        9
+      ],
+      [
+        1,
+        8,
+        9
+      ],
+      [
+        1,
+        10,
+        11
+      ],
+      [
+        2,
+        3,
+        9
+      ],
+      [
+        2,
+        4,
+        10
+      ],
+      [
+        2,
+        4,
+        11
+      ],
+      [
+        2,
+        5,
+        10
+      ],
+      [
+        2,
+        6,
+        11
+      ],
+      [
+        2,
+        10,
+        11
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        3,
+        6,
+        10
+      ],
+      [
+        3,
+        8,
+        9
+      ],
+      [
+        3,
+        10,
+        11
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        4,
+        6,
+        10
+      ],
+      [
+        4,
+        6,
+        11
+      ],
+      [
+        4,
+        10,
+        11
+      ],
+      [
+        5,
+        6,
+        8
+      ],
+      [
+        5,
+        7,
+        11
+      ],
+      [
+        5,
+        8,
+        10
+      ],
+      [
+        5,
+        9,
+        11
+      ],
+      [
+        5,
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        11
+      ],
+      [
+        6,
+        9,
+        11
+      ],
+      [
+        7,
+        8,
+        9
+      ],
+      [
+        9,
+        10,
+        11
+      ]
+    ],
+    "n": 36,
+    "m": 12,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 196,
+      "optimal_mean": 5.444444444444445,
+      "first_totals": [
+        204,
+        203,
+        201,
+        204,
+        201,
+        197,
+        200,
+        199,
+        207,
+        196,
+        196,
+        196
+      ],
+      "argmin": [
+        9,
+        10,
+        11
+      ],
+      "optimal_tree": {
+        "question": 9,
+        "yes": {
+          "question": 0,
+          "yes": {
+            "question": 1,
+            "yes": {
+              "object": 0
+            },
+            "no": {
+              "question": 3,
+              "yes": {
+                "object": 3
+              },
+              "no": {
+                "object": 4
+              }
+            }
+          },
+          "no": {
+            "question": 8,
+            "yes": {
+              "question": 1,
+              "yes": {
+                "object": 11
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "object": 21
+                },
+                "no": {
+                  "object": 34
+                }
+              }
+            },
+            "no": {
+              "question": 11,
+              "yes": {
+                "question": 5,
+                "yes": {
+                  "object": 30
+                },
+                "no": {
+                  "question": 6,
+                  "yes": {
+                    "object": 33
+                  },
+                  "no": {
+                    "object": 35
+                  }
+                }
+              },
+              "no": {
+                "question": 1,
+                "yes": {
+                  "object": 10
+                },
+                "no": {
+                  "object": 13
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 10,
+          "yes": {
+            "question": 4,
+            "yes": {
+              "question": 2,
+              "yes": {
+                "object": 14
+              },
+              "no": {
+                "question": 6,
+                "yes": {
+                  "object": 24
+                },
+                "no": {
+                  "object": 26
+                }
+              }
+            },
+            "no": {
+              "question": 5,
+              "yes": {
+                "question": 2,
+                "yes": {
+                  "object": 16
+                },
+                "no": {
+                  "question": 8,
+                  "yes": {
+                    "object": 29
+                  },
+                  "no": {
+                    "object": 31
+                  }
+                }
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "question": 6,
+                  "yes": {
+                    "object": 20
+                  },
+                  "no": {
+                    "object": 22
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 12
+                  },
+                  "no": {
+                    "object": 18
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 7,
+            "yes": {
+              "question": 0,
+              "yes": {
+                "question": 2,
+                "yes": {
+                  "object": 1
+                },
+                "no": {
+                  "question": 3,
+                  "yes": {
+                    "object": 2
+                  },
+                  "no": {
+                    "object": 6
+                  }
+                }
+              },
+              "no": {
+                "question": 11,
+                "yes": {
+                  "question": 5,
+                  "yes": {
+                    "object": 28
+                  },
+                  "no": {
+                    "object": 32
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 8
+                  },
+                  "no": {
+                    "object": 19
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 4,
+              "yes": {
+                "question": 2,
+                "yes": {
+                  "question": 1,
+                  "yes": {
+                    "object": 7
+                  },
+                  "no": {
+                    "object": 15
+                  }
+                },
+                "no": {
+                  "question": 5,
+                  "yes": {
+                    "object": 23
+                  },
+                  "no": {
+                    "object": 25
+                  }
+                }
+              },
+              "no": {
+                "question": 5,
+                "yes": {
+                  "question": 0,
+                  "yes": {
+                    "object": 5
+                  },
+                  "no": {
+                    "object": 27
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 9
+                  },
+                  "no": {
+                    "object": 17
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        3,
+        5,
+        6,
+        4,
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        4,
+        6,
+        5,
+        4,
+        6,
+        5,
+        6,
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        5,
+        6,
+        5,
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        6,
+        5,
+        6
+      ],
+      "states": 3719,
+      "elapsed_seconds": 0.014771499999369553
+    },
+    "greedy": {
+      "total_uniform_exact": "198",
+      "mean_uniform_exact": "11/2",
+      "mean_uniform": 5.5,
+      "total_min_ties": 198,
+      "total_max_ties": 198,
+      "gap_exact": "1/18",
+      "gap": 0.05555555555555555,
+      "min_tie_gap_exact": "1/18",
+      "min_tie_gap": 0.05555555555555555,
+      "max_tie_gap_exact": "1/18",
+      "max_tie_gap": 0.05555555555555555,
+      "approximation_ratio_exact": "99/98",
+      "approximation_ratio": 1.010204081632653,
+      "root_questions": [
+        11
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.017555800000081945,
+      "baseline_rss_mb": 57.69140625,
+      "sampled_peak_rss_mb": 57.84375,
+      "sampled_increment_mb": 0.15234375,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-07",
+    "predecessor": "5b7afb1ff3d073608f99",
+    "trade": {
+      "removed": [
+        [
+          1,
+          6,
+          8
+        ],
+        [
+          1,
+          9,
+          11
+        ],
+        [
+          5,
+          6,
+          11
+        ],
+        [
+          5,
+          8,
+          9
+        ]
+      ],
+      "added": [
+        [
+          1,
+          6,
+          11
+        ],
+        [
+          1,
+          8,
+          9
+        ],
+        [
+          5,
+          6,
+          8
+        ],
+        [
+          5,
+          9,
+          11
+        ]
+      ],
+      "row_replacements": [
+        {
+          "index": 9,
+          "before": [
+            1,
+            6,
+            8
+          ],
+          "after": [
+            1,
+            6,
+            11
+          ]
+        },
+        {
+          "index": 11,
+          "before": [
+            1,
+            9,
+            11
+          ],
+          "after": [
+            1,
+            8,
+            9
+          ]
+        },
+        {
+          "index": 27,
+          "before": [
+            5,
+            6,
+            11
+          ],
+          "after": [
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "index": 29,
+          "before": [
+            5,
+            8,
+            9
+          ],
+          "after": [
+            5,
+            9,
+            11
+          ]
+        }
+      ]
+    },
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "robust_good": {
+    "node_id": "3e4d916f146dd65e113d",
+    "rows": [
+      [
+        0,
+        1,
+        9
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        3,
+        7
+      ],
+      [
+        0,
+        3,
+        9
+      ],
+      [
+        0,
+        5,
+        11
+      ],
+      [
+        0,
+        7,
+        8
+      ],
+      [
+        0,
+        7,
+        9
+      ],
+      [
+        1,
+        2,
+        9
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        5,
+        7
+      ],
+      [
+        1,
+        7,
+        11
+      ],
+      [
+        1,
+        8,
+        9
+      ],
+      [
+        1,
+        10,
+        11
+      ],
+      [
+        2,
+        3,
+        10
+      ],
+      [
+        2,
+        4,
+        10
+      ],
+      [
+        2,
+        4,
+        11
+      ],
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        2,
+        6,
+        11
+      ],
+      [
+        2,
+        10,
+        11
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        3,
+        7,
+        9
+      ],
+      [
+        3,
+        8,
+        9
+      ],
+      [
+        3,
+        10,
+        11
+      ],
+      [
+        4,
+        5,
+        10
+      ],
+      [
+        4,
+        6,
+        10
+      ],
+      [
+        4,
+        6,
+        11
+      ],
+      [
+        4,
+        9,
+        11
+      ],
+      [
+        5,
+        6,
+        11
+      ],
+      [
+        5,
+        7,
+        8
+      ],
+      [
+        5,
+        8,
+        10
+      ],
+      [
+        5,
+        9,
+        11
+      ],
+      [
+        5,
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        11
+      ],
+      [
+        6,
+        8,
+        9
+      ],
+      [
+        6,
+        10,
+        11
+      ],
+      [
+        9,
+        10,
+        11
+      ]
+    ],
+    "n": 36,
+    "m": 12,
+    "exact": {
+      "status": "complete",
+      "optimal_total": 196,
+      "optimal_mean": 5.444444444444445,
+      "first_totals": [
+        203,
+        203,
+        200,
+        204,
+        200,
+        197,
+        200,
+        200,
+        207,
+        197,
+        197,
+        196
+      ],
+      "argmin": [
+        11
+      ],
+      "optimal_tree": {
+        "question": 11,
+        "yes": {
+          "question": 5,
+          "yes": {
+            "question": 0,
+            "yes": {
+              "object": 4
+            },
+            "no": {
+              "question": 6,
+              "yes": {
+                "object": 27
+              },
+              "no": {
+                "question": 9,
+                "yes": {
+                  "object": 30
+                },
+                "no": {
+                  "object": 31
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 2,
+            "yes": {
+              "question": 4,
+              "yes": {
+                "object": 15
+              },
+              "no": {
+                "question": 6,
+                "yes": {
+                  "object": 17
+                },
+                "no": {
+                  "object": 18
+                }
+              }
+            },
+            "no": {
+              "question": 6,
+              "yes": {
+                "question": 4,
+                "yes": {
+                  "object": 25
+                },
+                "no": {
+                  "question": 7,
+                  "yes": {
+                    "object": 32
+                  },
+                  "no": {
+                    "object": 34
+                  }
+                }
+              },
+              "no": {
+                "question": 1,
+                "yes": {
+                  "question": 7,
+                  "yes": {
+                    "object": 10
+                  },
+                  "no": {
+                    "object": 12
+                  }
+                },
+                "no": {
+                  "question": 3,
+                  "yes": {
+                    "object": 22
+                  },
+                  "no": {
+                    "question": 4,
+                    "yes": {
+                      "object": 26
+                    },
+                    "no": {
+                      "object": 35
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "question": 9,
+          "yes": {
+            "question": 0,
+            "yes": {
+              "question": 1,
+              "yes": {
+                "object": 0
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "object": 3
+                },
+                "no": {
+                  "object": 6
+                }
+              }
+            },
+            "no": {
+              "question": 1,
+              "yes": {
+                "question": 2,
+                "yes": {
+                  "object": 7
+                },
+                "no": {
+                  "object": 11
+                }
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "question": 7,
+                  "yes": {
+                    "object": 20
+                  },
+                  "no": {
+                    "object": 21
+                  }
+                },
+                "no": {
+                  "object": 33
+                }
+              }
+            }
+          },
+          "no": {
+            "question": 5,
+            "yes": {
+              "question": 7,
+              "yes": {
+                "question": 1,
+                "yes": {
+                  "object": 9
+                },
+                "no": {
+                  "question": 2,
+                  "yes": {
+                    "object": 16
+                  },
+                  "no": {
+                    "object": 28
+                  }
+                }
+              },
+              "no": {
+                "question": 3,
+                "yes": {
+                  "object": 19
+                },
+                "no": {
+                  "question": 4,
+                  "yes": {
+                    "object": 23
+                  },
+                  "no": {
+                    "object": 29
+                  }
+                }
+              }
+            },
+            "no": {
+              "question": 0,
+              "yes": {
+                "question": 2,
+                "yes": {
+                  "object": 1
+                },
+                "no": {
+                  "question": 3,
+                  "yes": {
+                    "object": 2
+                  },
+                  "no": {
+                    "object": 5
+                  }
+                }
+              },
+              "no": {
+                "question": 2,
+                "yes": {
+                  "question": 3,
+                  "yes": {
+                    "object": 13
+                  },
+                  "no": {
+                    "object": 14
+                  }
+                },
+                "no": {
+                  "question": 1,
+                  "yes": {
+                    "object": 8
+                  },
+                  "no": {
+                    "object": 24
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "replay_depths": [
+        4,
+        5,
+        6,
+        5,
+        3,
+        6,
+        5,
+        5,
+        6,
+        5,
+        6,
+        5,
+        6,
+        6,
+        6,
+        4,
+        6,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        7,
+        4,
+        6,
+        6,
+        5,
+        5,
+        6,
+        5,
+        6,
+        7
+      ],
+      "states": 3692,
+      "elapsed_seconds": 0.014479699999355944
+    },
+    "greedy": {
+      "total_uniform_exact": "196",
+      "mean_uniform_exact": "49/9",
+      "mean_uniform": 5.444444444444445,
+      "total_min_ties": 196,
+      "total_max_ties": 196,
+      "gap_exact": "0",
+      "gap": 0.0,
+      "min_tie_gap_exact": "0",
+      "min_tie_gap": 0.0,
+      "max_tie_gap_exact": "0",
+      "max_tie_gap": 0.0,
+      "approximation_ratio_exact": "1",
+      "approximation_ratio": 1.0,
+      "root_questions": [
+        11
+      ],
+      "root_oracle_regret_min_exact": "0"
+    },
+    "profile": {
+      "seconds": 0.01684040000054665,
+      "baseline_rss_mb": 53.96484375,
+      "sampled_peak_rss_mb": 54.2265625,
+      "sampled_increment_mb": 0.26171875,
+      "lifetime_peak_rss_mb": 105.32421875,
+      "sampling_interval_seconds": 0.005
+    },
+    "fiber_id": "fiber-07",
+    "predecessor": null,
+    "trade": null,
+    "row_canonicalization": "Sort rows after every move; all row degrees remain 3"
+  },
+  "checks": {
+    "same_gram": true,
+    "same_row_degrees": true,
+    "unique_rows": true,
+    "valid_columns": true,
+    "row_degrees": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "gram": [
+      [
+        7,
+        1,
+        1,
+        2,
+        1,
+        1,
+        0,
+        3,
+        1,
+        3,
+        0,
+        1
+      ],
+      [
+        1,
+        7,
+        1,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        3,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        8,
+        1,
+        3,
+        1,
+        1,
+        1,
+        0,
+        1,
+        3,
+        3
+      ],
+      [
+        2,
+        0,
+        1,
+        7,
+        0,
+        1,
+        1,
+        2,
+        1,
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        3,
+        0,
+        8,
+        1,
+        3,
+        0,
+        0,
+        1,
+        3,
+        3
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        10,
+        2,
+        3,
+        2,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        3,
+        2,
+        9,
+        1,
+        1,
+        1,
+        2,
+        5
+      ],
+      [
+        3,
+        2,
+        1,
+        2,
+        0,
+        3,
+        1,
+        9,
+        2,
+        2,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        0,
+        2,
+        1,
+        2,
+        6,
+        3,
+        1,
+        0
+      ],
+      [
+        3,
+        3,
+        1,
+        3,
+        1,
+        1,
+        1,
+        2,
+        3,
+        11,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3,
+        3,
+        2,
+        0,
+        1,
+        1,
+        11,
+        6
+      ],
+      [
+        1,
+        2,
+        3,
+        1,
+        3,
+        4,
+        5,
+        2,
+        0,
+        3,
+        6,
+        15
+      ]
+    ],
+    "c4": 84,
+    "c6": 896,
+    "triple_histogram": {
+      "0": 184,
+      "1": 36
+    }
+  }
+}

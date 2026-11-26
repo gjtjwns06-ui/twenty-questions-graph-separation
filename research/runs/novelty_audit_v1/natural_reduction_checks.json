@@ -1,0 +1,99 @@
+{
+  "source": "https://arxiv.org/html/2610.07771v1",
+  "source_equations": [
+    "6",
+    "7",
+    "8"
+  ],
+  "checks": [
+    {
+      "n": 4,
+      "victims": 24,
+      "original_queries": 24,
+      "matched_all_one_query_label_histograms": true,
+      "target_indicator_tables_identical": true,
+      "target_indicator_row_degree": 1,
+      "onehot_row_degree": 24,
+      "onehot_columns": 120,
+      "onehot_gram_equal": false,
+      "mismatch": {
+        "columns": [
+          "(p0,label1)",
+          "(p1,label1)"
+        ],
+        "fast": 4,
+        "slow": 6
+      },
+      "scope": "These two encodings fail to give the present theorem; no impossibility of all reductions is claimed."
+    },
+    {
+      "n": 5,
+      "victims": 48,
+      "original_queries": 48,
+      "matched_all_one_query_label_histograms": true,
+      "target_indicator_tables_identical": true,
+      "target_indicator_row_degree": 1,
+      "onehot_row_degree": 48,
+      "onehot_columns": 240,
+      "onehot_gram_equal": false,
+      "mismatch": {
+        "columns": [
+          "(p0,label1)",
+          "(p1,label1)"
+        ],
+        "fast": 8,
+        "slow": 14
+      },
+      "scope": "These two encodings fail to give the present theorem; no impossibility of all reductions is claimed."
+    },
+    {
+      "n": 6,
+      "victims": 96,
+      "original_queries": 96,
+      "matched_all_one_query_label_histograms": true,
+      "target_indicator_tables_identical": true,
+      "target_indicator_row_degree": 1,
+      "onehot_row_degree": 96,
+      "onehot_columns": 480,
+      "onehot_gram_equal": false,
+      "mismatch": {
+        "columns": [
+          "(p0,label1)",
+          "(p1,label1)"
+        ],
+        "fast": 16,
+        "slow": 30
+      },
+      "scope": "These two encodings fail to give the present theorem; no impossibility of all reductions is claimed."
+    }
+  ],
+  "chen_k4": {
+    "cut_profile_equal": true,
+    "gram_equal": false,
+    "off_diagonal_gram": [
+      1,
+      2
+    ],
+    "rows": [
+      6,
+      4
+    ],
+    "row_degrees": [
+      2,
+      3
+    ]
+  },
+  "bare_pasch": {
+    "gram_equal": true,
+    "a": {
+      "optimal_mean": "2",
+      "greedy_mean": "2"
+    },
+    "b": {
+      "optimal_mean": "2",
+      "greedy_mean": "2"
+    },
+    "interpretation": "A pair-preserving trade alone does not force any cost separation."
+  },
+  "script_sha256": "0f556c76fd52a1140a96c1b8b1a1c4ee93881ec7ad2eb14266e64374284561ad"
+}

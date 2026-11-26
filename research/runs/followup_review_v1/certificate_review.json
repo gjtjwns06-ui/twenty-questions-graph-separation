@@ -1,0 +1,59 @@
+{
+  "completed": "2026-11-25T15:44:40.802164+09:00",
+  "old_artifacts_unchanged": true,
+  "original_main_files_verified": 79,
+  "original_extremal_files_verified": 59,
+  "strengthened_bounds": {
+    "post": {
+      "a": {
+        "states_checked": 103,
+        "minimum_post": 19,
+        "method": "All Bellman alternatives checked with independent reachable-state F"
+      },
+      "b": {
+        "states_checked": 101,
+        "minimum_post": 19,
+        "method": "All Bellman alternatives checked with independent reachable-state F"
+      }
+    },
+    "max_tail_leafsum_difference": 48,
+    "disconnected_sufficient_T": 39,
+    "connected_bridge_sufficient_S": 33
+  },
+  "root_bridge": {
+    "completed": "2026-11-25T15:35:30.968763+09:00",
+    "profile": {
+      "seconds": 2.7517499000005046,
+      "baseline_rss_mb": 21.83203125,
+      "sampled_peak_rss_mb": 32.87109375,
+      "sampled_increment_mb": 11.0390625,
+      "lifetime_peak_rss_mb": 33.89453125,
+      "sampling_interval_seconds": 0.005
+    },
+    "connected_same_gram_degree3": true,
+    "structural_graphs_checked": 14,
+    "exact_graphs_checked": 2,
+    "seeded_trees_replayed": 8,
+    "regret_contrast": "2N/841+O(1)",
+    "cost_ratios": [
+      "131/129",
+      "45/43"
+    ],
+    "finite_bound_positive_for_s_ge": 54,
+    "exact_large_n_optimal_labels": "Not computed or fabricated"
+  },
+  "root_gluing": {
+    "completed": "2026-11-25T15:39:06.409390+09:00",
+    "passed": true,
+    "structural_graphs": 24,
+    "independently_reviewed_branches": 4,
+    "all_cut_subsets_checked": 512,
+    "connected18_optimal_cost_contrast": "N/324+O(1)",
+    "connected18_regret_contrast_leading": 0,
+    "source_claim": "Connection positive; regret-linear amplification negative for this particular merged-column lift"
+  },
+  "agent_finite_completed": 8,
+  "agent_finite_incomplete": 2,
+  "formal_proof_assistant_used": false,
+  "method": "Direct mathematical audit plus independently implemented finite certificate checks"
+}

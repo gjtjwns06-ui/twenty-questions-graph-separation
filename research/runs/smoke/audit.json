@@ -1,0 +1,57 @@
+{
+  "completed": "2026-11-25T13:15:24.657660+09:00",
+  "passed": true,
+  "pairs_checked": 48,
+  "optimal_trees_replayed": 96,
+  "feature_labels_checked": 924,
+  "iso_duplicate_parent_pairs": 0,
+  "rename_audits": [
+    {
+      "n": 14,
+      "m": 8,
+      "family": "natural",
+      "world_id": "smoke-c00-p00002-original",
+      "passed": true
+    },
+    {
+      "n": 14,
+      "m": 8,
+      "family": "planted",
+      "world_id": "smoke-c01-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 24,
+      "m": 10,
+      "family": "natural",
+      "world_id": "smoke-c02-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 24,
+      "m": 10,
+      "family": "planted",
+      "world_id": "smoke-c03-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 36,
+      "m": 12,
+      "family": "modular",
+      "world_id": "smoke-c04-p00000-original",
+      "passed": true
+    },
+    {
+      "n": 36,
+      "m": 12,
+      "family": "natural",
+      "world_id": "smoke-c05-p00000-original",
+      "passed": true
+    }
+  ],
+  "incomplete_world_labels_absent": true,
+  "pairwise_features_identical": true,
+  "cross_split_gram_duplicates": 0,
+  "exact_H2_invariance": true,
+  "full_bipartite_iso_scope": "No cross-split duplicates possible because Gram isomorphism is grouped exactly."
+}

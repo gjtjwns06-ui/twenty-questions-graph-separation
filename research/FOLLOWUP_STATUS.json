@@ -1,0 +1,22 @@
+{
+  "completed": "2026-11-25T15:44:41.908852+09:00",
+  "literature": "No identical full theorem found in reviewed primary sources; novelty unconfirmed",
+  "connected_degree3_same_gram": true,
+  "regret_contrast_connected": "2N/841+O(1)",
+  "additional_connected_no_new_objects_regret": "N/784+O(1), other world regretO(1)",
+  "connected_optimal_cost_contrast": "N/324+O(1), cost ratio tends17/16; NOT regretcontrast",
+  "proof_audit": "No fatal flaw found; stronger finite bounds independently checked",
+  "sufficient_positive_size_disconnected_N": 546,
+  "sufficient_positive_size_bridge_N": 957,
+  "all_tie_linear_claim": false,
+  "linear_regret_scope": "Uniform random tie handling is essential for these families",
+  "unresolved": [
+    "Literature novelty",
+    "Bounded question degree",
+    "2-connected families",
+    "Sharp constants",
+    "All-tie robust linear separation at degree3"
+  ],
+  "previous_results_preserved": true,
+  "new_incomplete_cases": 2
+}

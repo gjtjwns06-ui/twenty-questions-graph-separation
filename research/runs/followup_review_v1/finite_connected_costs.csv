@@ -1,0 +1,11 @@
+﻿base,copies,world,n,m,status,optimal_mean_exact,greedy_mean_exact,regret_exact
+base14,1,a,14,8,complete,27/7,325/84,1/84
+base14,1,b,14,8,complete,27/7,163/42,1/42
+base14,2,a,28,15,complete,36/7,8681/1680,41/1680
+base14,2,b,28,15,complete,36/7,21701/4200,101/4200
+base14,3,a,42,22,state_limit,,,
+base14,3,b,42,22,state_limit,,,
+base18,1,a,18,9,complete,77/18,9/2,2/9
+base18,1,b,18,9,complete,13/3,13/3,0
+base18,2,a,36,17,complete,197/36,133/24,5/72
+base18,2,b,36,17,complete,199/36,199/36,0

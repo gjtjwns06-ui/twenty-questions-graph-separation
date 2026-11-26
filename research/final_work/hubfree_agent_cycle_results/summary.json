@@ -1,0 +1,67 @@
+{
+  "completed": "2026-11-25T16:25:42.848357+09:00",
+  "profile": {
+    "seconds": 21.179259500000626,
+    "baseline_rss_mb": 37.92578125,
+    "sampled_peak_rss_mb": 58.1171875,
+    "sampled_increment_mb": 20.19140625,
+    "lifetime_peak_rss_mb": 62.2265625,
+    "sampling_interval_seconds": 0.005
+  },
+  "scan_pairs": 28,
+  "completed_pairs": 28,
+  "biconnected_pairs": 28,
+  "top": [
+    {
+      "left": 1,
+      "right": 4,
+      "contrast": "31/630",
+      "signed": "31/630",
+      "a_gap": "1/504",
+      "b_gap": "43/840"
+    },
+    {
+      "left": 1,
+      "right": 5,
+      "contrast": "11/252",
+      "signed": "11/252",
+      "a_gap": "1/252",
+      "b_gap": "1/21"
+    },
+    {
+      "left": 1,
+      "right": 6,
+      "contrast": "1/28",
+      "signed": "-1/28",
+      "a_gap": "1/14",
+      "b_gap": "1/28"
+    }
+  ],
+  "selected_T3_statuses": [
+    {
+      "left": 1,
+      "right": 4,
+      "statuses": {
+        "a": "time_limit",
+        "b": "time_limit"
+      }
+    },
+    {
+      "left": 1,
+      "right": 5,
+      "statuses": {
+        "a": "time_limit",
+        "b": "time_limit"
+      }
+    },
+    {
+      "left": 1,
+      "right": 6,
+      "statuses": {
+        "a": "time_limit",
+        "b": "time_limit"
+      }
+    }
+  ],
+  "asymptotic_regret": "notproved;localoverlapscoupleprofiles"
+}

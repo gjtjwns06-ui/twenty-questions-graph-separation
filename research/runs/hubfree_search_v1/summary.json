@@ -1,0 +1,19 @@
+{
+  "completed": "2026-11-25T16:32:57.498726+09:00",
+  "worlds": 720,
+  "complete_worlds": 720,
+  "patterns": 240,
+  "best_contrast_exact": "13/76",
+  "profile": {
+    "seconds": 181.06454099999974,
+    "baseline_rss_mb": 38.20703125,
+    "sampled_peak_rss_mb": 52.66796875,
+    "sampled_increment_mb": 14.4609375,
+    "lifetime_peak_rss_mb": 53.921875,
+    "sampling_interval_seconds": 0.005
+  },
+  "stop_reason": "time_budget",
+  "no_articulation_vertex": true,
+  "max_question_degree_uniform_bound": 10,
+  "not_an_expander_certificate": true
+}

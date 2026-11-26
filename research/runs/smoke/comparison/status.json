@@ -1,0 +1,25 @@
+{
+  "completed": "2026-11-25T13:15:19.544043+09:00",
+  "primary_model": "ridge_all",
+  "full_ml_policy": "Not evaluated: models trained on initial states only.",
+  "training_rows": 472,
+  "training_parents": 26,
+  "model_files_sha256": {
+    "boosting_all-seed41.joblib": "b5519da9543e903a8c46f0ee32d788b34b162c567731c0bf5dcdb0633c7542e5",
+    "boosting_all-seed73.joblib": "ca3cc52edb8b5af14dee9a4bce12bc08cfbbc57da19c597000de4854dfb87194",
+    "boosting_base-seed41.joblib": "36927ca0f365673536e2c515903242bf5186fa54375c7612c3e350dc3782952e",
+    "boosting_base-seed73.joblib": "eeb5f3748b77a61923dca31c47fed370ee7ee71f0207e39c04570d6069b160b1",
+    "boosting_base_conditional-seed41.joblib": "3f62e7ff207e0bfbe32a8ce57901c8008ec08ba9d4dbbdd7bb28a2e3faedd240",
+    "boosting_base_conditional-seed73.joblib": "8d798c661e6664b7e9ba5a4c2c23ef34914d471ed016501937d2d96e15739837",
+    "boosting_base_search-seed41.joblib": "f94f38c8b816d06b5edf2af286368124f24e37b36721b4b5dfd8b8aadc2b4406",
+    "boosting_base_search-seed73.joblib": "eaf66743202e94f5a2a5ae27336092173a94e7e0473f72310eb0491986b5714f",
+    "ridge_all-seed41.joblib": "e914e853ecf540ca57cd5e7f41f365e48941eb9d3545c2bc9671d8a98595f1f3",
+    "ridge_all-seed73.joblib": "e914e853ecf540ca57cd5e7f41f365e48941eb9d3545c2bc9671d8a98595f1f3",
+    "ridge_base-seed41.joblib": "c75dfeea3b0285fb1b11c80f6bd50e1f5b49fb230eace2e6e5c7cbc44a47de29",
+    "ridge_base-seed73.joblib": "c75dfeea3b0285fb1b11c80f6bd50e1f5b49fb230eace2e6e5c7cbc44a47de29",
+    "ridge_base_conditional-seed41.joblib": "08ca59bc86e69d3a3d02d2c1e7dfea994e233338a5857b517cb9189685542710",
+    "ridge_base_conditional-seed73.joblib": "08ca59bc86e69d3a3d02d2c1e7dfea994e233338a5857b517cb9189685542710",
+    "ridge_base_search-seed41.joblib": "e3d7515a28b9fb42ad596b89161b94d35f10f4c03dd5896ae4bb3fa3371358d7",
+    "ridge_base_search-seed73.joblib": "e3d7515a28b9fb42ad596b89161b94d35f10f4c03dd5896ae4bb3fa3371358d7"
+  }
+}

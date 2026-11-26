@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-11-25T13:11:35.925752+09:00",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\gjtjw\\Desktop\\Twenty_Questions\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cpu": "Intel(R) Core(TM) Ultra 5 226V",
+  "logical_cpus": 8,
+  "physical_memory_mb": 15914.70703125,
+  "dependencies": [
+    "cloudpickle==3.1.3",
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fonttools==4.68.0",
+    "joblib==1.6.0",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.11.2",
+    "narwhals==2.29.0",
+    "networkx==3.7",
+    "numpy==2.5.5",
+    "packaging==26.4",
+    "pillow==13.0.0",
+    "psutil==7.2.2",
+    "pyparsing==3.3.3",
+    "python-dateutil==4.0.0",
+    "scikit-learn==1.9.1",
+    "scipy==1.18.1",
+    "threadpoolctl==3.8.0",
+    "tzdata==2026.6"
+  ],
+  "source_sha256": {
+    "experiment.py": "780aad45ada2f40002d28cf5826ecec6bc33e81e60d42d098cc0a240381c7556",
+    "tq\\__init__.py": "bbd79c6d120cab04fb42af2b2c385b93a7c4a65a3652a9d19dbb08be724758c4",
+    "tq\\core.py": "4802b232518b57db2f98253d98f7941d8fa1fdb7d645a98b917e4fbb3ce9c982",
+    "tq\\data.py": "f3b4215a0f86300522a3bad4b22f1a460df8a41a5eaf0653063313b072582d79",
+    "tq\\features.py": "8eeeaa2e927ef886fc66a778983e71bb6f3c2f38470f23452a1051e8326d78ff",
+    "tq\\io.py": "0167da4ad52148bee6552be117ab69190a3770ad73f358e7226292218197e410",
+    "tq\\models.py": "366131fea57e29383959808b886eca8161d73edfe35c16ff1805772fc6c76728",
+    "tq\\splits.py": "a3b6e04df1bbf135ee73194f42ff2ad932f3138b25da0ab4b0724d6177340099"
+  },
+  "threading": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

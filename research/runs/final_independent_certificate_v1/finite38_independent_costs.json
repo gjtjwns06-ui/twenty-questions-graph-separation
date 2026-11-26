@@ -1,0 +1,88 @@
+{
+  "bad": {
+    "costs": {
+      "optimal_total": 215,
+      "first_totals": [
+        217,
+        229,
+        218,
+        215,
+        219,
+        231,
+        227,
+        230,
+        231,
+        217,
+        229,
+        218,
+        215,
+        219,
+        231,
+        227,
+        230,
+        231
+      ],
+      "greedy_uniform_total_exact": "443/2",
+      "greedy_min_total": 221,
+      "greedy_max_total": 222,
+      "states": 50163,
+      "representation": "Immutable tuple of answer profiles; independent of object-subset bitmask implementation"
+    },
+    "vertex_deletions": {
+      "vertices_checked": 56,
+      "disconnecting_vertices": [],
+      "passed": true
+    },
+    "profile": {
+      "seconds": 2.0913213999992877,
+      "baseline_rss_mb": 38.50390625,
+      "sampled_peak_rss_mb": 54.02734375,
+      "sampled_increment_mb": 15.5234375,
+      "lifetime_peak_rss_mb": 54.046875,
+      "sampling_interval_seconds": 0.005
+    }
+  },
+  "good": {
+    "costs": {
+      "optimal_total": 216,
+      "first_totals": [
+        217,
+        229,
+        219,
+        216,
+        219,
+        231,
+        227,
+        231,
+        231,
+        217,
+        229,
+        219,
+        216,
+        219,
+        231,
+        227,
+        231,
+        231
+      ],
+      "greedy_uniform_total_exact": "216",
+      "greedy_min_total": 216,
+      "greedy_max_total": 216,
+      "states": 52700,
+      "representation": "Immutable tuple of answer profiles; independent of object-subset bitmask implementation"
+    },
+    "vertex_deletions": {
+      "vertices_checked": 56,
+      "disconnecting_vertices": [],
+      "passed": true
+    },
+    "profile": {
+      "seconds": 2.2653315999996266,
+      "baseline_rss_mb": 54.046875,
+      "sampled_peak_rss_mb": 61.66015625,
+      "sampled_increment_mb": 7.61328125,
+      "lifetime_peak_rss_mb": 61.703125,
+      "sampling_interval_seconds": 0.005
+    }
+  }
+}

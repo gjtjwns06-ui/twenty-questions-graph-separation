@@ -1,0 +1,6 @@
+{
+  "started": "2026-11-25T15:39:06.340105+09:00",
+  "source_sha256": "6089b06c9e4d3d7fe1279893de8a860a67b9e69e4ef8ed4c4f230392f3f6ad3d",
+  "purpose": "Independent subset and row-set enumeration; not reusing the original profile routine",
+  "large_cases": "Graph invariants only; no large exact optimal labels"
+}

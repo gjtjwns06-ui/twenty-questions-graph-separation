@@ -1,0 +1,1417 @@
+{
+  "1": {
+    "n_per_block": 15,
+    "worlds": {
+      "a": {
+        "certificate": {
+          "n": 15,
+          "m": 9,
+          "coverage_envelope": [
+            0,
+            8,
+            13,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "achieving_sets": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1,
+              5
+            ],
+            [
+              0,
+              1,
+              2,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          ],
+          "nested_order": [
+            0,
+            2,
+            6
+          ],
+          "nested_gains": [
+            8,
+            5,
+            2
+          ],
+          "local_optimal_postyes_totals": [
+            25,
+            12,
+            2
+          ],
+          "nested_optimal_postyes_mean_exact": "13/5",
+          "profiles": [
+            {
+              "gains": [
+                8,
+                4,
+                3
+              ],
+              "probability_exact": "1/2"
+            },
+            {
+              "gains": [
+                8,
+                5,
+                2
+              ],
+              "probability_exact": "1/2"
+            }
+          ],
+          "mu_exact": [
+            "3",
+            "3",
+            "5/2",
+            "2",
+            "3/2",
+            "1",
+            "1",
+            "1"
+          ],
+          "variance_exact": [
+            "0",
+            "0",
+            "1/4",
+            "0",
+            "1/4",
+            "0",
+            "0",
+            "0"
+          ],
+          "D_exact": "67/2",
+          "virtual_cover_slope_exact": "67/60",
+          "virtual_cover_intercept_exact": "31/60",
+          "expected_local_postyes_greedy_exact": "77/30"
+        },
+        "upper_optimal_post_total": 39,
+        "upper_policy_parts": [
+          {
+            "question": 0,
+            "yes_size": 8,
+            "F_yes": 25
+          },
+          {
+            "question": 2,
+            "yes_size": 5,
+            "F_yes": 12
+          },
+          {
+            "question": 6,
+            "yes_size": 2,
+            "F_yes": 2
+          }
+        ]
+      },
+      "b": {
+        "certificate": {
+          "n": 15,
+          "m": 9,
+          "coverage_envelope": [
+            0,
+            8,
+            13,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "achieving_sets": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          ],
+          "nested_order": [
+            0,
+            2,
+            6
+          ],
+          "nested_gains": [
+            8,
+            5,
+            2
+          ],
+          "local_optimal_postyes_totals": [
+            25,
+            12,
+            2
+          ],
+          "nested_optimal_postyes_mean_exact": "13/5",
+          "profiles": [
+            {
+              "gains": [
+                8,
+                4,
+                2,
+                1
+              ],
+              "probability_exact": "1/2"
+            },
+            {
+              "gains": [
+                8,
+                5,
+                2
+              ],
+              "probability_exact": "1/2"
+            }
+          ],
+          "mu_exact": [
+            "7/2",
+            "3",
+            "2",
+            "2",
+            "3/2",
+            "1",
+            "1",
+            "1"
+          ],
+          "variance_exact": [
+            "1/4",
+            "0",
+            "0",
+            "0",
+            "1/4",
+            "0",
+            "0",
+            "0"
+          ],
+          "D_exact": "69/2",
+          "virtual_cover_slope_exact": "23/20",
+          "virtual_cover_intercept_exact": "31/60",
+          "expected_local_postyes_greedy_exact": "37/15"
+        },
+        "upper_optimal_post_total": 39,
+        "upper_policy_parts": [
+          {
+            "question": 0,
+            "yes_size": 8,
+            "F_yes": 25
+          },
+          {
+            "question": 2,
+            "yes_size": 5,
+            "F_yes": 12
+          },
+          {
+            "question": 6,
+            "yes_size": 2,
+            "F_yes": 2
+          }
+        ]
+      }
+    },
+    "max_question_degree": 8,
+    "tail_leafsum_bound": 68,
+    "tail_table": [
+      {
+        "s": 1,
+        "bound": 1
+      },
+      {
+        "s": 2,
+        "bound": 2
+      },
+      {
+        "s": 3,
+        "bound": 3
+      },
+      {
+        "s": 4,
+        "bound": 5
+      },
+      {
+        "s": 5,
+        "bound": 7
+      },
+      {
+        "s": 6,
+        "bound": 10
+      },
+      {
+        "s": 7,
+        "bound": 14
+      },
+      {
+        "s": 8,
+        "bound": 19
+      },
+      {
+        "s": 9,
+        "bound": 23
+      },
+      {
+        "s": 10,
+        "bound": 28
+      },
+      {
+        "s": 11,
+        "bound": 34
+      },
+      {
+        "s": 12,
+        "bound": 41
+      },
+      {
+        "s": 13,
+        "bound": 49
+      },
+      {
+        "s": 14,
+        "bound": 58
+      },
+      {
+        "s": 15,
+        "bound": 68
+      }
+    ],
+    "greedy_post_difference_exact": "-1/10",
+    "contrast_lower": "T/(2n)+lower_constant-(2E+1)/(nT)",
+    "lower_constant_exact": "-43/30",
+    "upper_constant_exact": "37/30",
+    "first_positive_integer_T": 49,
+    "sample_bounds": [
+      {
+        "T": 2,
+        "N": 30,
+        "lower_exact": "-89/15",
+        "upper_exact": "88/15"
+      },
+      {
+        "T": 4,
+        "N": 60,
+        "lower_exact": "-43/12",
+        "upper_exact": "73/20"
+      },
+      {
+        "T": 8,
+        "N": 120,
+        "lower_exact": "-277/120",
+        "upper_exact": "317/120"
+      },
+      {
+        "T": 49,
+        "N": 735,
+        "lower_exact": "2/147",
+        "upper_exact": "748/245"
+      },
+      {
+        "T": 100,
+        "N": 1500,
+        "lower_exact": "2713/1500",
+        "upper_exact": "2329/500"
+      },
+      {
+        "T": 128,
+        "N": 1920,
+        "lower_exact": "5303/1920",
+        "upper_exact": "10697/1920"
+      }
+    ]
+  },
+  "2": {
+    "n_per_block": 16,
+    "worlds": {
+      "a": {
+        "certificate": {
+          "n": 16,
+          "m": 10,
+          "coverage_envelope": [
+            0,
+            9,
+            14,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "achieving_sets": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1,
+              5
+            ],
+            [
+              0,
+              1,
+              2,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          ],
+          "nested_order": [
+            0,
+            2,
+            6
+          ],
+          "nested_gains": [
+            9,
+            5,
+            2
+          ],
+          "local_optimal_postyes_totals": [
+            31,
+            12,
+            2
+          ],
+          "nested_optimal_postyes_mean_exact": "45/16",
+          "profiles": [
+            {
+              "gains": [
+                9,
+                4,
+                3
+              ],
+              "probability_exact": "1/2"
+            },
+            {
+              "gains": [
+                9,
+                5,
+                2
+              ],
+              "probability_exact": "1/2"
+            }
+          ],
+          "mu_exact": [
+            "3",
+            "3",
+            "5/2",
+            "2",
+            "3/2",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "variance_exact": [
+            "0",
+            "0",
+            "1/4",
+            "0",
+            "1/4",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "D_exact": "69/2",
+          "virtual_cover_slope_exact": "69/64",
+          "virtual_cover_intercept_exact": "33/64",
+          "expected_local_postyes_greedy_exact": "177/64"
+        },
+        "upper_optimal_post_total": 45,
+        "upper_policy_parts": [
+          {
+            "question": 0,
+            "yes_size": 9,
+            "F_yes": 31
+          },
+          {
+            "question": 2,
+            "yes_size": 5,
+            "F_yes": 12
+          },
+          {
+            "question": 6,
+            "yes_size": 2,
+            "F_yes": 2
+          }
+        ]
+      },
+      "b": {
+        "certificate": {
+          "n": 16,
+          "m": 10,
+          "coverage_envelope": [
+            0,
+            9,
+            14,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "achieving_sets": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          ],
+          "nested_order": [
+            0,
+            2,
+            6
+          ],
+          "nested_gains": [
+            9,
+            5,
+            2
+          ],
+          "local_optimal_postyes_totals": [
+            31,
+            12,
+            2
+          ],
+          "nested_optimal_postyes_mean_exact": "45/16",
+          "profiles": [
+            {
+              "gains": [
+                9,
+                4,
+                2,
+                1
+              ],
+              "probability_exact": "1/2"
+            },
+            {
+              "gains": [
+                9,
+                5,
+                2
+              ],
+              "probability_exact": "1/2"
+            }
+          ],
+          "mu_exact": [
+            "7/2",
+            "3",
+            "2",
+            "2",
+            "3/2",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "variance_exact": [
+            "1/4",
+            "0",
+            "0",
+            "0",
+            "1/4",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "D_exact": "71/2",
+          "virtual_cover_slope_exact": "71/64",
+          "virtual_cover_intercept_exact": "33/64",
+          "expected_local_postyes_greedy_exact": "171/64"
+        },
+        "upper_optimal_post_total": 45,
+        "upper_policy_parts": [
+          {
+            "question": 0,
+            "yes_size": 9,
+            "F_yes": 31
+          },
+          {
+            "question": 2,
+            "yes_size": 5,
+            "F_yes": 12
+          },
+          {
+            "question": 6,
+            "yes_size": 2,
+            "F_yes": 2
+          }
+        ]
+      }
+    },
+    "max_question_degree": 9,
+    "tail_leafsum_bound": 91,
+    "tail_table": [
+      {
+        "s": 1,
+        "bound": 1
+      },
+      {
+        "s": 2,
+        "bound": 2
+      },
+      {
+        "s": 3,
+        "bound": 3
+      },
+      {
+        "s": 4,
+        "bound": 5
+      },
+      {
+        "s": 5,
+        "bound": 7
+      },
+      {
+        "s": 6,
+        "bound": 10
+      },
+      {
+        "s": 7,
+        "bound": 14
+      },
+      {
+        "s": 8,
+        "bound": 19
+      },
+      {
+        "s": 9,
+        "bound": 24
+      },
+      {
+        "s": 10,
+        "bound": 29
+      },
+      {
+        "s": 11,
+        "bound": 35
+      },
+      {
+        "s": 12,
+        "bound": 42
+      },
+      {
+        "s": 13,
+        "bound": 50
+      },
+      {
+        "s": 14,
+        "bound": 59
+      },
+      {
+        "s": 15,
+        "bound": 69
+      },
+      {
+        "s": 16,
+        "bound": 80
+      },
+      {
+        "s": 17,
+        "bound": 91
+      }
+    ],
+    "greedy_post_difference_exact": "-3/32",
+    "contrast_lower": "T/(2n)+lower_constant-(2E+1)/(nT)",
+    "lower_constant_exact": "-55/32",
+    "upper_constant_exact": "49/32",
+    "first_positive_integer_T": 62,
+    "sample_bounds": [
+      {
+        "T": 2,
+        "N": 32,
+        "lower_exact": "-59/8",
+        "upper_exact": "117/16"
+      },
+      {
+        "T": 4,
+        "N": 64,
+        "lower_exact": "-285/64",
+        "upper_exact": "289/64"
+      },
+      {
+        "T": 8,
+        "N": 128,
+        "lower_exact": "-371/128",
+        "upper_exact": "411/128"
+      },
+      {
+        "T": 62,
+        "N": 992,
+        "lower_exact": "17/496",
+        "upper_exact": "453/124"
+      },
+      {
+        "T": 100,
+        "N": 1600,
+        "lower_exact": "2067/1600",
+        "upper_exact": "7633/1600"
+      },
+      {
+        "T": 128,
+        "N": 2048,
+        "lower_exact": "4489/2048",
+        "upper_exact": "11511/2048"
+      }
+    ]
+  },
+  "3": {
+    "n_per_block": 17,
+    "worlds": {
+      "a": {
+        "certificate": {
+          "n": 17,
+          "m": 11,
+          "coverage_envelope": [
+            0,
+            10,
+            15,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17
+          ],
+          "achieving_sets": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1,
+              5
+            ],
+            [
+              0,
+              1,
+              2,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          ],
+          "nested_order": [
+            0,
+            2,
+            6
+          ],
+          "nested_gains": [
+            10,
+            5,
+            2
+          ],
+          "local_optimal_postyes_totals": [
+            38,
+            12,
+            2
+          ],
+          "nested_optimal_postyes_mean_exact": "52/17",
+          "profiles": [
+            {
+              "gains": [
+                10,
+                4,
+                3
+              ],
+              "probability_exact": "1/2"
+            },
+            {
+              "gains": [
+                10,
+                5,
+                2
+              ],
+              "probability_exact": "1/2"
+            }
+          ],
+          "mu_exact": [
+            "3",
+            "3",
+            "5/2",
+            "2",
+            "3/2",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "variance_exact": [
+            "0",
+            "0",
+            "1/4",
+            "0",
+            "1/4",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "D_exact": "71/2",
+          "virtual_cover_slope_exact": "71/68",
+          "virtual_cover_intercept_exact": "35/68",
+          "expected_local_postyes_greedy_exact": "3"
+        },
+        "upper_optimal_post_total": 52,
+        "upper_policy_parts": [
+          {
+            "question": 0,
+            "yes_size": 10,
+            "F_yes": 38
+          },
+          {
+            "question": 2,
+            "yes_size": 5,
+            "F_yes": 12
+          },
+          {
+            "question": 6,
+            "yes_size": 2,
+            "F_yes": 2
+          }
+        ]
+      },
+      "b": {
+        "certificate": {
+          "n": 17,
+          "m": 11,
+          "coverage_envelope": [
+            0,
+            10,
+            15,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17,
+            17
+          ],
+          "achieving_sets": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          ],
+          "nested_order": [
+            0,
+            2,
+            6
+          ],
+          "nested_gains": [
+            10,
+            5,
+            2
+          ],
+          "local_optimal_postyes_totals": [
+            38,
+            12,
+            2
+          ],
+          "nested_optimal_postyes_mean_exact": "52/17",
+          "profiles": [
+            {
+              "gains": [
+                10,
+                4,
+                2,
+                1
+              ],
+              "probability_exact": "1/2"
+            },
+            {
+              "gains": [
+                10,
+                5,
+                2
+              ],
+              "probability_exact": "1/2"
+            }
+          ],
+          "mu_exact": [
+            "7/2",
+            "3",
+            "2",
+            "2",
+            "3/2",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "variance_exact": [
+            "1/4",
+            "0",
+            "0",
+            "0",
+            "1/4",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "D_exact": "73/2",
+          "virtual_cover_slope_exact": "73/68",
+          "virtual_cover_intercept_exact": "35/68",
+          "expected_local_postyes_greedy_exact": "99/34"
+        },
+        "upper_optimal_post_total": 52,
+        "upper_policy_parts": [
+          {
+            "question": 0,
+            "yes_size": 10,
+            "F_yes": 38
+          },
+          {
+            "question": 2,
+            "yes_size": 5,
+            "F_yes": 12
+          },
+          {
+            "question": 6,
+            "yes_size": 2,
+            "F_yes": 2
+          }
+        ]
+      }
+    },
+    "max_question_degree": 10,
+    "tail_leafsum_bound": 117,
+    "tail_table": [
+      {
+        "s": 1,
+        "bound": 1
+      },
+      {
+        "s": 2,
+        "bound": 2
+      },
+      {
+        "s": 3,
+        "bound": 3
+      },
+      {
+        "s": 4,
+        "bound": 5
+      },
+      {
+        "s": 5,
+        "bound": 7
+      },
+      {
+        "s": 6,
+        "bound": 10
+      },
+      {
+        "s": 7,
+        "bound": 14
+      },
+      {
+        "s": 8,
+        "bound": 19
+      },
+      {
+        "s": 9,
+        "bound": 24
+      },
+      {
+        "s": 10,
+        "bound": 30
+      },
+      {
+        "s": 11,
+        "bound": 36
+      },
+      {
+        "s": 12,
+        "bound": 43
+      },
+      {
+        "s": 13,
+        "bound": 51
+      },
+      {
+        "s": 14,
+        "bound": 60
+      },
+      {
+        "s": 15,
+        "bound": 70
+      },
+      {
+        "s": 16,
+        "bound": 81
+      },
+      {
+        "s": 17,
+        "bound": 92
+      },
+      {
+        "s": 18,
+        "bound": 104
+      },
+      {
+        "s": 19,
+        "bound": 117
+      }
+    ],
+    "greedy_post_difference_exact": "-3/34",
+    "contrast_lower": "T/(2n)+lower_constant-(2E+1)/(nT)",
+    "lower_constant_exact": "-69/34",
+    "upper_constant_exact": "63/34",
+    "first_positive_integer_T": 76,
+    "sample_bounds": [
+      {
+        "T": 2,
+        "N": 34,
+        "lower_exact": "-151/17",
+        "upper_exact": "150/17"
+      },
+      {
+        "T": 4,
+        "N": 68,
+        "lower_exact": "-365/68",
+        "upper_exact": "369/68"
+      },
+      {
+        "T": 8,
+        "N": 136,
+        "lower_exact": "-479/136",
+        "upper_exact": "519/136"
+      },
+      {
+        "T": 76,
+        "N": 1292,
+        "lower_exact": "31/1292",
+        "upper_exact": "5517/1292"
+      },
+      {
+        "T": 100,
+        "N": 1700,
+        "lower_exact": "263/340",
+        "upper_exact": "1677/340"
+      },
+      {
+        "T": 128,
+        "N": 2176,
+        "lower_exact": "3541/2176",
+        "upper_exact": "12459/2176"
+      }
+    ]
+  }
+}

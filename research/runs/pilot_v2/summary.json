@@ -1,0 +1,205 @@
+{
+  "completed": "2026-11-25T13:11:56.375975+09:00",
+  "cells": [
+    {
+      "started": "2026-11-25T13:11:10.272041+09:00",
+      "parents": 5,
+      "parents_with_valid_trade": 2,
+      "candidates": 7,
+      "valid_candidates": 2,
+      "worlds": 4,
+      "completed_worlds": 4,
+      "pairs": 2,
+      "completed_pairs": 2,
+      "finished": "2026-11-25T13:11:10.382568+09:00",
+      "profile": {
+        "seconds": 0.11038670000004913,
+        "baseline_rss_mb": 31.7421875,
+        "sampled_peak_rss_mb": 33.9921875,
+        "sampled_increment_mb": 2.25,
+        "lifetime_peak_rss_mb": 34.0390625,
+        "sampling_interval_seconds": 0.005
+      }
+    },
+    {
+      "started": "2026-11-25T13:11:12.613781+09:00",
+      "parents": 5,
+      "parents_with_valid_trade": 3,
+      "candidates": 21,
+      "valid_candidates": 6,
+      "worlds": 6,
+      "completed_worlds": 6,
+      "pairs": 3,
+      "completed_pairs": 3,
+      "finished": "2026-11-25T13:11:12.857442+09:00",
+      "profile": {
+        "seconds": 0.24354089999997086,
+        "baseline_rss_mb": 31.46875,
+        "sampled_peak_rss_mb": 34.00390625,
+        "sampled_increment_mb": 2.53515625,
+        "lifetime_peak_rss_mb": 34.0078125,
+        "sampling_interval_seconds": 0.005
+      }
+    },
+    {
+      "started": "2026-11-25T13:11:15.141199+09:00",
+      "parents": 5,
+      "parents_with_valid_trade": 5,
+      "candidates": 56,
+      "valid_candidates": 29,
+      "worlds": 10,
+      "completed_worlds": 10,
+      "pairs": 5,
+      "completed_pairs": 5,
+      "finished": "2026-11-25T13:11:15.603447+09:00",
+      "profile": {
+        "seconds": 0.4621135999999524,
+        "baseline_rss_mb": 31.33203125,
+        "sampled_peak_rss_mb": 34.9375,
+        "sampled_increment_mb": 3.60546875,
+        "lifetime_peak_rss_mb": 34.9375,
+        "sampling_interval_seconds": 0.005
+      }
+    },
+    {
+      "started": "2026-11-25T13:11:18.103217+09:00",
+      "parents": 5,
+      "parents_with_valid_trade": 5,
+      "candidates": 44,
+      "valid_candidates": 21,
+      "worlds": 10,
+      "completed_worlds": 10,
+      "pairs": 5,
+      "completed_pairs": 5,
+      "finished": "2026-11-25T13:11:18.590851+09:00",
+      "profile": {
+        "seconds": 0.48749049999992167,
+        "baseline_rss_mb": 31.39453125,
+        "sampled_peak_rss_mb": 34.8671875,
+        "sampled_increment_mb": 3.47265625,
+        "lifetime_peak_rss_mb": 34.8671875,
+        "sampling_interval_seconds": 0.005
+      }
+    },
+    {
+      "started": "2026-11-25T13:11:20.896065+09:00",
+      "parents": 5,
+      "parents_with_valid_trade": 5,
+      "candidates": 60,
+      "valid_candidates": 26,
+      "worlds": 10,
+      "completed_worlds": 10,
+      "pairs": 5,
+      "completed_pairs": 5,
+      "finished": "2026-11-25T13:11:22.073319+09:00",
+      "profile": {
+        "seconds": 1.1770969000000377,
+        "baseline_rss_mb": 31.4921875,
+        "sampled_peak_rss_mb": 36.39453125,
+        "sampled_increment_mb": 4.90234375,
+        "lifetime_peak_rss_mb": 36.39453125,
+        "sampling_interval_seconds": 0.005
+      }
+    },
+    {
+      "started": "2026-11-25T13:11:24.695490+09:00",
+      "parents": 5,
+      "parents_with_valid_trade": 4,
+      "candidates": 82,
+      "valid_candidates": 31,
+      "worlds": 8,
+      "completed_worlds": 8,
+      "pairs": 4,
+      "completed_pairs": 4,
+      "finished": "2026-11-25T13:11:25.531791+09:00",
+      "profile": {
+        "seconds": 0.8361779000000524,
+        "baseline_rss_mb": 31.5546875,
+        "sampled_peak_rss_mb": 36.62890625,
+        "sampled_increment_mb": 5.07421875,
+        "lifetime_peak_rss_mb": 36.6484375,
+        "sampling_interval_seconds": 0.005
+      }
+    },
+    {
+      "started": "2026-11-25T13:11:27.852323+09:00",
+      "parents": 3,
+      "parents_with_valid_trade": 3,
+      "candidates": 78,
+      "valid_candidates": 47,
+      "worlds": 6,
+      "completed_worlds": 6,
+      "pairs": 3,
+      "completed_pairs": 3,
+      "finished": "2026-11-25T13:11:29.735293+09:00",
+      "profile": {
+        "seconds": 1.8828399999999874,
+        "baseline_rss_mb": 31.359375,
+        "sampled_peak_rss_mb": 39.4921875,
+        "sampled_increment_mb": 8.1328125,
+        "lifetime_peak_rss_mb": 39.49609375,
+        "sampling_interval_seconds": 0.005
+      }
+    },
+    {
+      "started": "2026-11-25T13:11:32.064713+09:00",
+      "parents": 3,
+      "parents_with_valid_trade": 3,
+      "candidates": 73,
+      "valid_candidates": 46,
+      "worlds": 6,
+      "completed_worlds": 6,
+      "pairs": 3,
+      "completed_pairs": 3,
+      "finished": "2026-11-25T13:11:33.936931+09:00",
+      "profile": {
+        "seconds": 1.8720666000000392,
+        "baseline_rss_mb": 31.33203125,
+        "sampled_peak_rss_mb": 39.171875,
+        "sampled_increment_mb": 7.83984375,
+        "lifetime_peak_rss_mb": 39.171875,
+        "sampling_interval_seconds": 0.005
+      }
+    },
+    {
+      "started": "2026-11-25T13:11:36.442423+09:00",
+      "parents": 2,
+      "parents_with_valid_trade": 2,
+      "candidates": 84,
+      "valid_candidates": 60,
+      "worlds": 4,
+      "completed_worlds": 4,
+      "pairs": 2,
+      "completed_pairs": 2,
+      "finished": "2026-11-25T13:11:46.591952+09:00",
+      "profile": {
+        "seconds": 10.149379500000009,
+        "baseline_rss_mb": 31.4609375,
+        "sampled_peak_rss_mb": 54.53515625,
+        "sampled_increment_mb": 23.07421875,
+        "lifetime_peak_rss_mb": 54.55078125,
+        "sampling_interval_seconds": 0.005
+      }
+    },
+    {
+      "started": "2026-11-25T13:11:49.037082+09:00",
+      "parents": 1,
+      "parents_with_valid_trade": 1,
+      "candidates": 56,
+      "valid_candidates": 38,
+      "worlds": 2,
+      "completed_worlds": 0,
+      "pairs": 1,
+      "completed_pairs": 0,
+      "finished": "2026-11-25T13:11:54.203158+09:00",
+      "profile": {
+        "seconds": 5.165935600000012,
+        "baseline_rss_mb": 31.37109375,
+        "sampled_peak_rss_mb": 53.3671875,
+        "sampled_increment_mb": 21.99609375,
+        "lifetime_peak_rss_mb": 54.9296875,
+        "sampling_interval_seconds": 0.005
+      }
+    }
+  ]
+}

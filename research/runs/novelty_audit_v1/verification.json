@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "prior_manifests": [
+    {
+      "manifest": "runs/main/ARTIFACT_MANIFEST.json",
+      "files_checked": 79,
+      "passed": true
+    },
+    {
+      "manifest": "EXTREMAL_ARTIFACT_MANIFEST.json",
+      "files_checked": 59,
+      "passed": true
+    },
+    {
+      "manifest": "FOLLOWUP_ARTIFACT_MANIFEST.json",
+      "files_checked": 54,
+      "passed": true
+    },
+    {
+      "manifest": "FINAL_RESEARCH_ARTIFACT_MANIFEST.json",
+      "files_checked": 74,
+      "passed": true
+    }
+  ],
+  "prior_listed_files_checked": 266,
+  "paper_measured_sections_preserved": true,
+  "original_finite_witness_section_preserved": true,
+  "deterministic_editorial_reproduction": true,
+  "bibliography_entries": 21,
+  "local_paper_links_valid": true,
+  "web_receipts": 24,
+  "sources_downloaded": 21,
+  "source_hashes_valid": true,
+  "theorem_leading_constants_consistent": true,
+  "preserved_finite_costs_consistent": true,
+  "natural_reduction_checks_consistent": true,
+  "priority_certification": false,
+  "infinite_formal_proof_certification": false,
+  "python": "3.13.5"
+}

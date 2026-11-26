@@ -1,0 +1,273 @@
+{
+  "certificates": {
+    "a": {
+      "n": 18,
+      "m": 9,
+      "coverage_envelope": [
+        0,
+        9,
+        16,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "achieving_sets": [
+        [],
+        [
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          8
+        ],
+        [
+          0,
+          1,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      ],
+      "nested_order": [
+        3,
+        2,
+        8
+      ],
+      "nested_gains": [
+        9,
+        7,
+        2
+      ],
+      "local_optimal_postyes_totals": [
+        31,
+        20,
+        2
+      ],
+      "nested_optimal_postyes_mean_exact": "53/18",
+      "profiles": [
+        {
+          "gains": [
+            9,
+            7,
+            2
+          ],
+          "probability_exact": "1"
+        }
+      ],
+      "mu_exact": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "variance_exact": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "D_exact": "40",
+      "virtual_cover_slope_exact": "10/9",
+      "virtual_cover_intercept_exact": "1/2",
+      "expected_local_postyes_greedy_exact": "109/36"
+    },
+    "b": {
+      "n": 18,
+      "m": 9,
+      "coverage_envelope": [
+        0,
+        9,
+        16,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "achieving_sets": [
+        [],
+        [
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          8
+        ],
+        [
+          0,
+          1,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      ],
+      "nested_order": [
+        3,
+        2,
+        8
+      ],
+      "nested_gains": [
+        9,
+        7,
+        2
+      ],
+      "local_optimal_postyes_totals": [
+        31,
+        21,
+        2
+      ],
+      "nested_optimal_postyes_mean_exact": "3",
+      "profiles": [
+        {
+          "gains": [
+            9,
+            7,
+            2
+          ],
+          "probability_exact": "1"
+        }
+      ],
+      "mu_exact": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "variance_exact": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "D_exact": "40",
+      "virtual_cover_slope_exact": "10/9",
+      "virtual_cover_intercept_exact": "1/2",
+      "expected_local_postyes_greedy_exact": "3"
+    }
+  },
+  "conclusion": "Both leading greedy and optimal directsum costs are10T/9; no linear regret amplification from this lift"
+}

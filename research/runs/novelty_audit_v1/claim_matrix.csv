@@ -1,0 +1,11 @@
+claim_id,claim,decision,primary_evidence,limitation
+C01,Information gain greedy is suboptimal,prior_work,Dasgupta Claim 4; Li et al Proposition 3.3,Not a new worst-case lower bound
+C02,Pairwise projection does not reconstruct the matrix,prior_work,Kirkland Sections 1-4,Even both projections can fail; no identification cost theorem follows
+C03,Same individual response marginals and different adaptive complexity,prior_work,Hwang-Seok Theorem 1,Five-valued feedback and worst-case optimal budget; not full indexed Gram
+C04,Same cut profile and large optimization separation,prior_work,Chen Example 2; Aksoy Section 4.1,Objectives and mixed ranks differ
+C05,Full indexed Gram and bounded degree expanding incidence graphs with linear entropy-greedy regret contrast,retain_scoped_central_theorem,HUBFREE_THEORY; HUBFREE_INDEPENDENT_REVIEW,Uniform greedy ties; priority not certified
+C06,Finite38 all greedy roots optimal yet all greedy tie resolutions incur loss,retain_finite_support,finite38 independent costs,Selected finite witness; not infinite arbitrary-tie theorem
+C07,Linear contrast for every tie rule,reject,Known q0-q2-q6 priority counterexample,Uniform tie assumption necessary for this infinite construction
+C08,ML reliably improves over depth3,reject,runs/main/report/paired_comparisons.csv,Interval includes zero; preserve all results
+C09,New explicit expander construction,reject,Friedman existing expander existence,Only the table lift is explicit given a skeleton
+C10,Global novelty or firstness certification,reject,No finite search establishes absence of all prior results,Scoped reviewed-corpus distinction only

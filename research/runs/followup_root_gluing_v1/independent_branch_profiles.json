@@ -1,0 +1,108 @@
+{
+  "a": [
+    {
+      "answer": 0,
+      "n": 9,
+      "coverage_envelope": [
+        0,
+        7,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "profiles": [
+        {
+          "gains": [
+            7,
+            2
+          ],
+          "probability_exact": "1"
+        }
+      ],
+      "D_exact": "13"
+    },
+    {
+      "answer": 1,
+      "n": 9,
+      "coverage_envelope": [
+        0,
+        5,
+        8,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "profiles": [
+        {
+          "gains": [
+            5,
+            3,
+            1
+          ],
+          "probability_exact": "1"
+        }
+      ],
+      "D_exact": "19"
+    }
+  ],
+  "b": [
+    {
+      "answer": 0,
+      "n": 9,
+      "coverage_envelope": [
+        0,
+        7,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "profiles": [
+        {
+          "gains": [
+            7,
+            2
+          ],
+          "probability_exact": "1"
+        }
+      ],
+      "D_exact": "13"
+    },
+    {
+      "answer": 1,
+      "n": 9,
+      "coverage_envelope": [
+        0,
+        5,
+        7,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "profiles": [
+        {
+          "gains": [
+            5,
+            2,
+            2
+          ],
+          "probability_exact": "1"
+        }
+      ],
+      "D_exact": "21"
+    }
+  ]
+}
